@@ -26,7 +26,7 @@ export default class Home extends React.Component {
         <section className="fadeIn">
           <h3><span className="underline">GET IN TOUCH</span></h3>
           <p>
-            Feel free to contact me via <a href="#email" alt="email">email</a>. If you are interested, you can view my <a href="#cv" alt="CV">CV</a> for more details about my background and experience.
+            Feel free to contact me via <a href="mailto:tyrel.hiebert@gmail.com" alt="email">email</a>. If you are interested, you can view my <a href="#cv" alt="CV">CV</a> for more details about my background and experience.
           </p>
         </section>
       </React.Fragment>
