@@ -7,15 +7,15 @@ import battlesnake2018 from "../assets/img/battlesnake2018/battlesnake-2018.jpg"
 import mechkey1 from "../assets/img/mechkey.jpg";
 
 const projects = [
-  {
-    title: "BATTLESNAKE 2019",
-    description: [
-      <p>Battlesnake is a programming competition where participants create an AI server that acts as the brain in a multiplayer version of the classic game Snake.</p>
-    ],
-    img: battlesnake1,
-    alt: "Battlesnake 2018 logo",
-    link: "/battlesnake2018"
-  },
+  // {
+  //   title: "BATTLESNAKE 2019",
+  //   description: [
+  //     <p>Battlesnake is a programming competition where participants create an AI server that acts as the brain in a multiplayer version of the classic game Snake.</p>
+  //   ],
+  //   img: battlesnake1,
+  //   alt: "Battlesnake 2018 logo",
+  //   link: "/battlesnake2018"
+  // },
   {
     title: "MECHANICAL KEYBOARD",
     description: [
