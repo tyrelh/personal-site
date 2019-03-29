@@ -1,0 +1,47 @@
+/*******************************
+  COLORS
+*******************************/
+
+$color-main-bg: #12141a;
+$color-main-bg-alt: #15181c;
+$color-main-text: #dadada;
+$pink: #cc50f1; /* Pink */
+$blue: #3b95e3; /* Blue */
+$orange: #EF6c65; /* Orange */
+$green: #88C379; /* Green*/
+$yellow: #E19F45; /* Yellow */
+$blue2: #61AFFF; /* Blue 2 */
+$pink2: #D668DD; /* Pink 2 */
+$teal: #56C6C2; /* Teal */
+$mojito: #55efc4; /* Mojito */
+$aquafresh: #81ecec; /* Aquafresh */
+$sky: #74b9ff; /* Sky */
+$taro: #a29bfe; /* Taro */
+$fog: #efe6e9; /* Fog */
+$avocado: #00b894; /* Avocado */
+$chlorine: #00cec9; /* Chlorine */
+$cerulean: #0984e3; /* Cerulean */
+$amethyst: #7c5ce7; /* Amethyst */
+$purple: #5e25c9;
+$nickel: #b2bec3; /* Nickel */
+$butter: #ffeaa7; /* Butter */
+$grapefruit: #fab1a0; /* Grapefruit */
+$flamingo: #ff7676; /* Flamingo */
+$bubblegum: #fd79a8; /* BubbleGum */
+$monday: #636e72; /* Monday */
+$sunnyd: #fdcb6e; /* SunnyD */
+$pumpkin: #e17055; /* PumpkinSpice */
+$siracha: #d63131; /* Siracha */
+$pepto: #e84493; /* PeptoBismol */
+$charcoal: #2d3436; /* Charcoal */
+$dark: #12131a;
+
+/*******************************
+  COLORING
+*******************************/
+.charcoal-bg {
+  background-color: $charcoal;
+}
+.dark-bg {
+  background-color: $dark;
+}
