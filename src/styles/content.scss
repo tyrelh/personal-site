@@ -7,7 +7,7 @@ section {
   width: 95%;
   max-width: 1400px;
   margin: 0 auto;
-  font-size: 1.5em;
+  font-size: 1.4em;
   .image {
     width: 100%;
     img {
@@ -18,7 +18,7 @@ section {
 }
 @media screen and (max-device-width: 650px) {
   section {
-    font-size: 1.3em;
+    font-size: 1.2em;
     .image img {
       width: 96%;
     }
@@ -30,6 +30,7 @@ section:hover .underline {
 section a {
   text-decoration: none;
   text-shadow: 1px 1px 4px rgba(0,0,1,.2);
+  cursor: pointer;
   /* transition: all 1s ease-in-out 0s;
     -moz-transition: all 1s ease-in-out 0s;
     -webkit-transition: all 1s ease-in-out 0s;
