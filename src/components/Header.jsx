@@ -7,21 +7,15 @@ export default class Header extends React.Component {
     this.state = {
       title: "TYREL HIEBERT",
       link: "/",
-      // redirect: false
     }
   }
 
-  // handleOnClick = () => {
-  //   this.setState({ redirect: true });
-  // }
-
   render() {
-    // if ( this.state.redirect ) {
-    //   return <Redirect exact push to={this.state.link} />
-    // }
     return (
       <header className="fadeIn" id="top">
-        {/* <div className="nameContainer" onClick={this.handleOnClick}> */}
+        <div id="sticky-header" className="sticky-header-hidden">
+          <NavLink exact to={this.state.link}><h1 datatext={this.state.title}>{this.state.title}</h1></NavLink>
+        </div>
         <div className="nameContainer">
           <NavLink exact to={this.state.link}><h1 datatext={this.state.title}>{this.state.title}</h1></NavLink>
         </div>

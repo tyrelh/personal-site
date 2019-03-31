@@ -3,6 +3,7 @@
 *******************************/
 
 header {
+  top: 0;
   padding: 2em 0 1.5em 0;
 }
 .nameContainer {
@@ -12,7 +13,6 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  // cursor: pointer;
 }
 header h1 {
   font-family: "Righteous";
@@ -56,4 +56,33 @@ header a:hover h1:after {
   position: absolute;
   z-index: -1;
   opacity: 1;
+}
+#sticky-header {
+  position: fixed;
+  z-index: 2;
+  font-size: 0.4em;
+  width: 100%;
+  background: $color-main-bg;
+  transition: top 200ms ease-out;
+  box-shadow: 0px 4px 8px 0px rgba($color-main-bg, 0.7);
+  h1 {
+    margin:10px;
+  }
+}
+@media screen and (max-device-width: 650px) {
+  #sticky-header {
+    h1 {
+      margin: 15px 10px 10px 10px;
+    }
+    h1:after {
+      left: 7px;
+      top: 7px;
+    }
+  }
+}
+.sticky-header-hidden {
+  top: -56px;
+}
+.sticky-header-visible {
+  top: 0px;
 }
