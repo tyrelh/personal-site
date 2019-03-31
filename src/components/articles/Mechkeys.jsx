@@ -1,4 +1,6 @@
 import React from "react";
+import ScrollToId from "../ScrollToId";
+// IMAGES
 import whitefox from "../../assets/img/mechkeys/whitefox.jpg";
 import layoutImg from "../../assets/img/mechkeys/layout.jpg";
 import keycapsImg from "../../assets/img/mechkeys/keycaps.jpg";
@@ -35,33 +37,33 @@ export default class Mechkeys extends React.Component {
           </span></h3>
           <ol>
             <li>
-              <a href="#backstory">Backstory</a> - Found many interesting mechanical keyboards on Reddit and Massdrop; decided to build my own.
+              <ScrollToId id="background" alt="go to the background section of article">Backstory</ScrollToId> - Found many interesting mechanical keyboards on Reddit and Massdrop; decided to build my own.
             </li>
             <li>
-              <a href="#design">Design</a> - Decided on layout and then picked PCB's, switches, keycaps, and microcontroller.
+              <ScrollToId id="design" alt="go to the design section of article">Design</ScrollToId> - Decided on layout and then picked PCB's, switches, keycaps, and microcontroller.
             </li>
             <li>
-              <a href="#construction">Construction</a> - Soldered components and such.
+              <ScrollToId id="construction" alt="go to the construction section of article">Construction</ScrollToId> - Assembled PCB and soldered components.
             </li>
             <li>
-              <a href="#programming">Programming</a> - Built logic in C++ within the Adruino IDE.
+              <ScrollToId id="programming" alt="go to the programming section of article">Programming</ScrollToId> - Built logic in C++ within the Adruino IDE.
             </li>
             <li>
-              <a href="#code">Code</a> - Links to code on Github.
+              <ScrollToId id="code" alt="go to the code section of article">Code</ScrollToId> - Links to code on Github.
             </li>
             <li>
-              <a href="#future">Future of Project</a> - What I still would like to do.
+              <ScrollToId id="future" alt="go to the future section of article">Future of Project</ScrollToId> - What I still would like to do.
             </li>
             <li>
-              <a href="resources">Resources</a> - Links to valuable information.
+              <ScrollToId id="resources" alt="go to the resources section of article">Resources</ScrollToId> - Links to valuable information.
             </li>
             <li>
-              <a href="#update1">Update 1</a> - Acrylic Case & RGB LEDs
+              <ScrollToId id="update1" alt="go to the first update section of article">Update 1</ScrollToId> - Acrylic Case & RGB LEDs
             </li>
           </ol>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="background">
           <h3><span className="underline">
             BACKSTORY
           </span></h3>
@@ -85,7 +87,7 @@ export default class Mechkeys extends React.Component {
           </p>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="design">
           <h3><span className="underline">
             DESIGN
           </span></h3>
@@ -118,7 +120,7 @@ export default class Mechkeys extends React.Component {
           </p>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="construction">
           <h3><span className="underline">
             CONSTRUCTION
           </span></h3>
@@ -157,7 +159,7 @@ export default class Mechkeys extends React.Component {
           </div>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="programming">
           <h3><span className="underline">
             PROGRAMMING
           </span></h3>
@@ -172,7 +174,7 @@ export default class Mechkeys extends React.Component {
           </p>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="code">
           <h3><span className="underline">
             CODE
           </span></h3>
@@ -181,7 +183,7 @@ export default class Mechkeys extends React.Component {
           </p>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="future">
           <h3><span className="underline">
             FUTURE OF THE PROJECT
           </span></h3>
@@ -204,7 +206,7 @@ export default class Mechkeys extends React.Component {
           </p>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="resources">
           <h3><span className="underline">
             RESOURCES
           </span></h3>
@@ -233,7 +235,7 @@ export default class Mechkeys extends React.Component {
           </ul>
         </section>
 
-        <section className="fadeIn">
+        <section className="fadeIn" id="update1">
           <h3><span className="underline">
             UPDATE 1 // ACRYLIC CASE & RGB LEDS
           </span></h3>
