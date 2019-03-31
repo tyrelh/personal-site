@@ -20,7 +20,7 @@ export default class Header extends React.Component {
     //   return <Redirect exact push to={this.state.link} />
     // }
     return (
-      <header className="fadeIn">
+      <header className="fadeIn" id="top">
         {/* <div className="nameContainer" onClick={this.handleOnClick}> */}
         <div className="nameContainer">
           <NavLink exact to={this.state.link}><h1 datatext={this.state.title}>{this.state.title}</h1></NavLink>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "antd";
+import ScrollToId from "./ScrollToId";
 
 const githubSvg = () => (
   <svg enableBackground="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px">
@@ -21,6 +22,11 @@ export default class Footer extends React.Component {
       <footer>
         <Icon className="footerIcon" component={githubSvg} />
         <Icon className="footerIcon" component={mailSvg} />
+        <p>
+          <ScrollToId id="top" alt="scroll back to the top of the page">
+            Back to Top
+          </ScrollToId>
+        </p>
       </footer>
     )
   }
