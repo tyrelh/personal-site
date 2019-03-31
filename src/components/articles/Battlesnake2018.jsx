@@ -251,7 +251,9 @@ export default class Battlesnake2018 extends React.Component {
           <p>
             During the tournament, the music playlist left much to be desired. This gem came on part way through the night and everyone thought it was a custom "Battlesnake" theme song and loved it! Only later did we learn they were saying "rattlesnake" not "battlesnake".
           </p>
-          <div class="video-container"><iframe width="853" height="480"  src="https://www.youtube.com/embed/Q-i1XZc8ZwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div class="video-container">
+            <iframe width="853" height="480"  src="https://www.youtube.com/embed/Q-i1XZc8ZwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+          </div>
         </section>
 
         <section className="fadeIn" id="conclusion">
@@ -259,7 +261,7 @@ export default class Battlesnake2018 extends React.Component {
             CONCLUSION
           </span></h3>
           <p>
-            I think this is such a great event to participate in. The challenge itself of creating an AI to play this game is just such a great way to practice and build your coding skills. Everyone has the same 250ms to respond to each move request, but what you do in that time is all up to you. It is accessible to beginner programmers, but still an interesting challenge for a seasoned professional. I had a great time connecting with other students and industry professionals. I see myself participating every year that I can!
+            I think this is such a great event to participate in. The challenge itself of creating an AI to play this game a great way to practice and build your coding skills. Everyone has the same 250ms to respond to each move request, but what you do in that time is all up to you. It is accessible to beginner programmers, but still an interesting challenge for a seasoned professional. I had a great time connecting with other students and industry professionals. I see myself participating every year that I can!
           </p>
         </section>
 
@@ -279,4 +281,3 @@ export default class Battlesnake2018 extends React.Component {
     )
   }
 }
-{/* <span className="inline-code"></span> */}
