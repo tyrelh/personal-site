@@ -30,31 +30,31 @@ export default class Battlesnake2018 extends React.Component {
           </span></h3>
           <ol>
             <li>
-              <a onClick={() => ScrollToId("#background")} alt="go to background section">Background</a> - Battlesnake is a programming competition where students and industry professionals develop an AI to play a multiplayer version of the classic game <a>Snake</a>.
+              <ScrollToId id="background" alt="go to baground section of article">Background</ScrollToId> - Battlesnake is a programming competition where students and industry professionals develop an AI to play a multiplayer version of the classic game Snake.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#firstYear")} alt="go to first year competing section">First Year Competing</a> - I was very excited to discover this competition and thought it would be a great way to learn Python.
+              <ScrollToId id="firstYear" alt="go to first year competing section of article">First Year Competing</ScrollToId> - I was very excited to discover this competition and thought it would be a great way to learn Python.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#gettingStarted")} alt="go to getting started section">Getting Started</a> - Set up a basic "starter snake" provided by sendwithus.
+              <ScrollToId id ="gettingStarted" alt="go to getting started section of article">Getting Started</ScrollToId> - Set up a basic "starter snake" provided by sendwithus.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#learningAStar")} alt="go to learning A star section">Learning the A* Algorithm</a> - After getting use to Python and concept of <a>Battlesnake</a>, I needed to give my snake some smarts.
+              <ScrollToId id="learningAStar" alt="go to the learning A star section of article">Learning the A* Algorithm</ScrollToId> - After getting use to Python and concept of Battlesnake, I needed to give my snake some smarts.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#floodFill")} alt="go to building a flood fill algorithm section">Building a Flood Fill Algorithm</a> - Now that my snake could find its way around, it needed to see beyond its target.
+              <ScrollToId id="floodFill" alt="go to the flood fill algorithm of article">Building a Flood Fill Algorithm</ScrollToId> - Now that my snake could find its way around, it needed to see beyond its target.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#behaviourSwitching")} alt="go to basic behaviour switching section">Basic Behaviour Switching</a> - With a few basic behaviors coded, I needed to be able to switch between them given some parameters.
+              <ScrollToId id="behaviourSwitching" alt="go to the behaviour switching section of article">Basic Behaviour Switching</ScrollToId> - With a few basic behaviors coded, I needed to be able to switch between them given some parameters.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#aggressiveBehaviour")} alt="go to aggressive behaviour section">Aggressive Behaviour</a> - Basic survival is taken care of. Now I wanted to be able to hunt my opponents.
+              <ScrollToId id="aggressiveBehaviour" alt="go to the aggressive behaviour section of article">Aggressive Behaviour</ScrollToId> - Basic survival is taken care of. Now I wanted to be able to hunt my opponents.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#event")} alt="go to event section">The Event</a> - The competition consists of a "Bounty Snake" section where you can challenge the sponsors to duels. After that is the tournament itself composed of beginner, intermediate, and expert divisions.
+              <ScrollToId id="event" alt="go to the event section of article">The Event</ScrollToId>- The competition consists of a "Bounty Snake" section where you can challenge the sponsors to duels. After that is the tournament itself composed of beginner, intermediate, and expert divisions.
             </li>
             <li>
-              <a onClick={() => ScrollToId("#conclusion")} alt="go to conclusions section">Conclusion</a> - Super fun event! You should go!
+              <ScrollToId id="conclusion" alt="go to the conclusions section of article">Conclusion</ScrollToId> - Super fun event! You should go!
             </li>
             <li>
               Code for my 2018 entry is on <a href="https://github.com/tyrelh/battlesnake2018" alt="2018 snake code on github">Github</a>.
