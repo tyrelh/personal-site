@@ -19,7 +19,7 @@ const projects = [
   {
     title: "MECHANICAL KEYBOARD",
     description: [
-      <p>I went a bit crazy and designed, build, and programed my own mechanical keyboard from scratch.</p>
+      <p>After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.</p>
     ],
     img: mechkey1,
     alt: "Mechanical keyboard on desk",
@@ -28,7 +28,7 @@ const projects = [
   {
     title: "BATTLESNAKE 2018",
     description: [
-      <p>Battlesnake is a programming competition where participants create an AI server that acts as the brain in a multiplayer version of the classic game Snake.</p>
+      <p>Battlesnake is a programming competition where participants create an AI server that acts as the brain of a snake in the classic game Snake. Participants compete in a round-robin tournament played out live in front of an audience of roughly 1000 people. The winner takes home up to $4,000.</p>
     ],
     img: battlesnake2018,
     alt: "Battlesnake 2018 logo",
