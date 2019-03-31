@@ -248,6 +248,10 @@ export default class Battlesnake2018 extends React.Component {
           <p>
             I participated in Beginner this year as it was my first event. I was actually a little worried that my snake was too strong for beginner as I knew that some people entering had only started on their AI that day. Well I would be proven very wrong on that front. I won the first round I played and made it to the next head which was very exciting indeed. But alas I was knocked out in the next round, seemingly to some kind of bug (my snake hit another snake with possible move to avoid it existing). Oh well! It was so much fun to watch all the other snakes compete and to see everyones interesting and novel strategies. The top player in the expert division won $5,000, and in his little acceptance speech he said he was very glad to win as this money will partly cover his AWS bills for his snake! Holy cow!
           </p>
+          <p>
+            During the tournament, the music playlist left much to be desired. This gem came on part way through the night and everyone thought it was a custom "Battlesnake" theme song and loved it! Only later did we learn they were saying "rattlesnake" not "battlesnake".
+          </p>
+          <div class="video-container"><iframe width="853" height="480"  src="https://www.youtube.com/embed/Q-i1XZc8ZwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </section>
 
         <section className="fadeIn" id="conclusion">
