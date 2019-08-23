@@ -63,7 +63,7 @@ header a:hover h1:after {
   font-size: 0.4em;
   width: 100%;
   background: $color-main-bg;
-  transition: top 200ms ease-out;
+  transition: top 150ms ease-out;
   box-shadow: 0px 4px 8px 0px rgba($color-main-bg, 0.7);
   h1 {
     margin:10px;
@@ -81,7 +81,7 @@ header a:hover h1:after {
   }
 }
 .sticky-header-hidden {
-  top: -60px;
+  top: -65px;
 }
 .sticky-header-visible {
   top: 0px;

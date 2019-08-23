@@ -1,6 +1,6 @@
 import lodash from "lodash";
 
-const SWITCH_POS = 120;
+const SWITCH_POS = 130;
 
 const checkHeader = lodash.throttle(() => {
   const scrollPosition = window.scrollY;
@@ -11,6 +11,6 @@ const checkHeader = lodash.throttle(() => {
     document.querySelector("#sticky-header").classList.add("sticky-header-hidden");
     document.querySelector("#sticky-header").classList.remove("sticky-header-visible");
   }
-}, 400);
+}, 300);
 
 export default checkHeader;
