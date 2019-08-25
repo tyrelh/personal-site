@@ -1,5 +1,6 @@
 import React from "react";
 import { Redirect, Link, NavLink } from "react-router-dom";
+import Toggle from "./ui/Toggle";
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -19,6 +20,7 @@ export default class Header extends React.Component {
         <div className="nameContainer">
           <NavLink exact to={this.state.link}><h1 datatext={this.state.title}>{this.state.title}</h1></NavLink>
         </div>
+        <Toggle handleToggle={this.props.themeToggle} />
       </header>
     )
   }

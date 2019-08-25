@@ -15,7 +15,7 @@ header {
   text-align: center;
 }
 header h1 {
-  font-family: "Righteous";
+  font-family: $font-righteous;
   font-size: 5.5em;
   line-height: 1em;
   letter-spacing: 0.5em;
@@ -24,6 +24,11 @@ header h1 {
   color: $color-main-text;
   position: relative;
   text-shadow: 1px 1px 10px rgba(0,0,1,0);
+}
+.light-mode header h1 {
+  color: $color-main-text-light-theme;
+  font-family: $font-crimson;
+  letter-spacing: 0.3em;
 }
 @media screen and (max-device-width: 650px) {
   header h1 {
@@ -41,6 +46,9 @@ header h1:after {
   position: absolute;
   z-index: -1;
   opacity: 1;
+}
+.light-mode header h1:after {
+  background: none;
 }
 header a {
   text-decoration: none;
@@ -62,11 +70,17 @@ header a:hover h1:after {
   z-index: 2;
   font-size: 0.4em;
   width: 100%;
-  background: $color-main-bg;
+  background-color: rgba($color-main-bg, 0.95);
   transition: top 150ms ease-out;
   box-shadow: 0px 4px 8px 0px rgba($color-main-bg, 0.7);
   h1 {
     margin:10px;
+  }
+}
+.light-mode {
+  #sticky-header {
+    background-color: rgba($color-main-bg-light-theme, 0.95);
+    box-shadow: 0px 4px 8px 0px rgba($color-main-bg-light-theme, 0.2);
   }
 }
 @media screen and (max-device-width: 650px) {

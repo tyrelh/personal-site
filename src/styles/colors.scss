@@ -2,9 +2,14 @@
   COLORS
 *******************************/
 
-$color-main-bg: #13151b;
+$color-main-bg: #13151a;
 $color-main-bg-alt: #15181c;
+$color-main-bg-light-theme: white;
 $color-main-text: #dadada;
+$color-main-text-light-theme: #2f2f2f;
+$color-link-light-theme: #00a874;
+$color-link-hover-light-theme: darken(#00a874, 8%);
+
 $pink: #cc50f1; /* Pink */
 $blue: #3b95e3; /* Blue */
 $orange: #EF6c65; /* Orange */
@@ -18,7 +23,7 @@ $aquafresh: #81ecec; /* Aquafresh */
 $sky: #74b9ff; /* Sky */
 $taro: #a29bfe; /* Taro */
 $fog: #efe6e9; /* Fog */
-$avocado: #00b894; /* Avocado */
+$avocado: #00a874; /* Avocado */
 $chlorine: #00cec9; /* Chlorine */
 $cerulean: #0984e3; /* Cerulean */
 $amethyst: #7c5ce7; /* Amethyst */

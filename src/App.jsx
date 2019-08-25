@@ -9,11 +9,25 @@ import Battlesnake2018 from "./components/articles/Battlesnake2018";
 import Mechkeys from "./components/articles/Mechkeys";
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      darkMode: true
+    }
+  }
+
+  themeToggleOnClick = async () => {
+    await this.setState({
+      darkMode: !this.state.darkMode
+    });
+    // console.log(`Set theme to ${this.state.darkMode ? "dark" : "light"}.`);
+    document.body.classList.toggle("light-mode");
+  }
 
   render() {
     return (
       <div className="app">
-        <Header />
+        <Header themeToggle={this.themeToggleOnClick} />
         <Route exact path="/" component={Home} />
         <Route path="/battlesnake2018" component={Battlesnake2018} />
         <Route path="/mechanicalkeyboard" component={Mechkeys} />
