@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect, Link, NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import Toggle from "./ui/Toggle";
 
 export default class Header extends React.Component {

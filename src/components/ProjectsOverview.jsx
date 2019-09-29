@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import { withBreakpoints } from "react-breakpoints";
 import ProjectCard from "./ProjectCard";
-import battlesnake1 from "../assets/img/battlesnake-splash.png";
+// import battlesnake1 from "../assets/img/battlesnake-splash.png";
 import battlesnake2018 from "../assets/img/battlesnake2018/battlesnake-2018.jpg";
 import mechkey1 from "../assets/img/mechkey.jpg";
 

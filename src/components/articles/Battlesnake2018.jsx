@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ScrollToId from "../ScrollToId";
 import battlesnake2018logo from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
 import event1Img from "../../assets/img/battlesnake2018/event1-2018.jpg"
@@ -252,7 +251,15 @@ export default class Battlesnake2018 extends React.Component {
             During the tournament, the music playlist left much to be desired. This gem came on part way through the night and everyone thought it was a custom "Battlesnake" theme song and loved it! Only later did we learn they were saying "rattlesnake" not "battlesnake".
           </p>
           <div class="video-container">
-            <iframe width="853" height="480"  src="https://www.youtube.com/embed/Q-i1XZc8ZwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+            <iframe
+              width="853"
+              height="480"
+              title="King Gizzard and The Lizard Wizard - Rattlesnake"
+              src="https://www.youtube.com/embed/Q-i1XZc8ZwA"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
           </div>
         </section>
 

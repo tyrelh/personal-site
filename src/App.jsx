@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import {Route} from "react-router-dom";
 import "./styles/styles.scss";
 import Header from "./components/Header";
 // import Main from "./components/Main";
@@ -20,7 +20,6 @@ export default class App extends React.Component {
     await this.setState({
       darkMode: !this.state.darkMode
     });
-    // console.log(`Set theme to ${this.state.darkMode ? "dark" : "light"}.`);
     document.body.classList.toggle("light-mode");
   }
 

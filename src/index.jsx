@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import ReactBreakpoints from "react-breakpoints";
 import App from "./App";
 import ScrollToTop from "./components/ScrollToTop";

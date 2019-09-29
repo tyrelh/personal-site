@@ -17,6 +17,7 @@ class ScrollToId extends React.Component {
       <a 
         onClick={this.scrollToId}
         alt={this.props.alt}
+        href={this.props.id}
       >
         {this.props.children}
       </a>

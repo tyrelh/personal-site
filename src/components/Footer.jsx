@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Icon } from "antd";
 import ScrollToId from "./ScrollToId";
+import "./footer.scss";
 
 const githubSvg = () => (
   <svg enableBackground="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px">
