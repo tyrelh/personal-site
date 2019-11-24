@@ -5,15 +5,6 @@ import "./header.scss";
 import "../styles/toggle.scss"
 
 export default class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: "Hi, I'm Tyrel.",
-      shortTitle: "Tyrel Hiebert",
-      link: "/",
-    }
-  }
-
   render() {
     return (
       <header className="fadeIn" id="top">
@@ -24,16 +15,20 @@ export default class Header extends React.Component {
             </h1>
           </NavLink>
         </div> */}
-        <div className="nameContainer">
-          <NavLink exact to={this.state.link}>
-            <h1 datatext={this.state.title}>
-              {/* <span className="underline"> */}
-              {this.state.title}
-              {/* </span> */}
+        <div className="nameContainer fadeIn">
+          {(this.props.link) ? 
+            <NavLink exact to={this.props.link}>
+              <h1 datatext={this.props.title}>
+                {this.props.title}
+              </h1>
+            </NavLink>
+          :
+            <h1 datatext={this.props.title}>
+              {this.props.title}
             </h1>
-          </NavLink>
+          }
         </div>
-        <ThemeToggle handleToggle={this.props.themeToggle} />
+        <ThemeToggle />
       </header>
     )
   }

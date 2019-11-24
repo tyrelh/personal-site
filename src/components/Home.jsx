@@ -1,11 +1,21 @@
 import React from "react";
 import ProjectsOverview from "./ProjectsOverview";
+import Header from "./Header";
 import "./section.scss"
 
 export default class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: "Hi, I'm Tyrel.",
+      link: "/",
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
+      <Header title={this.state.title} link={this.state.link} />
         <section className="fadeIn">
           <p>
             I am currently studying Computer Science at the University of Victoria. My focus has been software development, artificial intelligence, and data science. Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer here in Victoria.

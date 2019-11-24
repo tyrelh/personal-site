@@ -29,7 +29,7 @@ export default class ThemeToggle extends React.Component {
           className="toggle"
           id="toggle"
           type="checkbox"
-          onChange={this.props.handleToggle}
+          onChange={this.themeToggleOnClick}
           checked={this.state.lightMode}
         />
         <label className="toggle-label" htmlFor="toggle">
