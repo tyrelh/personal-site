@@ -1,6 +1,6 @@
 import lodash from "lodash";
 
-const SWITCH_POS = 130;
+const SWITCH_POS = 350;
 
 const checkHeader = lodash.throttle(() => {
   const scrollPosition = window.scrollY;
