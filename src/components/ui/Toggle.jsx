@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Toggle extends React.Component {
+export default class ThemeToggle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
