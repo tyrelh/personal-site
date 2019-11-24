@@ -17,7 +17,7 @@ const projects = [
   //   link: "/battlesnake2018"
   // },
   {
-    title: "MECHANICAL KEYBOARD",
+    title: "Building a Mechanical Keyboard from Scratch",
     description: [
       <p>After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.</p>
     ],
@@ -26,7 +26,7 @@ const projects = [
     link: "/mechanicalkeyboard"
   },
   {
-    title: "BATTLESNAKE 2018",
+    title: "Battlesnake Programming Competition 2018",
     description: [
       <p>Battlesnake is a programming competition where participants create an AI server that acts as the brain of a snake in the classic game Snake. Participants compete in a round-robin tournament played out live in front of an audience of roughly 1000 people. The winner takes home up to $4,000.</p>
     ],

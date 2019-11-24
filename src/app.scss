@@ -1,12 +1,6 @@
-@import "./colors.scss";
 @import "./fonts.scss";
-@import "./content.scss";
-@import "./toggle.scss";
+@import "./colors.scss";
 
-
-/*******************************
-  GLOBAL STYLES
-*******************************/
 html {
   min-height: 100%;
   width: 100%;
@@ -14,22 +8,20 @@ html {
   overflow: auto;
   padding: 0;
 }
+
 body {
   margin: 0;
   padding: 0;
-  // overflow: auto;
   height: 100%;
   width: 100%;
   background-color: $color-main-bg;
-  /* background: -webkit-linear-gradient(135deg, var($color-main-bg), var($color-main-bg-alt)); */
-  /* -webkit-text-fill-color: transparent; */
   color: $color-main-text;
-  font-family: $font-main;
-  // text-shadow: 1px 1px 4px rgba(0,0,1,1);
+  font-family: $font-ptsans;
 }
 .light-mode body {
   background-color: white;
 }
+
 .app {
   margin: 0;
   display: flex;
@@ -41,20 +33,14 @@ body {
   text-shadow: none;
   font-family: $font-slabo;
 }
+
 ::selection {
   background: $chlorine; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   background: $chlorine; /* Gecko Browsers */
 }
-h1, nav, h3 {
-  font-family: $font-expletussans;
-}
-.light-mode {
-  h1, nav, h3 {
-    font-family: $font-crimson;
-  }
-}
+
 .fadeIn {
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -65,15 +51,4 @@ h1, nav, h3 {
 @keyframes fadeInOpacity {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
-.underline {
-  background-image: linear-gradient(120deg, $blue 0%, $purple 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  /* opacity: 0.9; */
-  background-position: 0 75%;
-  transition: background-size 200ms ease-in;
-}
-.light-mode .underline {
-  background-image: none;
 }

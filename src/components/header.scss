@@ -1,5 +1,5 @@
-@import "./colors.scss";
-@import "./fonts.scss";
+@import "../colors.scss";
+@import "../fonts.scss";
 
 header {
   top: 0;
@@ -18,7 +18,7 @@ header {
     color: $color-main-text;
     position: relative;
 
-    // text-shadow: 1px 1px 10px rgba(0,0,1,0);
+    text-shadow: 1px 1px 4px rgba(0,0,1,.2);
   }
 
   a {
@@ -31,9 +31,10 @@ header {
   h1 {
     color: $color-main-text-light-theme;
     font-family: $font-crimson;
-    letter-spacing: 0.03em;
-    line-height: 0.9em;
-    font-size: 8.0em;
+    font-weight: 800;
+    font-size: 15em;
+    line-height: 1em;
+    text-shadow: none;
   }
 
   h1:after {

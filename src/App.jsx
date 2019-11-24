@@ -1,12 +1,13 @@
 import React from "react";
 import {Route} from "react-router-dom";
-import "./styles/styles.scss";
+
 import Header from "./components/Header";
-// import Main from "./components/Main";
 import Footer from "./components/Footer"
 import Home from "./components/Home";
 import Battlesnake2018 from "./components/articles/Battlesnake2018";
 import Mechkeys from "./components/articles/Mechkeys";
+import "./app.scss";
+
 
 export default class App extends React.Component {
   constructor(props) {
