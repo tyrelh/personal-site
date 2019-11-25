@@ -1,24 +1,24 @@
 import React from "react";
 import {Route} from "react-router-dom";
-import "./styles/styles.scss";
-import Header from "./components/Header";
-// import Main from "./components/Main";
+
 import Footer from "./components/Footer"
 import Home from "./components/Home";
 import Battlesnake2018 from "./components/articles/Battlesnake2018";
 import Mechkeys from "./components/articles/Mechkeys";
+import "./app.scss";
+
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      darkMode: true
-    }
+      lightMode: false
+    };
   }
 
   themeToggleOnClick = async () => {
     await this.setState({
-      darkMode: !this.state.darkMode
+      lightMode: !this.state.lightMode
     });
     document.body.classList.toggle("light-mode");
   }
@@ -26,28 +26,17 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Header themeToggle={this.themeToggleOnClick} />
-        <Route exact path="/" component={Home} />
-        <Route path="/battlesnake2018" component={Battlesnake2018} />
-        <Route path="/mechanicalkeyboard" component={Mechkeys} />
+        <Route exact path="/" render={(props) =>
+          <Home {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
+        } />
+        <Route path="/battlesnake2018" render={(props) => 
+          <Battlesnake2018 {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
+        } />
+        <Route path="/mechanicalkeyboard" render={(props) =>
+          <Mechkeys {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
+        } />
         <Footer />
       </div>
     );
   }
 }
-
-
-
-
-
-// export default class Main extends React.Component {
-//   render() {
-//     return (
-//       <Switch>
-//         <Route exact path="/" component={Home} />
-//         <Route path="/battlesnake2018" component={Battlesnake2018} />
-//         <Route path="/mechanicalkeyboard" component={Mechkeys} />
-//       </Switch>
-//     )
-//   }
-// }

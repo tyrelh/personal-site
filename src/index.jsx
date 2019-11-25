@@ -4,7 +4,7 @@ import {HashRouter} from "react-router-dom";
 import ReactBreakpoints from "react-breakpoints";
 import App from "./App";
 import ScrollToTop from "./components/ScrollToTop";
-import checkHeader from "./checkHeader";
+// import checkHeader from "./checkHeader";
 
 const breakpoints = {
   mobile: 320,
@@ -12,7 +12,7 @@ const breakpoints = {
   desktopWide: 1920,
 }
 
-window.addEventListener("scroll", checkHeader);
+// window.addEventListener("scroll", checkHeader);
 
 ReactDOM.render(
   <HashRouter>

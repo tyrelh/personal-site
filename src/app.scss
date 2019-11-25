@@ -1,0 +1,58 @@
+@import "./fonts.scss";
+@import "./colors.scss";
+
+html {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $color-main-bg;
+  color: $color-main-text;
+  font-family: $font-ptsans;
+}
+.light-mode body {
+  background-color: white;
+}
+
+.app {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.light-mode .app {
+  background-color: white;
+  color: $color-main-text-light-theme;
+  text-shadow: none;
+  // font-family: $font-slabo;
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+::selection {
+  background: $chlorine; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $chlorine; /* Gecko Browsers */
+}
+
+.fadeIn {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
+}
+@keyframes fadeInOpacity {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

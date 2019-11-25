@@ -1,14 +1,34 @@
 import React from "react";
 import ProjectsOverview from "./ProjectsOverview";
+import Header from "./Header";
+import "./section.scss"
 
 export default class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      headerTitle: "Hi, I'm Tyrel.",
+      headerLink: "/",
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
+        <span style={{width:"50%"}}>
+          <Header
+            headerTitle={this.state.headerTitle}
+            headerLink={this.state.headerLink}
+            lightMode={this.props.lightMode}
+            themeToggleOnClick={this.props.themeToggleOnClick}
+          />
+        </span>
         <section className="fadeIn">
-          <h3><span className="underline">ABOUT</span></h3>
           <p>
-            I am currently studying Computer Science at the University of Victoria. My focus has been software development, artificial intelligence, and data science. Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer here in Victoria.
+            I am a software engineer constantly learning new skills and technologies.
+          </p>
+          <p>
+            Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer.
           </p>
           <p>
             You can see some of my work below as well as on my <a href="https://github.com/tyrelh" alt="Github">Github</a>.
@@ -16,15 +36,20 @@ export default class Home extends React.Component {
         </section>
 
         <section className="fadeIn">
-          <h3><span className="underline">PROJECTS</span></h3>
-          <p>
-            Here are some recent projects I have worked on. Click in to read the full article.
-          </p>
+          <h3>
+            <span className="underline">
+              Projects
+            </span>
+          </h3>
           <ProjectsOverview />
         </section>
 
         <section className="fadeIn">
-          <h3><span className="underline">GET IN TOUCH</span></h3>
+          <h3>
+            <span className="underline">
+              Get in touch
+            </span>
+          </h3>
           <p>
             Feel free to contact me via <a href="mailto:tyrel.hiebert@gmail.com" alt="email">email</a>. If you are interested, you can view my <a href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf" alt="CV">CV</a> for more details about my background and experience.
           </p>
