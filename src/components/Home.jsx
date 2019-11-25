@@ -28,7 +28,7 @@ export default class Home extends React.Component {
             I am a software engineer constantly learning new skills and technologies.
           </p>
           <p>
-            Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer here in Victoria.
+            Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer.
           </p>
           <p>
             You can see some of my work below as well as on my <a href="https://github.com/tyrelh" alt="Github">Github</a>.
@@ -41,9 +41,6 @@ export default class Home extends React.Component {
               Projects
             </span>
           </h3>
-          <p>
-            Here are some recent projects I have worked on. Click in to read the full article.
-          </p>
           <ProjectsOverview />
         </section>
 
