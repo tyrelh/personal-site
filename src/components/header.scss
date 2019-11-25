@@ -10,14 +10,14 @@ header {
   h1 {
     font-family: $font-signika;
     font-weight: 800;
-    font-size: 15em;
+    font-size: 12em;
     line-height: 1em;
     // letter-spacing: 0.1em;
     margin: 0 0 0 10px;
     padding: 5px;
     color: $color-main-text;
-    position: relative;
-    text-shadow: 1px 1px 4px rgba(0,0,1,.2);
+    // position: relative;
+    // text-shadow: 1px 1px 4px rgba(0,0,1,.2);
   }
   @media (min-device-width : 375px) 
   and (max-device-width : 812px) {
@@ -26,19 +26,19 @@ header {
     }
   }
 
-  h1:after {
-    background: -webkit-linear-gradient(left, $blue, $purple);
-    background-clip: text;
-    -webkit-background-clip: text;
-    content: attr(datatext);
-    color: transparent;
-    left: 10px;
-    top: 10px;
-    position: absolute;
-    z-index: -1;
-    opacity: 1;
-    height: 100%;
-  }
+  // h1:after {
+  //   background: -webkit-linear-gradient(left, $blue, $purple);
+  //   background-clip: text;
+  //   -webkit-background-clip: text;
+  //   content: attr(datatext);
+  //   color: transparent;
+  //   left: 10px;
+  //   top: 10px;
+  //   position: absolute;
+  //   z-index: -1;
+  //   opacity: 1;
+  //   height: 100%;
+  // }
 
   a {
     text-decoration: none;
