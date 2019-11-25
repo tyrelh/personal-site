@@ -7,7 +7,7 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      headerTitle: ["Hi, I'm", <br/>, "Tyrel."],
+      headerTitle: "Hi, I'm Tyrel.",
       headerLink: "/",
     }
   }
@@ -15,13 +15,13 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <span className="homeTitle">
-        <Header
-          headerTitle={this.state.headerTitle}
-          headerLink={this.state.headerLink}
-          lightMode={this.props.lightMode}
-          themeToggleOnClick={this.props.themeToggleOnClick}
-        />
+        <span style={{width:"50%"}}>
+          <Header
+            headerTitle={this.state.headerTitle}
+            headerLink={this.state.headerLink}
+            lightMode={this.props.lightMode}
+            themeToggleOnClick={this.props.themeToggleOnClick}
+          />
         </span>
         <section className="fadeIn">
           <p>
