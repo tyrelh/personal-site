@@ -5,12 +5,20 @@ section {
   margin: 0 20px;
   font-size: 2.5em;
   line-height: 1.5em;
+  @media (min-device-width : 375px) 
+  and (max-device-width : 812px) {
+    font-size: 1.6em;
+  }
 
   .image {
     width: 100%;
     img {
       width: 90%;
       margin: 1em auto;
+      @media (min-device-width : 375px) 
+      and (max-device-width : 812px) {
+        width: 96%
+      }
     }
   }
 
@@ -22,12 +30,11 @@ section {
     padding: 0 0 0 0;
     text-shadow: 1px 1px 4px rgba(0,0,1,.1);
   }
-}
-@media screen and (max-device-width: 650px) {
-  section {
-    font-size: 1.2em;
-    .image img {
-      width: 96%;
+  @media (min-device-width : 375px) 
+  and (max-device-width : 812px) {
+    h3 {
+      font-size: 2em;
+      line-height: 0.9em;
     }
   }
 }

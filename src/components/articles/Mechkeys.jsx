@@ -20,7 +20,7 @@ export default class Mechkeys extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "Building a Mechanical Keyboard from Scratch.",
+      headerTitle: "Building a Mechanical Keyboard from Scratch.",
       headerLink: "/"
     }
   }
@@ -28,7 +28,12 @@ export default class Mechkeys extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header title={this.state.title} link={this.state.headerLink} />
+        <Header
+          headerTitle={this.state.headerTitle}
+          headerLink={this.state.headerLink}
+          lightMode={this.props.lightMode}
+          themeToggleOnClick={this.props.themeToggleOnClick}
+        />
 
         <div className="article">
           <section className="fadeIn">

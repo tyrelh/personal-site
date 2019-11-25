@@ -34,6 +34,10 @@ body {
   font-family: $font-slabo;
 }
 
+p {
+  white-space: pre-wrap;
+}
+
 ::selection {
   background: $chlorine; /* WebKit/Blink Browsers */
 }

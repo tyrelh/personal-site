@@ -1,24 +1,12 @@
 import React from "react";
+import "../styles/toggle.scss";
 
 export default class ThemeToggle extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      lightMode: false
-    };
-  }
-
-  themeToggleOnClick = async () => {
-    await this.setState({
-      lightMode: !this.state.lightMode
-    });
-    document.body.classList.toggle("light-mode");
-  }
-
+  
   componentDidMount() {
     const userPrefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (!userPrefersDarkMode) {
-      this.themeToggleOnClick()
+    if (!userPrefersDarkMode && this.props.lightMode) {
+      this.props.themeToggleOnClick()
     }
   }
 
@@ -29,8 +17,8 @@ export default class ThemeToggle extends React.Component {
           className="toggle"
           id="toggle"
           type="checkbox"
-          onChange={this.themeToggleOnClick}
-          checked={this.state.lightMode}
+          onChange={this.props.themeToggleOnClick}
+          checked={this.props.lightMode}
         />
         <label className="toggle-label" htmlFor="toggle">
           <span className="toggle-knob" />

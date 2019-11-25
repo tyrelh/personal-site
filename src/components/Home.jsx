@@ -7,18 +7,28 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "Hi, I'm Tyrel.",
-      link: "/",
+      headerTitle: ["Hi, I'm", <br/>, "Tyrel."],
+      headerLink: "/",
     }
   }
 
   render() {
     return (
       <React.Fragment>
-      <Header title={this.state.title} link={this.state.link} />
+        <span className="homeTitle">
+        <Header
+          headerTitle={this.state.headerTitle}
+          headerLink={this.state.headerLink}
+          lightMode={this.props.lightMode}
+          themeToggleOnClick={this.props.themeToggleOnClick}
+        />
+        </span>
         <section className="fadeIn">
           <p>
-            I am currently studying Computer Science at the University of Victoria. My focus has been software development, artificial intelligence, and data science. Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer here in Victoria.
+            I am a software engineer constantly learning new skills and technologies.
+          </p>
+          <p>
+            Currently I am doing an internship at <a href="https://www.giftbit.com" alt="Giftbit">Giftbit</a> as a Junior Developer here in Victoria.
           </p>
           <p>
             You can see some of my work below as well as on my <a href="https://github.com/tyrelh" alt="Github">Github</a>.

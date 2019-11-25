@@ -20,6 +20,12 @@ header {
 
     text-shadow: 1px 1px 4px rgba(0,0,1,.2);
   }
+  @media (min-device-width : 375px) 
+  and (max-device-width : 812px) {
+    h1 {
+      font-size: 4em;
+    }
+  }
 
   a {
     text-decoration: none;
@@ -27,34 +33,32 @@ header {
 
 }
 
+@media (min-device-width : 375px) 
+  and (max-device-width : 812px) {
+    .homeTitle {
+      h1 {
+        font-size: 7.5em;
+      }
+    }
+  }
+
 .light-mode header {
   h1 {
     color: $color-main-text-light-theme;
     font-family: $font-crimson;
-    font-weight: 800;
-    font-size: 15em;
-    line-height: 1em;
     text-shadow: none;
   }
-
-  h1:after {
-    background: none;
-  }
-}
-
-@media screen and (max-device-width: 650px) {
-  header {
+  @media (min-device-width : 375px) 
+  and (max-device-width : 812px) {
     h1 {
-      font-size: 2em;
-      color: red;
+      font-size: 4em;
     }
   }
-  
 }
 
 .nameContainer {
   // margin: 0 auto;
-  width: 40%;
+  // width: 50%;
   // display: flex;
   // align-items: center;
   // justify-content: center;

@@ -1,8 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import ThemeToggle from "./ui/Toggle";
+import ThemeToggle from "./ThemeToggle";
 import "./header.scss";
-import "../styles/toggle.scss"
 
 export default class Header extends React.Component {
   render() {
@@ -16,19 +15,20 @@ export default class Header extends React.Component {
           </NavLink>
         </div> */}
         <div className="nameContainer fadeIn">
-          {(this.props.link) ? 
-            <NavLink exact to={this.props.link}>
-              <h1 datatext={this.props.title}>
-                {this.props.title}
+          {(this.props.headerLink) ? 
+            <NavLink exact to={this.props.headerLink}>
+              <h1 datatext={this.props.headerTitle}>
+                {this.props.headerTitle}
               </h1>
             </NavLink>
           :
-            <h1 datatext={this.props.title}>
-              {this.props.title}
+            <h1 datatext={this.props.headerTitle}>
+              {this.props.headerTitle}
             </h1>
           }
         </div>
-        <ThemeToggle />
+        <ThemeToggle lightMode={this.props.lightMode}
+          themeToggleOnClick={this.props.themeToggleOnClick} />
       </header>
     )
   }
