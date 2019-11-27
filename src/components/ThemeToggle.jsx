@@ -5,7 +5,7 @@ export default class ThemeToggle extends React.Component {
   
   componentDidMount() {
     const userPrefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (!userPrefersDarkMode && this.props.lightMode) {
+    if (!userPrefersDarkMode && !this.props.lightMode) {
       this.props.themeToggleOnClick()
     }
   }
