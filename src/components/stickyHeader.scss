@@ -1,0 +1,35 @@
+// #sticky-header {
+//   position: fixed;
+//   z-index: 2;
+//   font-size: 0.2em;
+//   width: 100%;
+//   background-color: rgba($color-main-bg, 0.95);
+//   transition: top 150ms ease-out;
+//   box-shadow: 0px 4px 8px 0px rgba($color-main-bg, 0.7);
+//   h1 {
+//     margin:10px;
+//   }
+// }
+// .light-mode {
+//   #sticky-header {
+//     background-color: rgba($color-main-bg-light-theme, 0.95);
+//     box-shadow: 0px 4px 8px 0px rgba($color-main-bg-light-theme, 0.2);
+//   }
+// }
+// @media screen and (max-device-width: 650px) {
+//   #sticky-header {
+//     h1 {
+//       margin: 15px 10px 10px 20px;
+//     }
+//     h1:after {
+//       left: 7px;
+//       top: 7px;
+//     }
+//   }
+// }
+// .sticky-header-hidden {
+//   top: -75px;
+// }
+// .sticky-header-visible {
+//   top: 0px;
+// }
