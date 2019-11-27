@@ -1,0 +1,22 @@
+@import "../colors.scss";
+
+.scrollToIdLink {
+  background: -webkit-linear-gradient(left, $cerulean, $amethyst);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.scrollToIdLink:hover {
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, lighten($cerulean, 11), lighten($amethyst, 11));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.light-mode .scrollToIdLink:hover {
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, darken($cerulean, 11), darken($amethyst, 11));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

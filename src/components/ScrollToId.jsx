@@ -1,5 +1,6 @@
 import React from "react";
 import scrollToElement from "scroll-to-element";
+import "./scrollToId.scss";
 
 class ScrollToId extends React.Component {
 
@@ -14,13 +15,13 @@ class ScrollToId extends React.Component {
 
   render () {
     return (
-      <a 
+      <span
+        className="scrollToIdLink"
         onClick={this.scrollToId}
         alt={this.props.alt}
-        href={this.props.id}
       >
         {this.props.children}
-      </a>
+      </span>
     );
   }
 }

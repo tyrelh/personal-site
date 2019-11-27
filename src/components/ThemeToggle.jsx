@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/toggle.scss";
+import "./themeToggle.scss";
 
 export default class ThemeToggle extends React.Component {
   

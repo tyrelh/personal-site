@@ -3,7 +3,7 @@
 
 section {
   margin: 0 20px;
-  font-size: 2.1em;
+  font-size: 1.90em;
   line-height: 1.5em;
   @media (min-device-width : 375px) 
   and (max-device-width : 812px) {
@@ -42,64 +42,66 @@ section {
 .light-mode {
   section{
     h3 {
-      // font-family: $font-crimson;
-      text-shadow: none;
+      text-shadow: 3px 3px 0px rgba($color-main-bg-light-theme,1);
     }
   } 
 }
 
 .underline {
-  background-image: linear-gradient(120deg, $blue 0%, $purple 100%);
+  background-image: linear-gradient(120deg, $cerulean 0%, $purple 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.18em;
   background-position: 0 75%;
   transition: background-size 200ms ease-in;
 }
-.light-mode .underline {
-  background-image: none;
-}
+// .light-mode .underline {
+//   background-image: none;
+// }
 section:hover .underline {
   background-size: 100% 0.25em;
 }
 
 section a {
   text-decoration: none;
-  text-shadow: 1px 1px 4px rgba(0,0,1,.2);
+  // text-shadow: 0px 0px 4px rgba($amethyst, 0.5);
   cursor: pointer;
   /* transition: all 1s ease-in-out 0s;
     -moz-transition: all 1s ease-in-out 0s;
     -webkit-transition: all 1s ease-in-out 0s;
     -o-transition: all 1s ease-in-out 0s; */
 }
-
 section a,
 section a:visited {
-  background: -webkit-linear-gradient(left, $blue, $amethyst);
+  background: -webkit-linear-gradient(left, $cerulean, $amethyst);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.light-mode section a,
-.light-mode section a:visited {
-  text-shadow: none;
-  color: $color-link-light-theme;
-  background: none;
-  background-clip: none;
-  -webkit-background-clip: none;
-  -webkit-text-fill-color: $color-link-light-theme;
-}
+// .light-mode section a,
+// .light-mode section a:visited {
+//   text-shadow: none;
+//   // color: $color-link-light-theme;
+//   // background: none;
+//   // background-clip: none;
+//   // -webkit-background-clip: none;
+//   // -webkit-text-fill-color: $color-link-light-theme;
+// }
 section a:hover {
-  background: -webkit-linear-gradient(left, $pink, $purple);
+  background: -webkit-linear-gradient(left, lighten($cerulean, 11), lighten($amethyst, 11));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .light-mode section a:hover {
-  color: $color-link-hover-light-theme;
-  background: none;
-  background-clip: none;
-  -webkit-background-clip: none;
-  -webkit-text-fill-color: $color-link-hover-light-theme;
+  background: -webkit-linear-gradient(left, darken($cerulean, 11), darken($amethyst, 11));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  // color: $color-link-hover-light-theme;
+  // background: none;
+  // background-clip: none;
+  // -webkit-background-clip: none;
+  // -webkit-text-fill-color: $color-link-hover-light-theme;
 }
 
 h2 {
