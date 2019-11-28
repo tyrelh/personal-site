@@ -5,9 +5,14 @@
   "private": true,
   "dependencies": {
     "antd": "^3.15.2",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
     "gh-pages": "^2.0.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "lodash": "^4.17.15",
     "react": "^16.8.6",
+    "react-app-rewired": "^2.1.5",
     "react-breakpoints": "^3.0.3",
     "react-dom": "^16.8.6",
     "react-flexbox-grid": "^2.1.2",
@@ -18,9 +23,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
