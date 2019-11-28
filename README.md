@@ -18,8 +18,5 @@ npm run deploy
 ```
 
 ## Todo
-* Link problems with hash router
 * Font spacing paculiarities on iOS
 * Project title glitch on homepage on iOS
-* Decrease font size on phones
-* Increase width on phones, too much margins on sides.

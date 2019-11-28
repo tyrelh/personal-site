@@ -31,7 +31,7 @@ body {
   .app { padding: 0; }
 }
 .light-mode .app {
-  background-color: white;
+  background-color: $color-main-bg-light-theme;
   color: $color-main-text-light-theme;
   text-shadow: none;
   // font-family: $font-slabo;

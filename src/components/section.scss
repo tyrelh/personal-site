@@ -5,10 +5,12 @@ section {
   margin: 0 20px;
   font-size: 1.90em;
   line-height: 1.5em;
-  @media (min-device-width : 375px) 
-  and (max-device-width : 812px) {
+  @media (min-width : 375px) 
+  and (max-width : 812px) {
     font-size: 1.6em;
+    margin: 0 5px;
   }
+
 
   .image {
     width: 100%;
@@ -107,7 +109,9 @@ h2 {
   cursor: pointer;
 }
 .light-mode .project-card:hover {
-  background-color: $color-main-bg-light-theme;
+  // background-color: darken(rgba($color-main-bg-light-theme, 1), 1);
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba($color-main-bg, 0.6);
 }
 .project-card:hover a {
   background: -webkit-linear-gradient(left, lighten($cerulean, 11), lighten($amethyst, 11));

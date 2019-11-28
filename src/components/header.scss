@@ -59,6 +59,12 @@ header {
 .homeTitleContainer {
   width: 60%;
 }
+@media (min-width : 375px) 
+  and (max-width : 812px) {
+    .homeTitleContainer {
+      width: 80%;
+      }
+  }
 
 .nameContainer {
   margin: 0 0 1em 0;
