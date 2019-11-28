@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 import { Redirect } from "react-router-dom";
+import "./scrollToId.scss";
 
 export default class ProjectCard extends React.Component {
   constructor(props) {
@@ -28,7 +29,11 @@ export default class ProjectCard extends React.Component {
             
               <Row start="sm" className="content">
                 <Col xs={7}>
-                  <h4><a href="title">{this.props.title}</a></h4>
+                  <h4>
+                    <span className="scrollToIdLink">
+                      {this.props.title}
+                    </span>
+                  </h4>
                   {this.props.description}
                 </Col>
                 <Col xs={5} className="thumbnail">
@@ -40,7 +45,11 @@ export default class ProjectCard extends React.Component {
         ) : (
 
           <div className="project-card" onClick={this.handleOnClick}>
-            <h4><a href="title">{this.props.title}</a></h4>
+            <h4>
+              <span className="scrollToIdLink">
+                {this.props.title}
+              </span>
+            </h4>
             <Row start="sm" className="content thumbnail">
               <img src={this.props.img} alt={this.props.alt} />
             </Row>
