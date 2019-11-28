@@ -15,12 +15,13 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <span style={{width:"50%"}}>
+        <span className="homeTitleContainer">
           <Header
             headerTitle={this.state.headerTitle}
             headerLink={this.state.headerLink}
             lightMode={this.props.lightMode}
             themeToggleOnClick={this.props.themeToggleOnClick}
+            classN="homeTitle"
           />
         </span>
         <section className="fadeIn">

@@ -4,8 +4,6 @@
 header {
   top: 0;
   padding: 2em 0 1.5em 0;
-  // max-width: 1400px;
-  // margin: 0 auto;
 
   h1 {
     font-family: $font-signika;
@@ -18,21 +16,26 @@ header {
     color: $color-main-text;
   }
   @media (max-width: 1200px) {
-    h1 { font-size: 9.5em; }
+    h1 { font-size: 10em; }
   }
   @media (max-width: 1100px) {
-    h1 { font-size: 7.5em; }
+    h1 { font-size: 9em; }
   }
   @media (max-width: 900px) {
-    h1 { font-size: 5.5em; }
+    h1 { font-size: 6em; }
   }
-  @media (min-device-width : 375px) 
-  and (max-device-width : 812px) {
+  @media (min-width : 375px) 
+  and (max-width : 812px) {
     h1 {
-      font-size: 4em;
+      font-size: 4.5em;
     }
   }
-
+  @media (min-width : 375px) 
+  and (max-width : 812px) {
+    .homeTitle {
+        font-size: 7.5em;
+      }
+  }
   // h1:after {
   //   background: -webkit-linear-gradient(left, $blue, $purple);
   //   background-clip: text;
@@ -46,34 +49,15 @@ header {
   //   opacity: 1;
   //   height: 100%;
   // }
-
-  a {
-    text-decoration: none;
-  }
-
 }
-
-@media (min-device-width : 375px) 
-  and (max-device-width : 812px) {
-    .homeTitle {
-      h1 {
-        font-size: 7.5em;
-      }
-    }
-  }
-
 .light-mode header {
   h1 {
     color: $color-main-text-light-theme;
-    // font-family: $font-crimson;
-    text-shadow: none;
   }
-  @media (min-device-width : 375px) 
-  and (max-device-width : 812px) {
-    h1 {
-      font-size: 4em;
-    }
-  }
+}
+
+.homeTitleContainer {
+  width: 60%;
 }
 
 .nameContainer {
