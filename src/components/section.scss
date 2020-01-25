@@ -9,19 +9,6 @@ section {
     font-size: 1.6em;
     margin: 0 5px;
   }
-
-  .image {
-    width: 100%;
-
-    img {
-      width: 90%;
-      margin: 1em auto;
-      @media (min-device-width: 375px) and (max-device-width: 812px) {
-        width: 96%
-      }
-    }
-  }
-
 }
 
 section a {
@@ -54,14 +41,14 @@ h2 {
   letter-spacing: 0.1em;
   width: 80%;
 }
-.underline-headline {
-  background-image: linear-gradient(120deg, $blue 0%, $purple 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.3em;
-  opacity: 0.95;
-  background-position: 0 86%;
-  transition: background-size 0.2s ease-in;
-}
+//.underline-headline {
+//  background-image: linear-gradient(120deg, $blue 0%, $purple 100%);
+//  background-repeat: no-repeat;
+//  background-size: 100% 0.3em;
+//  opacity: 0.95;
+//  background-position: 0 86%;
+//  transition: background-size 0.2s ease-in;
+//}
 .project-card {
   padding: 0.6em 1em 1em 1em;
   margin: 0;
@@ -104,13 +91,11 @@ h2 {
 .project-card .thumbnail {
   padding: 0 0.5em;
 }
-.project-card .thumbnail img,
-.image img {
+.project-card .thumbnail img {
   opacity: 0.9;
   box-shadow: 4px 4px 0px 0px rgba($amethyst, 0.8);
 }
-.light-mode .project-card .thumbnail img,
-.light-mode .image img {
+.light-mode .project-card .thumbnail img {
   opacity: 1;
   box-shadow: none;
 }

@@ -4,6 +4,7 @@ import Header from "../Header";
 import SectionHeader from "../elements/SectionHeader";
 import battlesnake2018logo from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
 import event1Img from "../../assets/img/battlesnake2018/event1-2018.jpg"
+import SectionImage from "../elements/SectionImage";
 
 export default class Battlesnake2018 extends React.Component {
   constructor(props) {
@@ -27,9 +28,7 @@ export default class Battlesnake2018 extends React.Component {
         <div className="article">
 
           <section className="fadeIn">
-            <div className="image">
-              <img src={battlesnake2018logo} alt="battlesnake logo from 2018" />
-            </div>
+            <SectionImage imgSrc={battlesnake2018logo} imgAlt="Battlesnake logo from 2018" />
             <SectionHeader>
               TL;DR
             </SectionHeader>
@@ -89,9 +88,7 @@ export default class Battlesnake2018 extends React.Component {
             <p>
             During the day-long event there are many different activities. Early in the day there is the opportunity for newcomers to set up and begin developing their AI from scratch. Experienced developers are there to provide assistance in developing and deploying fresh snakes. Midway through the day are the bounty snake challenges; sponsors of the event challenge participants to duel their snakes for prizes. Sponsors with bounty snakes can opt to have their own unique rules to the game, forcing challengers to adapt their strategies the day of the event. Prizes for besting a bounty snake vary from t-shirts and stickers, to entries into a raffle for bigger prizes. Around 4pm, the main tournament begins. Starting with the beginner division, each tournament is played out on a big screen for all the participants to watch. The whole thing is also <a href="https://www.twitch.tv/battlesnakeio" alt="official battle snake twitch channel">streamed on Twitch</a>. Prizes of up to $4,000 are awarded for a podium placing.
             </p>
-            <div className="image">
-              <img src={event1Img} alt="battlesnake logo from 2018" />
-            </div>
+            <SectionImage imgSrc={event1Img} imgAlt="People programming as a group during battlesnake event" />
           </section>
 
           <section className="fadeIn" id="firstYear">
