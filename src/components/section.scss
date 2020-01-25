@@ -5,62 +5,23 @@ section {
   margin: 0 20px;
   font-size: 1.90em;
   line-height: 1.5em;
-  @media (min-width : 375px) 
-  and (max-width : 812px) {
+  @media (min-width: 375px) and (max-width: 812px) {
     font-size: 1.6em;
     margin: 0 5px;
   }
 
-
   .image {
     width: 100%;
+
     img {
       width: 90%;
       margin: 1em auto;
-      @media (min-device-width : 375px) 
-      and (max-device-width : 812px) {
+      @media (min-device-width: 375px) and (max-device-width: 812px) {
         width: 96%
       }
     }
   }
 
-  h3 {
-    font-family: $font-signika;
-    font-size: 2.3em;
-    font-weight: 600;
-    line-height: 1em;
-    margin: 1.5em 0 0.8em 0;
-    padding: 0;
-    color: $color-main-text;
-    text-shadow: 3px 3px 0px rgba($color-main-bg,1);
-  }
-  @media (min-device-width : 375px) 
-  and (max-device-width : 812px) {
-    h3 {
-      font-size: 2em;
-      line-height: 0.9em;
-    }
-  }
-}
-.light-mode {
-  section{
-    h3 {
-      color: $color-main-text-light-theme;
-      text-shadow: 3px 3px 0px rgba($color-main-bg-light-theme,1);
-    }
-  } 
-}
-
-.underline {
-  background-image: linear-gradient(120deg, $cerulean 0%, $purple 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.18em;
-  background-position: 0 75%;
-  transition: background-size 200ms ease-in;
-}
-
-section:hover .underline {
-  background-size: 100% 0.25em;
 }
 
 section a {

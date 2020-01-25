@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollToId from "../ScrollToId";
 import Header from "../Header";
+import SectionHeader from "../elements/SectionHeader";
 // IMAGES
 import whitefox from "../../assets/img/mechkeys/whitefox.jpg";
 import layoutImg from "../../assets/img/mechkeys/layout.jpg";
@@ -37,9 +38,9 @@ export default class Mechkeys extends React.Component {
 
         <div className="article">
           <section className="fadeIn">
-            <h3><span className="underline">
+            <SectionHeader>
               TL;DR
-            </span></h3>
+            </SectionHeader>
             <ol>
               <li>
                 <ScrollToId id="background" alt="go to the background section of article">Backstory</ScrollToId> - Found many interesting mechanical keyboards on Reddit and Massdrop; decided to build my own.
@@ -69,9 +70,9 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="background">
-            <h3><span className="underline">
+            <SectionHeader>
               Backstory
-            </span></h3>
+            </SectionHeader>
             <p>
               This project began when I discovered the wonderful world of mechanical keyboards.
             </p>
@@ -93,9 +94,9 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="design">
-            <h3><span className="underline">
+            <SectionHeader>
               Design
-            </span></h3>
+            </SectionHeader>
             <p>
               The first thing I did was order a cheap key switch tester from <a href="http://banggood.com/">Banggood</a> (Banggood is a Chinese online retailer similar in style to Alibaba). The one I got had Cherry MX Blue, Brown, Red, and Black switches. I already thought I would go with Blue switches as I like that clicky feel, but I wanted to compare the blues to a few others just to see. Out of those 4, Blue were by far the best for me.
             </p>
@@ -126,9 +127,9 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="construction">
-            <h3><span className="underline">
+            <SectionHeader>
               Construction
-            </span></h3>
+            </SectionHeader>
             <p>
               First thing to do was to lay out the PCB’s. This <a href="https://learn.sparkfun.com/tutorials/cherry-mx-switch-breakout-hookup-guide?_ga=1.225458201.2098460655.1477285277">guide from Sparkfun</a> was very helpful. I started by simply gluing them together in the desired layout before doing any soldering. This was so that the whole board will remain flat while aligning the boards. I also used a metal ruler to keep the rows straight. If you are using these same boards, do not rely on them being square, they are not. The first row I put together on the table but without the ruler and it came out as a big frown shape (or smiley shape, but I wasn't very happy about it). So make sure to use a straight edge and take your time. The difficult part was setting up the modifier keys. Since these boards only come in one size, any key that has a larger footprint needs to be spaced out from the rest. There aren't really any guides on the boards for you to do this accurately so I recommend just doing the math and taking accurate measurements. Any error that happens here will directly affect the key position and the final look and fit of the keys.
             </p>
@@ -165,9 +166,9 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="programming">
-            <h3><span className="underline">
+            <SectionHeader>
               Programming
-            </span></h3>
+            </SectionHeader>
             <p>
               Now comes the software part. If you are comfortable compiling and flashing firmware you should follow the advice at the bottom of <a href="http://gizmodo.com/i-built-a-keyboard-from-scratch-1649325860">Dave Cooper’s post</a> but I really wanted to try to do this myself from scratch using the Arduino IDE. I made a bit of progress on my own scanner (the part that scans all the keys to check their state, hopefully many many times per second) but eventually I settled on using some libraries. As usual they made things a lot simpler, and the Teensy 3.2 is so fast for this project that speed is not really an issue. I would still like to try to finish my own scanner eventually, but for now I used the USB Keyboard setting from Tools > USB Type within the Arduino IDE with the Teensyduino software installed. This, I believe, auto imports the common Keyboard.h library as well as the HID library as it allows you to use these keyboard functions and definitions without including those libraries in your code (similar to how the Arduino IDE auto imports the Arduino library giving you functions like digitalRead() and such). As well it alters the firmware on the Teensy upon upload so it appears to the computer as a HID device.
             </p>
@@ -180,18 +181,18 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="code">
-            <h3><span className="underline">
+            <SectionHeader>
               Code
-            </span></h3>
+            </SectionHeader>
             <p>
               The code is <a href="https://github.com/tyrelh/mechanicalkeyboard/tree/master/keypad_scanner">available on GitHub</a> and it requires you have <a href="https://www.pjrc.com/teensy/td_download.html">Teensyduino</a> installed as well as the <a href="http://playground.arduino.cc/Code/Keypad">Keypad library</a>. Simply figure out your matrix layout, change the number of rows and columns, the pins used by the rows and columns, as well as the key map.
             </p>
           </section>
 
           <section className="fadeIn" id="future">
-            <h3><span className="underline">
+            <SectionHeader>
               Future of the Project
-            </span></h3>
+            </SectionHeader>
             <p>
               After using it for a while I wasn’t satisfied with the performance of the space bar using 2 switches and no stabilizers. It teters and presses one switch or the other depending on which thumb you use, but occasionally I would hit both switches giving me a double-space. The space bar is 6.25u long, so using the keycaps I already had, I used both the regular shift keys, one being 2.75u and the other 2.25u, as well as one of the unused bottom row modifier keys at 1.25u. I took the two switches out from the space and replaced them with 3 switches correctly spaced out for the key sizes. The split space bar works great now! The two larger keys making up the slit space and the other 1.25u key giving me another function key.
             </p>
@@ -212,9 +213,9 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="resources">
-            <h3><span className="underline">
+            <SectionHeader>
               Resources
-            </span></h3>
+            </SectionHeader>
             <ul>
               <li>
                 <a href="https://www.pjrc.com/teensy/td_keyboard.html">Teensyduino USB Keyboard Guide</a>
@@ -241,9 +242,9 @@ export default class Mechkeys extends React.Component {
           </section>
 
           <section className="fadeIn" id="update1">
-            <h3><span className="underline">
+            <SectionHeader>
               Update 1 // Acrylic Case & RGB LEDs
-            </span></h3>
+            </SectionHeader>
             <p>
               From eBay seller <a href="http://www.ebay.ca/usr/sennin32?_trksid=p2057872.m2749.l2754">sennin32</a> I purchased a <a href="http://www.ebay.ca/itm/272482123610?_trksid=p2060353.m1438.l2649&ssPageName=STRK%3AMEBIDX%3AIT">generic 60% frosted acrylic case</a> made for the Pok3r and other equivalent keyboards. I repositioned the Teensy controller so it aligned with the USB port hole on the case. I had to Dremel one of the standoffs off of the case for the controller to fit. I need to figure out a way to properly affix the board to the case as none of the mounting holes line up. I also took this opportunity to add some RGB LEDs to the bottom that I had around the house. The LEDs are strips of 16 from Adafruit (I have some strange rounded ones but I would recommend something like this, or a cheap equivalent from China). The LEDs are designed to run off 5v logic but i thought i would give them a try with the Teensy’s 3.3v and they seem to work fine. I haven’t tried and animations just solid colours. The acrylic case diffuses the light very well.
             </p>

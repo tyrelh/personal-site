@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollToId from "../ScrollToId";
 import Header from "../Header";
+import SectionHeader from "../elements/SectionHeader";
 import battlesnake2018logo from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
 import event1Img from "../../assets/img/battlesnake2018/event1-2018.jpg"
 
@@ -29,9 +30,9 @@ export default class Battlesnake2018 extends React.Component {
             <div className="image">
               <img src={battlesnake2018logo} alt="battlesnake logo from 2018" />
             </div>
-            <h3><span className="underline">
+            <SectionHeader>
               TL;DR
-            </span></h3>
+            </SectionHeader>
             <ol>
               <li>
                 <ScrollToId id="background" alt="go to baground section of article">Background</ScrollToId> - Battlesnake is a programming competition where students and industry professionals develop an AI to play a multiplayer version of the classic game Snake.
@@ -67,9 +68,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="background">
-            <h3><span className="underline">
+            <SectionHeader>
               Background
-            </span></h3>
+            </SectionHeader>
             <p>
               <a href="https://www.battlesnake.io" alt="Battlesnake official website">Battlesnake</a> is a programming competition where competitors develop an AI to play a multiplayer version of the classic game <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)" alt="classic game of Snake">Snake</a>. Competitors can be individuals or groups; they are mainly students and industry professionals.
             </p>
@@ -94,9 +95,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="firstYear">
-            <h3><span className="underline">
+            <SectionHeader>
               First Year Competing
-            </span></h3>
+            </SectionHeader>
             <p>
               Going into this I wasn’t sure what to expect. I just just really getting into the idea of software development in my second year of a Computer Science degree and was eager to try out some of my new skills.
             </p>
@@ -106,9 +107,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="gettingStarted">
-            <h3><span className="underline">
-              Getting Started
-            </span></h3>
+            <SectionHeader>
+              Getting Stearted
+            </SectionHeader>
             <p>
               I decided to write my first entry in Python. I had been into Java for a while with school and was excited to learn Python; and what a better opportunity. I began with one of the provided <a href="https://github.com/battlesnakeio/starter-snake-node" alt="java script starter snake github">“starter snakes”</a> which are basic repositories with a simple server setup with the required endpoints, but no logic within those endpoints. Generally the starter snakes just move up upon a <code>move</code> request.
             </p>
@@ -124,9 +125,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="learningAStar">
-            <h3><span className="underline">
+            <SectionHeader>
               Learning the A* Algorithm
-            </span></h3>
+            </SectionHeader>
             <p>
               In order to choose a move that will get you closer to a particular destination, you will need to implement some form of pathfinding. When looking into pathfinding algorithms, <a href="https://en.wikipedia.org/wiki/A*_search_algorithm" alt="a star algorithm on wikipedia">A*</a> almost always comes up at the top of the list. I would struggle to explain A*, but the resource I used to initially learn and implement the algorithm was a video from <a href="https://shiffment.net" alt="Daniel Shiffman's personal website">Daniel Shiffman</a> titled <a href="https://www.youtube.com/watch?v=aKYlikFAV4k" alt="a star pathfinding youtube tutorial">A* Pathfinding Algorithm</a>. He guides you through the algorithm and you can follow along and implement it in JavaScript with the <a href="https://p5js.org/" alt="official P5JS website">p5.js</a> library. You can find my original implementation on <a href="https://github.com/tyrelh/a-star-p5.js" alt="a star algorithm implementation on git hub">github</a>. Also if you are building your snake with JavaScript and NodeJS, you can just reuse this code! For my first snake I translated this code into Python.
             </p>
@@ -145,9 +146,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="floodFill">
-            <h3><span className="underline">
+            <SectionHeader>
               Building a Flood Fill Algorithm
-            </span></h3>
+            </SectionHeader>
             <p>
               EThe behaviour I thought of to combat this tendency was an algorithm to measure how large a space was. If the space is too small to fit, or if another direction would lead to a large open area, the snake would take that into account when choosing the next move.
             </p>
@@ -163,9 +164,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="behaviourSwitching">
-            <h3><span className="underline">
+            <SectionHeader>
               Basic Behaviour Switching
-            </span></h3>
+            </SectionHeader>
             <p>
               My snake at this point has two different behaviors available to it. The first is to follow its own tail and the second is to seek out food. So long as you wrote your search algorithms in a way that you can pass any destination to them, it is pretty trivial to switch between these behaviours.
             </p>
@@ -176,13 +177,13 @@ export default class Battlesnake2018 extends React.Component {
               So long as your algorithms are robust, and your snake doesn't make very many mistakes, this technique can still get you pretty far, perhaps even into the expert bracket. But because this behaviour became so popular, I decided I would actually see if I could build my snake to counter it.
             </p>
           </section>
-          
+
           <section className="fadeIn" id="aggressiveBehaviour">
-            <h3><span className="underline">
-              Aggressic Behaviour
-            </span></h3>
+            <SectionHeader>
+              Aggressive Behaviour
+            </SectionHeader>
             <p>
-              Now that my snake had some basic survival skills, I wanted to try to do something a little different. I got the idea of trying to make my snake actively aggressive towards its opponents. 
+              Now that my snake had some basic survival skills, I wanted to try to do something a little different. I got the idea of trying to make my snake actively aggressive towards its opponents.
             </p>
             <p>
               When two snakes move in to the same space it is a head-on collision, and the rules state that if one snake is larger than the other the smaller snake will die. When a snake dies in the game all of its body segments are immediately removed from the board.
@@ -237,9 +238,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="event">
-            <h3><span className="underline">
+            <SectionHeader>
               The Event
-            </span></h3>
+            </SectionHeader>
             <p>
               In the morning people can converse and mingle, and newcomers can get help on getting their snakes setup and working. It’s great to hang out with your friends and work through some of your last bugs. Then lunch is provided by a bunch of great food trucks from around town. <a href="http://www.deadbeetz.com/" alt="dead beats food truck website">Dead Beetz</a> is definitely my favorite go-to burger!
             </p>
@@ -269,9 +270,9 @@ export default class Battlesnake2018 extends React.Component {
           </section>
 
           <section className="fadeIn" id="conclusion">
-            <h3><span className="underline">
+            <SectionHeader>
               Conclusion
-            </span></h3>
+            </SectionHeader>
             <p>
               I think this is such a great event to participate in. The challenge itself of creating an AI to play this game a great way to practice and build your coding skills. Everyone has the same 250ms to respond to each move request, but what you do in that time is all up to you. It is accessible to beginner programmers, but still an interesting challenge for a seasoned professional. I had a great time connecting with other students and industry professionals. I see myself participating every year that I can!
             </p>
