@@ -31,6 +31,7 @@ section {
     line-height: 1em;
     margin: 1.5em 0 0.8em 0;
     padding: 0;
+    color: $color-main-text;
     text-shadow: 3px 3px 0px rgba($color-main-bg,1);
   }
   @media (min-device-width : 375px) 
@@ -44,6 +45,7 @@ section {
 .light-mode {
   section{
     h3 {
+      color: $color-main-text-light-theme;
       text-shadow: 3px 3px 0px rgba($color-main-bg-light-theme,1);
     }
   } 
