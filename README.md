@@ -19,4 +19,3 @@ npm run deploy
 
 ## Todo
 * Font spacing paculiarities on iOS
-* Project title glitch on homepage on iOS
