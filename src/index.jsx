@@ -10,7 +10,7 @@ const breakpoints = {
   mobile: 320,
   desktop: 1200,
   desktopWide: 1920,
-}
+};
 
 // window.addEventListener("scroll", checkHeader);
 

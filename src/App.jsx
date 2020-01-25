@@ -21,7 +21,7 @@ export default class App extends React.Component {
       lightMode: !this.state.lightMode
     });
     document.body.classList.toggle("light-mode");
-  }
+  };
 
   render() {
     return (

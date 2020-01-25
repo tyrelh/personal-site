@@ -10,7 +10,7 @@ class ScrollToId extends React.Component {
     offset: -20,
     align: "top",
     ease: "in-out-expo",
-    duration: 700
+    duration: 1
   });
 
   render () {
