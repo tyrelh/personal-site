@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import Home from "./components/Home";
 import Battlesnake2018 from "./components/articles/Battlesnake2018";
 import Mechkeys from "./components/articles/Mechkeys";
+import GrailsAssetMigration from "./components/articles/GrailsAssetMigration";
 import "./app.scss";
 
 
@@ -34,6 +35,9 @@ export default class App extends React.Component {
         } />
         <Route path="/mechanicalkeyboard" render={(props) =>
           <Mechkeys {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
+        } />
+        <Route path="/grailsAssetMigration" render={(props) =>
+          <GrailsAssetMigration {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
         } />
         <Footer />
       </div>

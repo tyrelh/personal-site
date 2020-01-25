@@ -17,6 +17,15 @@ const projects = [
   //   link: "/battlesnake2018"
   // },
   {
+    title: "Migrating Frontend Assets During Grails 2 -> 3 Upgrade",
+    description: [
+      <p>Some description</p>
+    ],
+    img: mechkey1,
+    alt: "Grails 3 logo",
+    link: "/grailsAssetMigration"
+  },
+  {
     title: "Building a Mechanical Keyboard from Scratch",
     description: [
       <p>After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.</p>
