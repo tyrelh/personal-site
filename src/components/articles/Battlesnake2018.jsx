@@ -66,8 +66,8 @@ export default class Battlesnake2018 extends React.Component {
             </ol>
           </section>
 
-          <section className="fadeIn" id="background">
-            <SectionHeader>
+          <section className="fadeIn" >
+            <SectionHeader id="background">
               Background
             </SectionHeader>
             <p>
@@ -91,8 +91,8 @@ export default class Battlesnake2018 extends React.Component {
             <SectionImage imgSrc={event1Img} imgAlt="People programming as a group during battlesnake event" />
           </section>
 
-          <section className="fadeIn" id="firstYear">
-            <SectionHeader>
+          <section className="fadeIn" >
+            <SectionHeader id="firstYear">
               First Year Competing
             </SectionHeader>
             <p>
@@ -103,8 +103,8 @@ export default class Battlesnake2018 extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="gettingStarted">
-            <SectionHeader>
+          <section className="fadeIn" >
+            <SectionHeader id="gettingStarted">
               Getting Stearted
             </SectionHeader>
             <p>
@@ -121,8 +121,8 @@ export default class Battlesnake2018 extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="learningAStar">
-            <SectionHeader>
+          <section className="fadeIn" >
+            <SectionHeader id="learningAStar">
               Learning the A* Algorithm
             </SectionHeader>
             <p>
@@ -142,8 +142,8 @@ export default class Battlesnake2018 extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="floodFill">
-            <SectionHeader>
+          <section className="fadeIn" >
+            <SectionHeader id="floodFill">
               Building a Flood Fill Algorithm
             </SectionHeader>
             <p>
@@ -160,8 +160,8 @@ export default class Battlesnake2018 extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="behaviourSwitching">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="behaviourSwitching">
               Basic Behaviour Switching
             </SectionHeader>
             <p>
@@ -175,8 +175,8 @@ export default class Battlesnake2018 extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="aggressiveBehaviour">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="aggressiveBehaviour">
               Aggressive Behaviour
             </SectionHeader>
             <p>
@@ -234,8 +234,8 @@ export default class Battlesnake2018 extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="event">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="event">
               The Event
             </SectionHeader>
             <p>
@@ -266,8 +266,8 @@ export default class Battlesnake2018 extends React.Component {
             </div>
           </section>
 
-          <section className="fadeIn" id="conclusion">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="conclusion">
               Conclusion
             </SectionHeader>
             <p>

@@ -71,8 +71,8 @@ export default class Mechkeys extends React.Component {
             </ol>
           </section>
 
-          <section className="fadeIn" id="background">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="background">
               Backstory
             </SectionHeader>
             <p>
@@ -93,8 +93,8 @@ export default class Mechkeys extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="design">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="design">
               Design
             </SectionHeader>
             <p>
@@ -120,8 +120,8 @@ export default class Mechkeys extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="construction">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="construction">
               Construction
             </SectionHeader>
             <p>
@@ -147,8 +147,8 @@ export default class Mechkeys extends React.Component {
             <SectionImage imgSrc={programmingImg2} imgAlt="Bottom view of initial connection of keyboard to micro controller" />
           </section>
 
-          <section className="fadeIn" id="programming">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="programming">
               Programming
             </SectionHeader>
             <p>
@@ -160,8 +160,8 @@ export default class Mechkeys extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="code">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="code">
               Code
             </SectionHeader>
             <p>
@@ -169,8 +169,8 @@ export default class Mechkeys extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="future">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="future">
               Future of the Project
             </SectionHeader>
             <p>
@@ -192,8 +192,8 @@ export default class Mechkeys extends React.Component {
             </p>
           </section>
 
-          <section className="fadeIn" id="resources">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="resources">
               Resources
             </SectionHeader>
             <ul>
@@ -221,8 +221,8 @@ export default class Mechkeys extends React.Component {
             </ul>
           </section>
 
-          <section className="fadeIn" id="update1">
-            <SectionHeader>
+          <section className="fadeIn">
+            <SectionHeader id="update1">
               Update 1 // Acrylic Case & RGB LEDs
             </SectionHeader>
             <p>
