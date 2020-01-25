@@ -39,7 +39,7 @@ export default class Home extends React.Component {
         <section className="fadeIn">
           <h3>
             <span className="underline">
-              Projects
+              Articles
             </span>
           </h3>
           <ProjectsOverview />
