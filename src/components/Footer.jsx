@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <p>
-          Made with <Icon type="heart" theme="filled" /> by Tyrel Hiebert
+          Made with <Icon type="thunderbolt" theme="filled" /> by Tyrel Hiebert
         </p>
       </footer>
     )
