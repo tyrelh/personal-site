@@ -24,19 +24,24 @@ body {
 }
 
 .app {
+  max-width: 1100px;
+  margin: 0 auto 0 0;
   padding: 2%;
   display: flex;
   flex-direction: column;
 }
 @media (max-width: 1000px) {
-  .app { padding: 0; }
+  .app {
+    padding: 0;
+  }
 }
-.light-mode .app {
-  background-color: $color-main-bg-light-theme;
-  color: $color-main-text-light-theme;
-  //text-shadow: none;
-  // font-family: $font-slabo;
-}
+
+//.light-mode .app {
+//  background-color: $color-main-bg-light-theme;
+//  color: $color-main-text-light-theme;
+//  //text-shadow: none;
+//  // font-family: $font-slabo;
+//}
 
 p {
   white-space: pre-wrap;
