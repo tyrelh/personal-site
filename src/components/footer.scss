@@ -1,73 +1,21 @@
-//@import "../colors.scss";
+@import "../colors.scss";
 
-//footer {
-//  right: 0;
-//  bottom: 0;
-//  left: 0;
-//  width: 100%;
-//  text-align: center;
-//  margin: 0 0 1em 0;
-//  .footerIcon {
-//      margin: 0 0.3em;
-//      opacity: 0.2;
-//  }
-//  p {
-//      font-size: 2em;
-//      padding-top: 0;
-//      margin: 0 0 0 0;
-//  }
-//  a {
-//      text-decoration: none;
-//      text-shadow: 1px 1px 4px rgba(0, 0, 1, 0.2);
-//      cursor: pointer;
-//      /* transition: all 1s ease-in-out 0s;
-//      -moz-transition: all 1s ease-in-out 0s;
-//      -webkit-transition: all 1s ease-in-out 0s;
-//      -o-transition: all 1s ease-in-out 0s; */
-//  }
-//  a,
-//  a:visited {
-//      background: -webkit-linear-gradient(left, $blue, $amethyst);
-//      background-clip: text;
-//      -webkit-background-clip: text;
-//      -webkit-text-fill-color: transparent;
-//  }
-//  a:hover {
-//      background: -webkit-linear-gradient(left, $pink, $purple);
-//      background-clip: text;
-//      -webkit-background-clip: text;
-//      -webkit-text-fill-color: transparent;
-//  }
-//  }
-//  .light-mode footer {
-//  a,
-//  a:visited {
-//      color: $color-link-light-theme;
-//      background: none;
-//      background-clip: text;
-//      -webkit-background-clip: text;
-//      -webkit-text-fill-color: $color-link-light-theme;
-//      text-shadow: none;
-//  }
-//  a:hover {
-//      color: $color-link-hover-light-theme;
-//      -webkit-text-fill-color: $color-link-hover-light-theme;
-//  }
-//}
+footer {
+  width: 100%;
+  margin: 40px 20px 20px 20px;
 
-//.ant-back-top {
-//  bottom: 16px;
-//  right: 21px;
-//}
-//
-//.back-top-button {
-//  height: 40px;
-//  width: 40px;
-//  line-height: 40px;
-//  border-radius: 20px;
-//  //background-color: #1088e9;
-//  background-image: linear-gradient(120deg, $cerulean 0%, $purple 100%);
-//  color: #fff;
-//  text-align: center;
-//  font-size: 26px;
-//}
+  p {
+    margin: 0 auto;
+    align-content: center;
+    font-size: 1em;
+    padding-top: 0;
+
+    i {
+      svg {
+        path {
+          fill: $siracha;
+        }
+      }
+    }
+  }
+}
