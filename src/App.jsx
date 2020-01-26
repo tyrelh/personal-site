@@ -1,6 +1,5 @@
 import React from "react";
-import {Route} from "react-router-dom";
-
+import { Route } from "react-router-dom";
 import Footer from "./components/Footer"
 import Home from "./components/Home";
 import Battlesnake2018 from "./components/articles/Battlesnake2018";

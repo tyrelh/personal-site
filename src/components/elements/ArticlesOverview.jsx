@@ -13,7 +13,8 @@ const getArticles = () => {
   //   description: "Some description",
   //   image: battlesnake2018,
   //   alt: "Grails 3 logo",
-  //   href: "/grailsAssetMigration"
+  //   href: "/grailsAssetMigration",
+  //   date: null
   // });
 
   list.push({
@@ -21,7 +22,8 @@ const getArticles = () => {
     description: "Battlesnake is a programming competition where participants create an AI server that acts as the brain of a snake in the classic game Snake. Participants compete in a round-robin tournament played out live in front of an audience of roughly 1000 people. The winner takes home up to $4,000.",
     image: battlesnake2018,
     alt: "Battlesnake 2018 logo",
-    href: "/battlesnake2018"
+    href: "/battlesnake2018",
+    date: "June 11th, 2018"
   });
 
   list.push({
@@ -29,7 +31,8 @@ const getArticles = () => {
     description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
     image: mechkey1,
     alt: "Mechanical keyboard on desk",
-    href: "/mechanicalkeyboard"
+    href: "/mechanicalkeyboard",
+    date: "April 20th, 2017"
   });
 
   return list;
@@ -74,21 +77,27 @@ export default class ArticlesOverview extends React.Component {
           <List.Item
             onClick={() => this.handleOnClick(item.href)}
             key={item.title}
-            // actions={[
-            //   <IconText type="star-o" text="156" key="list-vertical-star-o" />,
-            //   <IconText type="like-o" text="156" key="list-vertical-like-o" />,
-            //   <IconText type="message" text="2" key="list-vertical-message" />,
-            // ]}
             extra={
-              <img width={300} alt={item.alt} src={item.image}/>
+              <img
+                className="article-overview-image"
+                width={360}
+                alt={item.alt}
+                src={item.image}
+              />
             }
           >
-            <List.Item.Meta
-              title={<a href={item.href}>{item.title}</a>}
-              description={item.description}
-            />
-          {/* MAYBE MOVE DESCRIPTION HERE AND USE description FOR THE DATE OF ARTICLE */}
-          {/*  {item.description}  */}
+            <h3 className="article-overview-title">
+              {item.title}
+            </h3>
+            {
+              item.date &&
+                <h4 className="article-overview-date">
+                  {item.date}
+                </h4>
+            }
+            <p className="article-overview-description">
+              {item.description}
+            </p>
           </List.Item>
         )}
       />

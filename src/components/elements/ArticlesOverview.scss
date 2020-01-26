@@ -3,10 +3,10 @@
 // ##########################################################################
 // ANT LIST #################################################################
 div.ant-list-item {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 2%;
   background-color: $color-main-bg;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   box-shadow:
           -5px -5px 10px rgba(255, 255, 255, 0.03),
           5px 5px 5px rgba(0, 0, 0, 0.15);
@@ -22,10 +22,7 @@ div.ant-list-item:hover {
 
 .light-mode {
   div.ant-list-item {
-    border-radius: 10px;
-    padding: 2%;
     background-color: $color-main-bg-light-theme;
-    margin-bottom: 20px;
     box-shadow:
             -5px -5px 10px rgba(255, 255, 255, 1),
             5px 5px 5px rgba(0, 0, 0, 0.05);
@@ -40,26 +37,43 @@ div.ant-list-item:hover {
   }
 }
 
-div.ant-list-item-main > div.ant-list-item-meta > div {
-  h4 {
-    font-size: 30px;
-    padding: 0 0 0.5em 0;
-    margin-top: 0;
-    font-weight: 800;
+.article-overview-title {
+  font-size: 30px;
+  color: $color-main-text;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  font-weight: 800;
+  line-height: 1em;
+  @media (min-width: 375px) and (max-width: 812px) {
+    letter-spacing: -0.08em;
   }
-
-  .ant-list-item-meta-description {
-    color: $color-main-text;
-    font-size: 19px;
-    line-height: 1.3em;
-  }
-
 }
+
+.article-overview-date {
+  color: darken($color-main-text, 30%);
+}
+
+.article-overview-description {
+  margin-top: 20px;
+  color: darken($color-main-text, 10%);
+  font-size: 19px;
+  line-height: 1.3em;
+}
+
 .light-mode {
-  div.ant-list-item-main > div.ant-list-item-meta > div {
-    .ant-list-item-meta-description {
-      color: $color-main-text-light-theme;
-    }
+  .article-overview-description {
+    color: lighten($color-main-text-light-theme, 15%);
+  }
+}
+
+.article-overview-image {
+  border-radius: 15px;
+  box-shadow: 2px 2px 0 0 rgba($amethyst, 0.9);
+}
+
+.light-mode {
+  .article-overview-image {
+    box-shadow: 2px 2px 0 0 rgba(darken($amethyst, 10%), 0.7);
   }
 }
 
