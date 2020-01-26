@@ -31,9 +31,13 @@
   height: 60px;
   font-size: 40px;
   line-height: 66px;
-  border-radius: 25px;
+  border-radius: 30px;
   background-color: rgba($color-main-bg, 0.9);
   text-align: center;
+
+  @media (min-width: 375px) and (max-width: 812px) {
+    line-height: 64px;
+  }
 }
 
 .light-mode {

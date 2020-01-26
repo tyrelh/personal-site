@@ -8,11 +8,14 @@
   top: 16px;
   right: 21px;
   position: fixed;
-
   z-index: 3;
   border-radius: 30px;
   background-color: rgba($color-main-bg, 0.9);
   text-align: center;
+
+  @media (min-width: 375px) and (max-width: 812px) {
+    line-height: 64px;
+  }
 
   .toggle-icon {
     width: 1em;
