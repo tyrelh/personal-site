@@ -15,3 +15,5 @@ $color-main-text: #dbdbdb;
 $color-main-text-light-theme: #111;
 $color-link-light-theme: $avocado;
 $color-link-hover-light-theme: darken($avocado, 8%);
+$color-main-text-disabled: darken($color-main-text, 65%);
+$color-main-text-disabled-light-theme: lighten($color-main-text-light-theme, 75%);

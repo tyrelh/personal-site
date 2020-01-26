@@ -55,7 +55,7 @@ const renderCardsLarge = (breakpoints, currentBreakpoint) => {
       </Row>
     )
   })
-}
+};
 
 class ProjectsOverview extends React.Component {
   render () {

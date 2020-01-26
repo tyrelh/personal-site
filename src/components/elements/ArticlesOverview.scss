@@ -1,0 +1,147 @@
+@import "../../colors.scss";
+
+// ##########################################################################
+// ANT LIST #################################################################
+
+div.ant-list-item-main > div.ant-list-item-meta > div {
+  h4 {
+    font-size: 30px;
+    padding: 0 0 0.5em 0;
+    margin-top: 0;
+    font-weight: 800;
+  }
+
+  .ant-list-item-meta-description {
+    color: $color-main-text;
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+
+}
+.light-mode {
+  div.ant-list-item-main > div.ant-list-item-meta > div {
+    .ant-list-item-meta-description {
+      color: $color-main-text-light-theme;
+    }
+  }
+}
+
+div.ant-list.ant-list-vertical.ant-list-lg.ant-list-something-after-last-item > div.ant-spin-nested-loading > div > div {
+  border: none;
+}
+
+
+
+// #########################################################################
+// ANT PAGINATION BUTTONS ##################################################
+
+div.ant-list-pagination > ul > li > a {
+  border-color: $color-main-text;
+  background-color: $color-main-bg;
+  i {
+    color: $color-main-text;
+  }
+}
+
+.ant-pagination-item {
+  background-color: $color-main-bg;
+  a {
+    color: $color-main-text;
+    -webkit-text-fill-color: $color-main-text;
+  }
+}
+
+div.ant-list-pagination > ul > li > a {
+  background-color: $color-main-bg;
+  i {
+    color: $color-main-text;
+    -webkit-text-fill-color: $color-main-text;
+  }
+}
+
+div.ant-list-pagination > ul > li.ant-pagination-disabled > a {
+  border-color: $color-main-text-disabled;
+  i {
+    color: $color-main-text-disabled;
+  }
+}
+
+div.ant-list-pagination > ul > li.ant-pagination-disabled:hover {
+  a {
+    border-color: $color-main-text-disabled;
+    color: $color-main-text-disabled;
+    i {
+      color: $color-main-text-disabled;
+    }
+  }
+
+}
+
+
+.light-mode {
+  div.ant-list-pagination > ul > li > a {
+    border-color: $color-main-text-light-theme;
+    background-color: $color-main-bg-light-theme;
+    i {
+      color: $color-main-text-light-theme;
+    }
+  }
+
+  .ant-pagination-item {
+    background-color: $color-main-bg-light-theme;
+    border-color: $color-main-text-light-theme;
+    a {
+      color: $color-main-text-light-theme;
+      -webkit-text-fill-color: $color-main-text-light-theme;
+    }
+  }
+
+  .ant-pagination-item:hover {
+    border-color: $cerulean;
+    a {
+      color: $cerulean;
+      -webkit-text-fill-color: $cerulean;
+    }
+  }
+
+  div.ant-list-pagination > ul > li > a {
+    background-color: $color-main-bg-light-theme;
+    i {
+      color: $color-main-text-light-theme;
+      -webkit-text-fill-color: $color-main-text-light-theme;
+    }
+  }
+
+  div.ant-list-pagination > ul > li.ant-pagination-disabled > a {
+    border-color: $color-main-text-disabled-light-theme;
+    i {
+      color: $color-main-text-disabled-light-theme;
+    }
+  }
+
+  div.ant-list-pagination > ul > li.ant-pagination-disabled:hover > a {
+    border-color: $color-main-text-disabled-light-theme;
+  }
+
+  .ant-pagination-item-active {
+    border-color: $cerulean;
+    a, a:hover {
+      color: $cerulean;
+      -webkit-text-fill-color: $cerulean;
+    }
+  }
+}
+
+.ant-pagination-item-active {
+  a, a:hover {
+    color: $cerulean;
+    -webkit-text-fill-color: $cerulean;
+  }
+}
+
+div.ant-list-pagination > ul > li:hover > a {
+  i {
+    color: $cerulean;
+    -webkit-text-fill-color: $cerulean;
+  }
+}

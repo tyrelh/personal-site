@@ -2,6 +2,8 @@ import React from "react";
 import ProjectsOverview from "./ProjectsOverview";
 import Header from "./Header";
 import "./section.scss"
+import SectionHeader from "./elements/SectionHeader";
+import ArticlesOverview from "./elements/ArticlesOverview";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -35,20 +37,17 @@ export default class Home extends React.Component {
         </section>
 
         <section className="fadeIn">
-          <h3>
-            <span className="underline">
-              Articles
-            </span>
-          </h3>
-          <ProjectsOverview />
+          <SectionHeader>
+            Articles
+          </SectionHeader>
+          <ArticlesOverview/>
+          {/*<ProjectsOverview/>*/}
         </section>
 
         <section className="fadeIn">
-          <h3>
-            <span className="underline">
-              Get in touch
-            </span>
-          </h3>
+          <SectionHeader>
+            Get in touch
+          </SectionHeader>
           <p>
             Feel free to contact me via <a href="mailto:tyrel.hiebert@gmail.com" alt="email">email</a>. If you are interested, you can view my <a href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf" alt="CV">CV</a> for more details about my background and experience.
           </p>

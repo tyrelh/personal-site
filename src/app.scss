@@ -19,8 +19,17 @@ body {
   color: $color-main-text;
   font-family: $font-ptsans;
 }
-.light-mode body {
+body .light-mode {
   background-color: $color-main-bg-light-theme;
+}
+
+#app {
+  background-color: $color-main-bg;
+}
+.light-mode {
+  #app {
+    background-color: $color-main-bg-light-theme;
+  }
 }
 
 .app {
@@ -29,19 +38,19 @@ body {
   padding: 2%;
   display: flex;
   flex-direction: column;
+  background-color: $color-main-bg;
 }
 @media (max-width: 1000px) {
   .app {
     padding: 0;
   }
 }
-
-//.light-mode .app {
-//  background-color: $color-main-bg-light-theme;
-//  color: $color-main-text-light-theme;
-//  //text-shadow: none;
-//  // font-family: $font-slabo;
-//}
+.light-mode {
+  .app {
+    background-color: $color-main-bg-light-theme;
+    color: $color-main-text-light-theme;
+  }
+}
 
 p {
   white-space: pre-wrap;
