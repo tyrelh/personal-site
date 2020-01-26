@@ -8,13 +8,13 @@ import {Redirect} from "react-router-dom";
 const getArticles = () => {
   const list = [];
 
-  list.push({
-    title: "Building a Mechanical Keyboard from Scratch",
-    description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
-    image: mechkey1,
-    alt: "Mechanical keyboard on desk",
-    href: "/mechanicalkeyboard"
-  });
+  // list.push({
+  //   title: "Migrating Frontend Assets During Grails 2 -> 3 Upgrade",
+  //   description: "Some description",
+  //   image: battlesnake2018,
+  //   alt: "Grails 3 logo",
+  //   href: "/grailsAssetMigration"
+  // });
 
   list.push({
     title: "Battlesnake Programming Competition 2018",
@@ -22,6 +22,14 @@ const getArticles = () => {
     image: battlesnake2018,
     alt: "Battlesnake 2018 logo",
     href: "/battlesnake2018"
+  });
+
+  list.push({
+    title: "Building a Mechanical Keyboard from Scratch",
+    description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
+    image: mechkey1,
+    alt: "Mechanical keyboard on desk",
+    href: "/mechanicalkeyboard"
   });
 
   return list;
@@ -59,7 +67,7 @@ export default class ArticlesOverview extends React.Component {
         pagination={{
           pageSize: 5,
           total: articleList.length,
-          hideOnSinglePage: false
+          hideOnSinglePage: true
         }}
         dataSource={articleList}
         renderItem={item => (

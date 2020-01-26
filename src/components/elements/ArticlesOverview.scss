@@ -2,6 +2,43 @@
 
 // ##########################################################################
 // ANT LIST #################################################################
+div.ant-list-item {
+  border-radius: 10px;
+  padding: 2%;
+  background-color: $color-main-bg;
+  margin-bottom: 20px;
+  box-shadow:
+          -5px -5px 10px rgba(255, 255, 255, 0.03),
+          5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+div.ant-list-item:hover {
+  box-shadow:
+          -5px -5px 10px rgba(255, 255, 255, 0.1),
+          5px 5px 5px rgba(0, 0, 0, 0.5);
+  background-color: lighten($color-main-bg, 1%);
+  cursor: pointer;
+}
+
+.light-mode {
+  div.ant-list-item {
+    border-radius: 10px;
+    padding: 2%;
+    background-color: $color-main-bg-light-theme;
+    margin-bottom: 20px;
+    box-shadow:
+            -5px -5px 10px rgba(255, 255, 255, 1),
+            5px 5px 5px rgba(0, 0, 0, 0.05);
+  }
+
+  div.ant-list-item:hover {
+    box-shadow:
+            -5px -5px 10px rgba(255, 255, 255, 1),
+            5px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: lighten($color-main-bg-light-theme, 100%);
+    cursor: pointer;
+  }
+}
 
 div.ant-list-item-main > div.ant-list-item-meta > div {
   h4 {
@@ -13,8 +50,8 @@ div.ant-list-item-main > div.ant-list-item-meta > div {
 
   .ant-list-item-meta-description {
     color: $color-main-text;
-    font-size: 20px;
-    line-height: 1.2em;
+    font-size: 19px;
+    line-height: 1.3em;
   }
 
 }

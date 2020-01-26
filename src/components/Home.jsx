@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectsOverview from "./ProjectsOverview";
 import Header from "./Header";
 import "./section.scss"
 import SectionHeader from "./elements/SectionHeader";
@@ -41,7 +40,6 @@ export default class Home extends React.Component {
             Articles
           </SectionHeader>
           <ArticlesOverview/>
-          {/*<ProjectsOverview/>*/}
         </section>
 
         <section className="fadeIn">
