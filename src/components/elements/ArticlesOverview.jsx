@@ -3,19 +3,20 @@ import "./ArticlesOverview.scss"
 import {Icon, List} from "antd";
 import mechkey1 from "../../assets/img/mechkey.jpg";
 import battlesnake2018 from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
+import grailsLogo from "../../assets/img/grailsAssetMigration/grailsLogo.svg"
 import {Redirect} from "react-router-dom";
 
 const getArticles = () => {
   const list = [];
 
-  // list.push({
-  //   title: "Migrating Frontend Assets During Grails 2 -> 3 Upgrade",
-  //   description: "Some description",
-  //   image: battlesnake2018,
-  //   alt: "Grails 3 logo",
-  //   href: "/grailsAssetMigration",
-  //   date: null
-  // });
+  list.push({
+    title: "Migrating Frontend Assets During Grails 2 → 3 Upgrade",
+    description: "Upgrading our application from Grails 2 to Grails 3 has been a long process. This is just one piece of that process.",
+    image: grailsLogo,
+    alt: "Grails 3 logo",
+    href: "/grailsAssetMigration",
+    date: "Jan 26th, 2020"
+  });
 
   list.push({
     title: "Battlesnake Programming Competition 2018",
@@ -80,7 +81,7 @@ export default class ArticlesOverview extends React.Component {
             extra={
               <img
                 className="article-overview-image"
-                width={360}
+                width={320}
                 alt={item.alt}
                 src={item.image}
               />

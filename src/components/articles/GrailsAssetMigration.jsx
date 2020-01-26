@@ -3,6 +3,8 @@ import ScrollToId from "../ScrollToId";
 import Header from "../Header";
 import SectionHeader from "../elements/SectionHeader";
 import { Code, CodeBlock } from "../elements/Code";
+import grailsLogo from "../../assets/img/grailsAssetMigration/grailsLogo.svg";
+import SectionImage from "../elements/SectionImage";
 
 export default class GrailsAssetMigration extends React.Component {
   constructor(props) {
@@ -23,6 +25,7 @@ export default class GrailsAssetMigration extends React.Component {
 
         <div className="article">
           <section className="fadeIn">
+            <SectionImage imgSrc={grailsLogo} imgAlt="Battlesnake logo from 2018" />
             <p>
               Upgrading our application from Grails 2 to Grails 3 has been a long process. This is just one piece of that
               process.
