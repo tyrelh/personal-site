@@ -34,8 +34,6 @@ export default class Mechkeys extends React.Component {
         <Header
           headerTitle={this.state.headerTitle}
           headerLink={this.state.headerLink}
-          lightMode={this.props.lightMode}
-          themeToggleOnClick={this.props.themeToggleOnClick}
         />
 
         <div className="article">

@@ -1,0 +1,42 @@
+@import "../../colors.scss";
+
+.ant-back-top {
+  bottom: 16px;
+  right: 21px;
+  position: fixed;
+  font-size: 32px;
+
+  .back-top-icon {
+    height: 1em;
+    width: 1em;
+
+    .up-arrow-icon {
+      fill: $color-main-text;
+    }
+  }
+}
+
+.light-mode {
+  .ant-back-top {
+    .back-top-icon {
+      .up-arrow-icon {
+        fill: $color-main-text-light-theme;
+      }
+    }
+  }
+}
+
+.back-top-background {
+  height: 50px;
+  width: 50px;
+  line-height: 53px;
+  border-radius: 25px;
+  background-color: rgba($color-main-bg, 0.9);
+  text-align: center;
+}
+
+.light-mode {
+  .back-top-background {
+    background-color: rgba($color-main-bg-light-theme, 0.9)
+  }
+}

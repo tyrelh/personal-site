@@ -11,3 +11,8 @@
    //background: linear-gradient(to right, rgba($taro, 0.4), rgba($aquafresh, 0.4));
    background: rgba($monday, 0.2);
  }
+
+.code-block code {
+   font-size: 0.9em;
+   padding: 1em 1em 0 1em;
+}

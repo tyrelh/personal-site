@@ -21,8 +21,6 @@ export default class Battlesnake2018 extends React.Component {
         <Header
           headerTitle={this.state.headerTitle}
           headerLink={this.state.headerLink}
-          lightMode={this.props.lightMode}
-          themeToggleOnClick={this.props.themeToggleOnClick}
         />
 
         <div className="article">

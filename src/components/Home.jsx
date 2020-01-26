@@ -19,8 +19,6 @@ export default class Home extends React.Component {
           <Header
             headerTitle={this.state.headerTitle}
             headerLink={this.state.headerLink}
-            lightMode={this.props.lightMode}
-            themeToggleOnClick={this.props.themeToggleOnClick}
             classN="homeTitle"
           />
         </span>

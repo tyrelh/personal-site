@@ -6,39 +6,22 @@ import Home from "./components/Home";
 import Battlesnake2018 from "./components/articles/Battlesnake2018";
 import Mechkeys from "./components/articles/Mechkeys";
 import GrailsAssetMigration from "./components/articles/GrailsAssetMigration";
+import ThemeToggle from "./components/elements/ThemeToggle";
+import BackToTop from "./components/elements/BackToTop";
 import "./app.scss";
 
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      lightMode: false
-    };
-  }
-
-  themeToggleOnClick = async () => {
-    await this.setState({
-      lightMode: !this.state.lightMode
-    });
-    document.body.classList.toggle("light-mode");
-  };
 
   render() {
     return (
       <div className="app">
-        <Route exact path="/" render={(props) =>
-          <Home {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
-        } />
-        <Route path="/battlesnake2018" render={(props) => 
-          <Battlesnake2018 {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
-        } />
-        <Route path="/mechanicalkeyboard" render={(props) =>
-          <Mechkeys {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
-        } />
-        <Route path="/grailsAssetMigration" render={(props) =>
-          <GrailsAssetMigration {...props} lightMode={this.state.lightMode} themeToggleOnClick={this.themeToggleOnClick} />
-        } />
+        <ThemeToggle/>
+        <BackToTop/>
+        <Route path="/" component={Home} exact />
+        <Route path="/battlesnake2018" component={Battlesnake2018}/>
+        <Route path="/mechanicalkeyboard" component={Mechkeys}/>
+        <Route path="/grailsAssetMigration" component={GrailsAssetMigration}/>
         <Footer />
       </div>
     );

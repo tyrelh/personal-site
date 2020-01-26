@@ -20,7 +20,7 @@ body {
   font-family: $font-ptsans;
 }
 .light-mode body {
-  background-color: white;
+  background-color: $color-main-bg-light-theme;
 }
 
 .app {
@@ -34,7 +34,7 @@ body {
 .light-mode .app {
   background-color: $color-main-bg-light-theme;
   color: $color-main-text-light-theme;
-  text-shadow: none;
+  //text-shadow: none;
   // font-family: $font-slabo;
 }
 
