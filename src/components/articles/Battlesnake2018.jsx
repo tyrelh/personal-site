@@ -103,7 +103,7 @@ export default class Battlesnake2018 extends React.Component {
 
           <section className="fadeIn" >
             <SectionHeader id="gettingStarted">
-              Getting Stearted
+              Getting Started
             </SectionHeader>
             <p>
               I decided to write my first entry in Python. I had been into Java for a while with school and was excited to learn Python; and what a better opportunity. I began with one of the provided <a href="https://github.com/battlesnakeio/starter-snake-node" alt="java script starter snake github">“starter snakes”</a> which are basic repositories with a simple server setup with the required endpoints, but no logic within those endpoints. Generally the starter snakes just move up upon a <code>move</code> request.
