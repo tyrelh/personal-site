@@ -16,15 +16,15 @@ const projects = [
   //   alt: "Battlesnake 2018 logo",
   //   link: "/battlesnake2018"
   // },
-  {
-    title: "Migrating Frontend Assets During Grails 2 -> 3 Upgrade",
-    description: [
-      <p>Some description</p>
-    ],
-    img: mechkey1,
-    alt: "Grails 3 logo",
-    link: "/grailsAssetMigration"
-  },
+  // {
+  //   title: "Migrating Frontend Assets During Grails 2 -> 3 Upgrade",
+  //   description: [
+  //     <p>Some description</p>
+  //   ],
+  //   img: mechkey1,
+  //   alt: "Grails 3 logo",
+  //   link: "/grailsAssetMigration"
+  // },
   {
     title: "Building a Mechanical Keyboard from Scratch",
     description: [
