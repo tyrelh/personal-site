@@ -1,6 +1,6 @@
 import React from "react";
 import "./ArticlesOverview.scss"
-import { List } from "antd";
+import {Icon, List} from "antd";
 import mechkey1 from "../../assets/img/mechkey.jpg";
 import battlesnake2018 from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
 import {Redirect} from "react-router-dom";
@@ -92,7 +92,7 @@ export default class ArticlesOverview extends React.Component {
             {
               item.date &&
                 <h4 className="article-overview-date">
-                  {item.date}
+                  <Icon type="calendar" theme="filled"/>{item.date}
                 </h4>
             }
             <p className="article-overview-description">
