@@ -1,0 +1,13 @@
+@import "../../colors";
+@import "../../fonts";
+
+.code-inline, .code-block {
+   font-family: $font-ubuntumono;
+   border-radius: .5rem;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   padding: .1rem .3rem .2rem;
+   opacity: 0.8;
+   //background: linear-gradient(to right, rgba($taro, 0.4), rgba($aquafresh, 0.4));
+   background: rgba($monday, 0.2);
+ }

@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import "./Code.scss";
 
 export class CodeBlock extends React.Component {
   render() {
@@ -11,15 +12,17 @@ export class CodeBlock extends React.Component {
           </code>
         </pre>
       </div>
-    )
+    );
   }
 }
 
 export class Code extends React.Component {
   render() {
-    const { code } = this.props;
+    const { children } = this.props;
     return (
-      <code className="code-inline">{code}</code>
-    )
+      <code className="code-inline">
+        {children}
+      </code>
+    );
   }
 }
