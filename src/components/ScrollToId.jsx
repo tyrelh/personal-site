@@ -4,9 +4,7 @@ import "./scrollToId.scss";
 
 class ScrollToId extends React.Component {
 
-  id = `#${this.props.id}`;
-
-  scrollToId = () => scrollToElement(this.id, {
+  scrollToId = () => scrollToElement(`#${this.props.id}`, {
     offset: -20,
     align: "top",
     ease: "in-out-expo",
@@ -18,7 +16,6 @@ class ScrollToId extends React.Component {
       <span
         className="scrollToIdLink"
         onClick={this.scrollToId}
-        alt={this.props.alt}
       >
         {this.props.children}
       </span>
