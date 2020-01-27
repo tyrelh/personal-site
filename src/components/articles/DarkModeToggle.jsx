@@ -27,10 +27,10 @@ export default class DarkModeToggle extends React.Component {
               TL;DR
             </SectionHeader>
             <ol>
-              <li><ScrollToId id="introduction">Introduction</ScrollToId> - Dark mode obsessed. 😎</li>
-              <li><ScrollToId id="theme-switch">Theme Switch</ScrollToId> - Allowing a visitor to toggle between light and dark theme with the click of a button.</li>
-              <li><ScrollToId id="styles">Styles</ScrollToId> - I nested the styles for both light and dark theme together. You may want to separate them.</li>
-              <li><ScrollToId id="media-query">Media Query</ScrollToId> - You can automate the theme based on the visitors operating system choice!</li>
+              <li><ScrollToId id="introduction">Introduction</ScrollToId> - I am dark mode obsessed. Every app I use I attempt to make it dark themed. 😎</li>
+              <li><ScrollToId id="theme-switch">Theme Switch</ScrollToId> - I built a switch to allow a visitor to toggle between light and dark theme.</li>
+              <li><ScrollToId id="styles">Styles</ScrollToId> - I nested the styles for both light and dark theme together. You may want to separate them so that you can selectively download.</li>
+              <li><ScrollToId id="media-query">Media Query</ScrollToId> - You can set the theme based on the visitor's operating system choice!</li>
               <li><ScrollToId id="react-component">React Component</ScrollToId> - Bundling everything up into a nice component.</li>
               <li><ScrollToId id="github-repo">Github Repo</ScrollToId> - You can roll your own dark theme using my toggle.</li>
             </ol>
