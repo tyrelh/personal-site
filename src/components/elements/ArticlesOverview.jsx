@@ -1,13 +1,23 @@
 import React from "react";
 import "./ArticlesOverview.scss"
-import {Icon, List} from "antd";
+import { Icon, List } from "antd";
 import mechkey1 from "../../assets/img/mechkey.jpg";
 import battlesnake2018 from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
 import grailsLogo from "../../assets/img/grailsAssetMigration/grailsLogo.svg"
-import {Redirect} from "react-router-dom";
+import darkModeToggleImage from "../../assets/img/darkModeToggle/darkModeToggle.svg";
+import { Redirect } from "react-router-dom";
 
 const getArticles = () => {
   const list = [];
+
+  list.push({
+    title: "Dark Mode React Toggle",
+    description: "I developed a dark and light theme for this site and built a toggle to switch between them. Also I used media queries to set the default theme to match the visitors operating system choice.",
+    image: darkModeToggleImage,
+    alt: "Sun and moon icons",
+    href: "/darkModeToggle",
+    date: "Jan 27th, 2020"
+  });
 
   list.push({
     title: "Migrating Frontend Assets During Grails 2 → 3 Upgrade",
@@ -81,7 +91,7 @@ export default class ArticlesOverview extends React.Component {
             extra={
               <img
                 className="article-overview-image"
-                width={300}
+                width={250}
                 alt={item.alt}
                 src={item.image}
               />

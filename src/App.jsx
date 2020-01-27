@@ -8,6 +8,7 @@ import GrailsAssetMigration from "./components/articles/GrailsAssetMigration";
 import ThemeToggle from "./components/elements/ThemeToggle";
 import BackToTop from "./components/elements/BackToTop";
 import "./app.scss";
+import DarkModeToggle from "./components/articles/DarkModeToggle";
 
 
 export default class App extends React.Component {
@@ -21,6 +22,7 @@ export default class App extends React.Component {
         <Route path="/battlesnake2018" component={Battlesnake2018}/>
         <Route path="/mechanicalkeyboard" component={Mechkeys}/>
         <Route path="/grailsAssetMigration" component={GrailsAssetMigration}/>
+        <Route path="/darkModeToggle" component={DarkModeToggle}/>
         <Footer />
       </div>
     );
