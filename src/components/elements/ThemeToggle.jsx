@@ -12,29 +12,17 @@ export default class ThemeToggle extends React.Component {
   }
   
   componentDidMount() {
-    this.setGlobalThemeVariable();
     const userPrefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (!userPrefersDarkMode && !this.props.lightMode) {
-      this.themeToggleOnClick()
+    if (!userPrefersDarkMode && !this.state.lightMode) {
+      this.toggleTheme()
     }
   }
 
-  setGlobalThemeVariable() {
-    if (!window.tyrel) {
-      window.tyrel = {
-        lightMode: false
-      };
-    } else {
-      window.tyrel.lightMode = false;
-    }
-  }
-
-  themeToggleOnClick = async () => {
+  toggleTheme = async () => {
     await this.setState({
       lightMode: !this.state.lightMode
     });
     document.body.classList.toggle("light-mode");
-    window.tyrel.lightMode = this.state.lightMode;
   };
 
   MoonSvg = () => {
@@ -64,9 +52,9 @@ export default class ThemeToggle extends React.Component {
         <div className="toggle-container">
         {
           (this.state.lightMode) ?
-            <Icon component={this.MoonSvg} onClick={this.themeToggleOnClick} />
+            <Icon component={this.MoonSvg} onClick={this.toggleTheme} />
             :
-            <Icon component={this.SunSvg} onClick={this.themeToggleOnClick} />
+            <Icon component={this.SunSvg} onClick={this.toggleTheme} />
         }
         </div>
       </Tooltip>
