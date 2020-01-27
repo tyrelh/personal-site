@@ -25,7 +25,6 @@ export default class GrailsAssetMigration extends React.Component {
 
         <div className="article">
           <section className="fadeIn">
-            <SectionImage imgSrc={grailsLogo} imgAlt="Battlesnake logo from 2018" />
             <p>
               Upgrading our application from Grails 2 to Grails 3 has been a long process. This is just one piece of that
               process.
@@ -40,6 +39,7 @@ export default class GrailsAssetMigration extends React.Component {
               <li><ScrollToId id="images-section" alt="go to images section of article">Images</ScrollToId> - Asset-Pipeline can really handle any kind of static asset like images</li>
               <li><ScrollToId id="serving-assets" alt="go to serving assets from external source section of article">Serving Assets from an External Source</ScrollToId> - You can easily serve static assets from any URL without changing any asset references</li>
             </ul>
+            <SectionImage imgSrc={grailsLogo} imgAlt="Battlesnake logo from 2018" />
           </section>
 
           <section className="fadeIn">
