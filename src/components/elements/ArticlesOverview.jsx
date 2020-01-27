@@ -16,7 +16,7 @@ const getArticles = () => {
     image: darkModeToggleImage,
     alt: "Sun and moon icons",
     href: "/darkModeToggle",
-    date: "Jan 27th, 2020"
+    date: "Jan 28th, 2020"
   });
 
   list.push({
@@ -25,7 +25,7 @@ const getArticles = () => {
     image: grailsLogo,
     alt: "Grails 3 logo",
     href: "/grailsAssetMigration",
-    date: "Jan 26th, 2020"
+    date: "Dec 15th, 2019"
   });
 
   list.push({
