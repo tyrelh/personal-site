@@ -1,22 +1,25 @@
 @import "../colors.scss";
 
 .scrollToIdLink {
-  background: -webkit-linear-gradient(left, $cerulean, $amethyst);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: $cerulean;
+  //background: -webkit-linear-gradient(left, $cerulean, $amethyst);
+  //background-clip: text;
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
 }
 .scrollToIdLink:hover {
+  color: lighten($cerulean, 11);
   cursor: pointer;
-  background: -webkit-linear-gradient(left, lighten($cerulean, 11), lighten($amethyst, 11));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  //background: -webkit-linear-gradient(left, lighten($cerulean, 11), lighten($amethyst, 11));
+  //background-clip: text;
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
 }
 .light-mode .scrollToIdLink:hover {
+  color: darken($cerulean, 10);
   cursor: pointer;
-  background: -webkit-linear-gradient(left, darken($cerulean, 10), darken($amethyst, 11));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  //background: -webkit-linear-gradient(left, darken($cerulean, 10), darken($amethyst, 11));
+  //background-clip: text;
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
 }
