@@ -5,3 +5,5 @@
 * Ant Design
 * react-router-hash-link
 * markdown-to-jsx
+* customize-cra
+* gh-pages
