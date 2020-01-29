@@ -14,7 +14,7 @@ export default class BackToTop extends React.Component {
 
   render() {
     return (
-      <BackTop>
+      <BackTop visibilityHeight={600}>
         <div className="back-top-background">
           <Icon component={this.topIcon}/>
         </div>
