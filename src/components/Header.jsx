@@ -10,17 +10,17 @@ export default class Header extends React.Component {
     return (
       <header className="fadeIn" id="top">
         <div className="nameContainer fadeIn">
-          {(this.props.headerLink) ? 
-            <NavLink exact to={this.props.headerLink}>
+            <NavLink exact to="/">
               <h1 datatext={this.props.headerTitle} className={this.classN}>
                 {this.props.headerTitle}
+                {
+                  (this.props.children) ?
+                    this.props.children
+                    :
+                    null
+                }
               </h1>
             </NavLink>
-          :
-            <h1 datatext={this.props.headerTitle} className={this.classN}>
-              {this.props.headerTitle}
-            </h1>
-          }
         </div>
       </header>
     );

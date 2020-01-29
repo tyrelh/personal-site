@@ -1,0 +1,23 @@
+@import "../fonts.scss";
+@import "../colors.scss";
+
+code {
+  font-family: $font-ubuntumono;
+  border-radius: .5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  padding: .1rem .3rem .2rem;
+  opacity: 0.8;
+  background: rgba($monday, 0.2);
+}
+
+pre {
+  background-color: rgba($monday, 0.2);
+  border-radius: 10px;
+  padding: 1em;
+  code {
+    background: none;
+    font-size: 0.7em;
+    line-height: 0.7em;
+  }
+}

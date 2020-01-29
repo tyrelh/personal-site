@@ -5,17 +5,14 @@ import SectionHeader from "./elements/SectionHeader";
 import ArticlesOverview from "./elements/ArticlesOverview";
 
 export default class Home extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      headerTitle: "Hi, I'm Tyrel.",
-      headerLink: "/",
-    }
-  }
+  state = {
+    headerTitle: "Hi, I'm Tyrel.",
+    headerLink: "/",
+  };
 
   render() {
     return (
-      <React.Fragment>
+      <div className="article fadeIn">
         <span className="homeTitleContainer">
           <Header
             headerTitle={this.state.headerTitle}
@@ -23,7 +20,6 @@ export default class Home extends React.Component {
             classN="homeTitle"
           />
         </span>
-        <section className="fadeIn">
           <p>
             I am a software engineer constantly learning new skills and technologies.
           </p>
@@ -33,24 +29,19 @@ export default class Home extends React.Component {
           <p>
             You can see some of my work below as well as on my <a href="https://github.com/tyrelh" alt="Github">Github</a>.
           </p>
-        </section>
 
-        <section className="fadeIn">
           <SectionHeader>
             Articles
           </SectionHeader>
           <ArticlesOverview/>
-        </section>
 
-        <section className="fadeIn">
           <SectionHeader>
             Get in touch
           </SectionHeader>
           <p>
             Feel free to contact me via <a href="mailto:tyrel.hiebert@gmail.com" alt="email">email</a>. If you are interested, you can view my <a href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf" alt="CV">CV</a> for more details about my background and experience.
           </p>
-        </section>
-      </React.Fragment>
+      </div>
     )
   }
 }

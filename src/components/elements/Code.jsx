@@ -1,9 +1,15 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 import "./Code.scss";
 
 export class CodeBlock extends React.Component {
   render() {
-    const { code } = this.props;
+    const { code, isMarkdown, input } = this.props;
+    if (isMarkdown) {
+      return (
+        <ReactMarkdown source={input}/>
+      );
+    }
     return (
       <div className="code-block">
         <pre>
@@ -18,10 +24,9 @@ export class CodeBlock extends React.Component {
 
 export class Code extends React.Component {
   render() {
-    const { children } = this.props;
     return (
       <code className="code-inline">
-        {children}
+        {this.props.children}
       </code>
     );
   }

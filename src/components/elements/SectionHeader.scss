@@ -1,29 +1,29 @@
 @import "../../colors.scss";
 @import "../../fonts.scss";
 
-section {
-  h3 {
+.article {
+  h2 {
     font-family: $font-signika;
     font-size: 2.3em;
     font-weight: 600;
     line-height: 1em;
+    letter-spacing: -0.01em;
     margin: 1.5em 0 0.8em 0;
     padding: 0;
     color: $color-main-text;
     text-shadow: 3px 3px 0 rgba($color-main-bg,1);
   }
   @media (min-width: 375px) and (max-width: 812px) {
-    h3 {
+    h2 {
       font-size: 2em;
       line-height: 0.9em;
-      letter-spacing: -0.05em;
     }
   }
 }
 
 .light-mode {
-  section {
-    h3 {
+  .article {
+    h2 {
       color: $color-main-text-light-theme;
       text-shadow: 3px 3px 0 rgba($color-main-bg-light-theme, 1);
     }
@@ -33,11 +33,12 @@ section {
 .underline {
   background-image: linear-gradient(120deg, $cerulean 0%, $purple 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.19em;
-  background-position: 0 75%;
-  transition: background-size 200ms ease-in;
+  //background-size: 100% 0.19em;
+  background-size: 100% 0.35em;
+  background-position: 0 85%;
+  //transition: background-size 200ms ease-in;
 }
 
-section:hover .underline {
-  background-size: 100% 0.27em;
-}
+//section:hover .underline {
+//  background-size: 100% 0.27em;
+//}

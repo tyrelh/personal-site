@@ -1,0 +1,22 @@
+@import "../colors.scss";
+@import "../fonts.scss";
+@import "./Code.scss";
+
+.article {
+  margin: 0 20px;
+  font-size: 1.80em;
+  line-height: 1.5em;
+  @media (min-width: 375px) and (max-width: 812px) {
+    font-size: 1.6em;
+    margin: 0 15px;
+  }
+
+  .nameContainer {
+    font-size: 0.55em;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}

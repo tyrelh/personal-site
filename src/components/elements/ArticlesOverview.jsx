@@ -2,8 +2,8 @@ import React from "react";
 import "./ArticlesOverview.scss"
 import { Icon, List } from "antd";
 import mechkey1 from "../../assets/img/mechkey.jpg";
-import battlesnake2018 from "../../assets/img/battlesnake2018/battlesnake-2018.jpg";
-import grailsLogo from "../../assets/img/grailsAssetMigration/grailsLogo.svg"
+import battlesnake2018 from "../articles/Battlesnake2018-1.jpg";
+import grailsLogo from "../articles/GrailsAssetMigration.svg"
 import darkModeToggleImage from "../../assets/img/darkModeToggle/darkModeToggle.svg";
 import { Redirect } from "react-router-dom";
 
@@ -37,14 +37,14 @@ const getArticles = () => {
     date: "June 11th, 2018"
   });
 
-  list.push({
-    title: "Building a Mechanical Keyboard from Scratch",
-    description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
-    image: mechkey1,
-    alt: "Mechanical keyboard on desk",
-    href: "/mechanicalkeyboard",
-    date: "April 20th, 2017"
-  });
+  // list.push({
+  //   title: "Building a Mechanical Keyboard from Scratch",
+  //   description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
+  //   image: mechkey1,
+  //   alt: "Mechanical keyboard on desk",
+  //   href: "/mechanicalkeyboard",
+  //   date: "April 20th, 2017"
+  // });
 
   return list;
 };
@@ -91,7 +91,7 @@ export default class ArticlesOverview extends React.Component {
             extra={
               <img
                 className="article-overview-image"
-                width={250}
+                width={220}
                 alt={item.alt}
                 src={item.image}
               />
