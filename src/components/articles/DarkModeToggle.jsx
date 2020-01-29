@@ -19,10 +19,12 @@ export default class DarkModeToggle extends React.Component {
     return (
       <React.Fragment>
         <Header headerTitle={this.state.headerTitle} headerLink={this.state.headerLink}/>
-
         <div className="article">
 
           <section className="fadeIn">
+            <p>
+              I developed a dark and light theme for this site and built a toggle to switch between them. Also I used media queries to set the default theme to match the visitors operating system choice.
+            </p>
             <SectionHeader>
               TL;DR
             </SectionHeader>
