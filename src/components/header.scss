@@ -3,7 +3,7 @@
 
 header {
   top: 0;
-  padding: 2em 0 1.5em 0;
+  padding: 1em 0 1.5em 0;
 
   h1 {
     font-family: $font-signika;
@@ -44,19 +44,6 @@ header {
         font-size: 7.5em;
       }
   }
-  // h1:after {
-  //   background: -webkit-linear-gradient(left, $blue, $purple);
-  //   background-clip: text;
-  //   -webkit-background-clip: text;
-  //   content: attr(datatext);
-  //   color: transparent;
-  //   left: 10px;
-  //   top: 10px;
-  //   position: absolute;
-  //   z-index: -1;
-  //   opacity: 1;
-  //   height: 100%;
-  // }
 }
 .light-mode header {
   h1 {
@@ -65,7 +52,8 @@ header {
 }
 
 .homeTitleContainer {
-  width: 60%;
+  width: 30%;
+  margin-right: auto;
 }
 @media (min-width : 375px) 
   and (max-width : 812px) {
