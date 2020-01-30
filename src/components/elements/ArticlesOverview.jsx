@@ -37,14 +37,14 @@ const getArticles = () => {
     date: "June 11th, 2018"
   });
 
-  // list.push({
-  //   title: "Building a Mechanical Keyboard from Scratch",
-  //   description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
-  //   image: mechkey1,
-  //   alt: "Mechanical keyboard on desk",
-  //   href: "/mechanicalkeyboard",
-  //   date: "April 20th, 2017"
-  // });
+  list.push({
+    title: "Building a Mechanical Keyboard from Scratch",
+    description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
+    image: mechkey1,
+    alt: "Mechanical keyboard on desk",
+    href: "/mechanicalkeyboard",
+    date: "April 20th, 2017"
+  });
 
   return list;
 };
