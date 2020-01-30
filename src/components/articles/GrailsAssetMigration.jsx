@@ -3,6 +3,6 @@ import MarkdownArticle from "../MarkdownArticle";
 
 export default class GrailsAssetMigration extends React.Component {
   render() {
-    return <MarkdownArticle name={this.constructor.name}/>;
+    return <MarkdownArticle name="GrailsAssetMigration"/>;
   }
 }
