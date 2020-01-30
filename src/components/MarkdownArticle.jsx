@@ -19,9 +19,9 @@ class MarkdownImage extends React.Component {
 
   render() {
     return (
-      <div className="image">
+      <span className="image">
         <img src={this.state.image} alt={this.props.alt}/>
-      </div>
+      </span>
     )
   }
 }
