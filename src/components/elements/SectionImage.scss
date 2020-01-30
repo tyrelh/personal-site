@@ -6,7 +6,6 @@
   img {
     width: 90%;
     margin: 1em auto;
-    opacity: 1;
     border-radius: 15px;
     box-shadow: 4px 4px 0px 0px rgba($amethyst, 0.7);
 
@@ -17,6 +16,5 @@
 }
 
 .light-mode .image img {
-  opacity: 1;
   box-shadow: 4px 4px 0px 0px rgba(darken($amethyst, 5%), 0.9);
 }
