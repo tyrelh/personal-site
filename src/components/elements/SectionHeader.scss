@@ -3,15 +3,17 @@
 
 .article {
   h2 {
-    font-family: $font-signika;
+    //font-family: $font-signika;
+    font-family: $font-canela;
     font-size: 2.3em;
-    font-weight: 600;
+    //font-weight: 600;
     line-height: 1em;
     letter-spacing: -0.01em;
-    margin: 1.5em 0 0.8em 0;
+    margin: 1em 0 0.8em 0;
     padding: 0;
     color: $color-main-text;
-    text-shadow: 3px 3px 0 rgba($color-main-bg,1);
+    //text-shadow: 3px 3px 0 rgba($color-main-bg,1);
+    //text-shadow: 0 1px 4px rgba(black, 0.2%);
   }
   @media (min-width: 375px) and (max-width: 812px) {
     h2 {
@@ -25,18 +27,26 @@
   .article {
     h2 {
       color: $color-main-text-light-theme;
-      text-shadow: 3px 3px 0 rgba($color-main-bg-light-theme, 1);
+      //text-shadow: 3px 3px 0 rgba($color-main-bg-light-theme, 1);
+      //text-shadow: 0 1px 4px rgba(white, 0.2%);
     }
   }
 }
 
 .underline {
-  background-image: linear-gradient(120deg, $cerulean 0%, $purple 100%);
+  background-image: linear-gradient(120deg, rgba($cerulean, 0.85) 0%, rgba($purple, 0.85) 100%);
   background-repeat: no-repeat;
   //background-size: 100% 0.19em;
-  background-size: 100% 0.35em;
-  background-position: 0 85%;
+  background-size: 98% 0.35em;
+  background-position: 100% 86%;
+  padding-right: 1%;
   //transition: background-size 200ms ease-in;
+}
+
+.light-mode {
+  .underline {
+    background-image: linear-gradient(120deg, rgba($cerulean, 0.85) 0%, rgba($purple, 0.85) 100%);
+  }
 }
 
 //section:hover .underline {

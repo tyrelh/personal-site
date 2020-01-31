@@ -17,7 +17,8 @@ body {
   width: 100%;
   background-color: $color-main-bg;
   color: $color-main-text;
-  font-family: $font-ptsans;
+  //font-family: $font-ptsans;
+  font-family: $font-futura;
 }
 body .light-mode {
   background-color: $color-main-bg-light-theme;
@@ -58,13 +59,15 @@ p {
 
 a {
   text-decoration: none;
+  color: $cerulean;
 }
 
+
 ::selection {
-  background: $purple; /* WebKit/Blink Browsers */
+  background: $amethyst;
 }
 ::-moz-selection {
-  background: $purple; /* Gecko Browsers */
+  background: $amethyst;
 }
 
 .fadeIn {

@@ -1,67 +1,82 @@
 @import "../../colors.scss";
+@import "../../fonts.scss";
 
 // ##########################################################################
 // ANT LIST #################################################################
 div.ant-list-item {
   border-radius: 15px;
-  padding: 2%;
-  background-color: $color-main-bg;
-  margin-bottom: 22px;
+  padding: 3% 3% 1% 3% !important;
+  background-color: lighten($color-main-bg, 0.5%);
+  margin-bottom: 35px;
   box-shadow:
-          -5px -5px 10px rgba(255, 255, 255, 0.03),
-          5px 5px 5px rgba(0, 0, 0, 0.15);
+          0 -5px 10px rgba(white, 0.03),
+          0 5px 8px rgba(black, 0.2);
 }
 
 div.ant-list-item:hover {
   box-shadow:
-          -5px -5px 10px rgba(255, 255, 255, 0.1),
-          5px 5px 5px rgba(0, 0, 0, 0.5);
+          0 -5px 10px rgba(white, 0.09),
+          0 5px 8px rgba(black, 0.5);
   background-color: lighten($color-main-bg, 1%);
   cursor: pointer;
 }
 
 .light-mode {
   div.ant-list-item {
-    background-color: $color-main-bg-light-theme;
+    background-color: lighten($color-main-bg-light-theme, 1.5%);
     box-shadow:
-            -5px -5px 10px rgba(255, 255, 255, 1),
-            5px 5px 5px rgba(0, 0, 0, 0.05);
+            0 -5px 10px rgba(white, 1),
+            0 5px 5px rgba(black, 0.05);
   }
 
   div.ant-list-item:hover {
     box-shadow:
-            -5px -5px 10px rgba(255, 255, 255, 1),
-            5px 5px 5px rgba(0, 0, 0, 0.1);
-    background-color: lighten($color-main-bg-light-theme, 100%);
+            0 -5px 10px rgba(white, 1),
+            0 5px 5px rgba(black, 0.1);
+    background-color: lighten($color-main-bg-light-theme, 2%);
     cursor: pointer;
   }
 }
 
 .article-overview-title {
-  font-size: 30px;
+  font-family: $font-futura;
+  font-size: 1.9em;
   color: $color-main-text;
   margin-top: 0;
   margin-bottom: 0.1em;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1em;
   @media (min-width: 375px) and (max-width: 812px) {
     letter-spacing: -0.08em;
   }
 }
 
+.light-mode {
+  .article-overview-title {
+    color: $color-main-text-light-theme;
+  }
+}
+
 .article-overview-date {
-  color: darken($color-main-text, 30%);
-  margin-top: 10px;
+  color: darken($color-main-text, 40%);
+  font-size: 12px;
+  margin-top: 12px;
   i {
     margin-right: 10px;
-    margin-left: 10px;
+    //margin-left: 10px;
+  }
+}
+
+.light-mode {
+  .article-overview-date {
+    color: darken($color-main-text, 20%);
   }
 }
 
 .article-overview-description {
   margin-top: 20px;
-  color: darken($color-main-text, 10%);
-  font-size: 19px;
+  color: darken($color-main-text, 20%);
+  font-size: 18px;
   line-height: 1.3em;
 }
 
@@ -72,13 +87,15 @@ div.ant-list-item:hover {
 }
 
 .article-overview-image {
-  border-radius: 15px;
-  box-shadow: 2px 2px 0 0 rgba($amethyst, 0.9);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(black, 0.1);
+  //box-shadow: 2px 2px 0 0 rgba($amethyst, 0.9);
 }
 
 .light-mode {
   .article-overview-image {
-    box-shadow: 2px 2px 0 0 rgba(darken($amethyst, 10%), 0.7);
+    box-shadow: 0 2px 8px rgba(black, 0.1);
+    //box-shadow: 2px 2px 0 0 rgba(darken($amethyst, 10%), 0.7);
   }
 }
 
