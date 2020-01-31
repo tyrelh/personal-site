@@ -15,22 +15,9 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: $color-main-bg;
+  background-color: darken($color-main-bg, 2%);
   color: $color-main-text;
-  //font-family: $font-ptsans;
   font-family: $font-futura;
-}
-body .light-mode {
-  background-color: $color-main-bg-light-theme;
-}
-
-#app {
-  background-color: $color-main-bg;
-}
-.light-mode {
-  #app {
-    background-color: $color-main-bg-light-theme;
-  }
 }
 
 .app {
@@ -40,6 +27,7 @@ body .light-mode {
   display: flex;
   flex-direction: column;
   background-color: $color-main-bg;
+  box-shadow: 0 5px 20px rgba(black, 0.4);
 }
 @media (max-width: 1000px) {
   .app {
@@ -61,7 +49,6 @@ a {
   text-decoration: none;
   color: $cerulean;
 }
-
 
 ::selection {
   background: $amethyst;
