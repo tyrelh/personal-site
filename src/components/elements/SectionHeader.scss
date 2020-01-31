@@ -21,6 +21,26 @@
       line-height: 0.9em;
     }
   }
+  h2 {
+    position: relative;
+    i {
+      font-size: 0.7em;
+      //float: left;
+      //display: ;
+      position: absolute;
+      left: -40px;
+      top: 8px;
+      //left: -10px;
+      display: none;
+
+      //visibility: hidden;
+    }
+  }
+  h2:hover {
+    i {
+      display: inline;
+    }
+  }
 }
 
 .light-mode {
