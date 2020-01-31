@@ -12,3 +12,9 @@ $font-slabo: "Slabo 27px", serif;
 $font-signika: 'Signika', sans-serif;
 $font-amaranth: 'Amaranth', sans-serif;
 $font-ubuntu: 'Ubuntu', sans-serif;
+
+@font-face {
+  font-family: "Canela-Black";
+  src: url("/fonts/title.woff2") format("woff2")
+}
+$font-canela: "Canela-Black", serif;
