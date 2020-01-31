@@ -26,8 +26,9 @@
     img {
       width: 90%;
       margin: 1em auto;
-      border-radius: 15px;
-      box-shadow: 4px 4px 0px 0px rgba($amethyst, 0.7);
+      border-radius: 10px;
+      //box-shadow: 4px 4px 0px 0px rgba($amethyst, 0.7);
+      box-shadow: 0 2px 10px rgba(black, 0.2);
 
       @media (min-device-width: 375px) and (max-device-width: 812px) {
         width: 96%
@@ -36,15 +37,15 @@
   }
 }
 
-.light-mode {
-  .article {
-    .image {
-      img {
-        box-shadow: 4px 4px 0px 0px rgba(darken($amethyst, 5%), 0.9);
-      }
-    }
-  }
-}
+//.light-mode {
+//  .article {
+//    .image {
+//      img {
+//        box-shadow: 4px 4px 0px 0px rgba(darken($amethyst, 5%), 0.9);
+//      }
+//    }
+//  }
+//}
 
 .video-container {
   border-radius: 10px;
