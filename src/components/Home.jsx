@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import "./section.scss"
 import SectionHeader from "./elements/SectionHeader";
 import ArticlesOverview from "./elements/ArticlesOverview";
 
