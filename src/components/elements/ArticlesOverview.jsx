@@ -15,7 +15,7 @@ const getArticles = () => {
     description: "I developed a dark and light theme for this site and built a toggle to switch between them. Also I used media queries to set the default theme to match the visitors operating system choice.",
     image: darkModeToggleImage,
     alt: "Sun and moon icons",
-    href: "/darkModeToggle",
+    href: "/dark-mode-react-toggle-2020",
     date: "Jan 28th, 2020"
   });
 
@@ -24,7 +24,7 @@ const getArticles = () => {
     description: "Upgrading our application from Grails 2 to Grails 3 has been a long process. This is just one piece of that process.",
     image: grailsLogo,
     alt: "Grails 3 logo",
-    href: "/grailsAssetMigration",
+    href: "/grails-frontend-asset-migration-2019",
     date: "Dec 15th, 2019"
   });
 
@@ -33,7 +33,7 @@ const getArticles = () => {
     description: "Battlesnake is a programming competition where participants create an AI server that acts as the brain of a snake in the classic game Snake. Participants compete in a round-robin tournament played out live in front of an audience of roughly 1000 people. The winner takes home up to $4,000.",
     image: battlesnake2018,
     alt: "Battlesnake 2018 logo",
-    href: "/battlesnake2018",
+    href: "/battlesnake-2018",
     date: "June 11th, 2018"
   });
 
@@ -42,7 +42,7 @@ const getArticles = () => {
     description: "After becoming infatuiated with custom mechanical keyboards I decided to build my own. This is my journey through designing, aquiring parts for, building, and programming my own mechanical keyboard, complete with a custom layout I designed.",
     image: mechkey1,
     alt: "Mechanical keyboard on desk",
-    href: "/mechanicalkeyboard",
+    href: "/mechanical-keyboard-2017",
     date: "April 20th, 2017"
   });
 
