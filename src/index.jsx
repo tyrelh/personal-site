@@ -16,5 +16,5 @@ ReactDOM.render(
       <App />
     </ReactBreakpoints>
   </HashRouter>,
-  document.getElementById("app")
+  document.getElementById("root")
 );
