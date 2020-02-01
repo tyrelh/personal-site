@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import SectionHeader from "./elements/SectionHeader";
-import ArticlesOverview from "./elements/ArticlesOverview";
+import ArticlesOverview from "./ArticlesOverview";
 
 export default class Home extends React.Component {
   state = {
