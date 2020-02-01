@@ -49,12 +49,21 @@ a {
   text-decoration: none;
   color: $cerulean;
 }
+a:hover {
+  color: lighten($cerulean, 20%);
+  path {
+    fill: lighten($cerulean, 20%);
+  }
+  circle {
+    fill: lighten($cerulean, 20%);
+  }
+}
 
 ::selection {
-  background: $amethyst;
+  background: $cerulean;
 }
 ::-moz-selection {
-  background: $amethyst;
+  background: $cerulean;
 }
 
 .fadeIn {
