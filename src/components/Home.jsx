@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import SectionHeader from "./elements/SectionHeader";
 import ArticlesOverview from "./ArticlesOverview";
+import Anchor from "./elements/Anchor";
 
 export default class Home extends React.Component {
   state = {
@@ -20,7 +21,7 @@ export default class Home extends React.Component {
           />
         </span>
           <p>
-            Software engineer constantly learning new skills and technologies. Work for <a href="https://www.giftbit.com">Giftbit</a> building great web services. You can see some of my work below as well as on my <a href="https://github.com/tyrelh">Github</a>.
+            A software engineer constantly learning new skills and technologies. I work for <Anchor href="https://www.giftbit.com">Giftbit</Anchor> building great web services. You can see some of my work below as well as on my <Anchor href="https://github.com/tyrelh">Github</Anchor>.
           </p>
 
           <SectionHeader>
@@ -32,7 +33,7 @@ export default class Home extends React.Component {
             Get in touch
           </SectionHeader>
           <p>
-            Feel free to contact me via <a href="mailto:tyrel.hiebert@gmail.com" alt="email">email</a>. If you are interested, you can view my <a href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf" alt="CV">CV</a> for more details about my background and experience.
+            Feel free to contact me via <Anchor href="mailto:tyrel.hiebert@gmail.com">email</Anchor>. If you are interested, you can view my <Anchor href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf">CV</Anchor> for more details about my background and experience.
           </p>
       </div>
     )

@@ -1,0 +1,34 @@
+@import "../../colors.scss";
+
+.anchor {
+  a {
+    color: $cerulean;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    path {
+      fill: $cerulean;
+      -moz-transition: all .2s ease-in;
+      -o-transition: all .2s ease-in;
+      -webkit-transition: all .2s ease-in;
+      transition: all .2s ease-in;
+    }
+    circle {
+      fill: $cerulean;
+      -moz-transition: all .2s ease-in;
+      -o-transition: all .2s ease-in;
+      -webkit-transition: all .2s ease-in;
+      transition: all .2s ease-in;
+    }
+  }
+  a:hover {
+    color: lighten($cerulean, 20%);
+    path {
+      fill: lighten($cerulean, 20%);
+    }
+    circle {
+      fill: lighten($cerulean, 20%);
+    }
+  }
+}

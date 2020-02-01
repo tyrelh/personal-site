@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import {Icon} from "antd";
+import Anchor from "./elements/Anchor";
 
 export default class Footer extends React.Component {
   rssIcon = () => {
@@ -19,8 +20,8 @@ export default class Footer extends React.Component {
         <p>
           Made with <Icon type="thunderbolt" theme="filled"/> by Tyrel Hiebert.<br/>
           {/*Copyright © 2020. <a href="https://www.github.com/tyrelh/personal-site/">View Source</a>.<br/>*/}
-          License <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License</a>.<br/>
-          <a href="https://www.github.com/tyrelh/personal-site/"><Icon type="github" theme="filled"/> View Source</a>.&nbsp;&nbsp;&nbsp;<a href="https://tyrelh.github.io/rss.xml"><Icon component={this.rssIcon}/> Subscribe</a>.
+          License <Anchor href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License</Anchor>.<br/>
+          <Anchor href="https://www.github.com/tyrelh/personal-site/"><Icon type="github" theme="filled"/> View Source</Anchor>.&nbsp;&nbsp;&nbsp;<Anchor href="https://tyrelh.github.io/rss.xml"><Icon component={this.rssIcon}/> Subscribe</Anchor>.
         </p>
       </footer>
     )
