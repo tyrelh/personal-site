@@ -23,7 +23,7 @@ export default class App extends React.Component {
         <Route path="/grails-frontend-asset-migration-2019" component={GrailsAssetMigration}/>
         <Route path="/battlesnake-2018" component={Battlesnake2018}/>
         <Route path="/mechanical-keyboard-2017" component={MechanicalKeyboard}/>
-        <Route component={Home} />
+        {/*<Route component={Home} />*/}
         <Footer />
       </div>
     );
