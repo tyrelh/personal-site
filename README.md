@@ -24,3 +24,4 @@ npm run deploy
 ## Todo
 * Limit text size of header so long single words don't overflow.
 * Permalinks on section headers
+* reCAPTCHA v3 article
