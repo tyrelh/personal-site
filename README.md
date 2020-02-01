@@ -22,4 +22,5 @@ npm run deploy
 ```
 
 ## Todo
-* Font spacing peculiarities on iOS
+* Limit text size of header so long single words don't overflow.
+* Permalinks on section headers
