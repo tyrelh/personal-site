@@ -19,10 +19,10 @@ export default class App extends React.Component {
         <ThemeToggle/>
         <BackToTop/>
         <Route path="/" component={Home} exact />
-        <Route path="/dark-mode-react-toggle-2020" component={DarkModeToggle}/>
-        <Route path="/grails-frontend-asset-migration-2019" component={GrailsAssetMigration}/>
-        <Route path="/battlesnake-2018" component={Battlesnake2018}/>
-        <Route path="/mechanical-keyboard-2017" component={MechanicalKeyboard}/>
+        <Route path="/blog/2020/dark-mode-react-toggle" component={DarkModeToggle}/>
+        <Route path="/blog/2019/grails-frontend-asset-migration" component={GrailsAssetMigration}/>
+        <Route path="/blog/2018/battlesnake-2018" component={Battlesnake2018}/>
+        <Route path="/blog/2017/mechanical-keyboard" component={MechanicalKeyboard}/>
         {/*<Route component={Home} />*/}
         <Footer />
       </div>
