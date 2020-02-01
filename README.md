@@ -25,3 +25,4 @@ npm run deploy
 * Limit text size of header so long single words don't overflow.
 * Permalinks on section headers
 * reCAPTCHA v3 article
+* Article overview image size on mobile increase
