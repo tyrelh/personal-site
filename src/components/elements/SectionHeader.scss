@@ -3,42 +3,44 @@
 
 .article {
   h2 {
-    //font-family: $font-signika;
     font-family: $font-canela;
     font-size: 2.3em;
-    //font-weight: 600;
     line-height: 1em;
     letter-spacing: -0.01em;
     margin: 1em 0 0.8em 0;
     padding: 0;
     color: $color-main-text;
+    position: relative;
     //text-shadow: 3px 3px 0 rgba($color-main-bg,1);
     //text-shadow: 0 1px 4px rgba(black, 0.2%);
+
+    i {
+      font-size: 0.6em;
+      position: absolute;
+      bottom: 0.1em;
+      margin-left: 10px;
+
+      svg {
+        fill: $color-main-text-disabled;
+      }
+    }
   }
+
   @media (min-width: 375px) and (max-width: 812px) {
     h2 {
       font-size: 2em;
       line-height: 0.9em;
+      i {
+        display: none;
+      }
     }
   }
-  h2 {
-    position: relative;
-    i {
-      font-size: 0.7em;
-      //float: left;
-      //display: ;
-      position: absolute;
-      left: -40px;
-      top: 8px;
-      //left: -10px;
-      display: none;
 
-      //visibility: hidden;
-    }
-  }
   h2:hover {
     i {
-      display: inline;
+      svg {
+        fill: rgba($color-accent-first, 0.8);
+      }
     }
   }
 }
@@ -49,13 +51,25 @@
       color: $color-main-text-light-theme;
       //text-shadow: 3px 3px 0 rgba($color-main-bg-light-theme, 1);
       //text-shadow: 0 1px 4px rgba(white, 0.2%);
+      i {
+        svg {
+          fill: $color-main-text-disabled-light-theme;
+        }
+      }
+    }
+
+    h2:hover {
+      i {
+        svg {
+          fill: rgba($color-accent-first, 0.85);
+        }
+      }
     }
   }
 }
 
 h2 {
   .underline {
-    background-image: linear-gradient(120deg, rgba($cerulean, 0.85) 0%, rgba($purple, 0.85) 100%);
     background-image: linear-gradient(120deg, rgba($color-accent-first, 0.85) 0%, rgba($color-accent-second, 0.85) 100%);
     background-repeat: no-repeat;
     //background-size: 100% 0.19em;

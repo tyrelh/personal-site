@@ -53,8 +53,11 @@ export default class MarkdownArticle extends React.Component {
 
   render() {
     return (
-      <div className="article fadeIn">
-        <Markdown options={this.options}>
+      <div className="article-container">
+        {/*<h4>*/}
+        {/*  Tyrel Hiebert*/}
+        {/*</h4>*/}
+        <Markdown className="article fadeIn" options={this.options}>
           {this.state.article}
         </Markdown>
       </div>
