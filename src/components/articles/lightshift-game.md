@@ -6,7 +6,7 @@ Implemented using the P5.js framework for the draw loop and canvas drawing funct
 
 [![Screenshot of game with triangle representing the ship in the center and white asteroids all around](./lightshift-game-2.png)](https://tyrelh.github.io/lightshift-game/)
 
-You can [play the game](https://tyrelh.github.io/lightshift-game/)!
+You can [play the game](https://tyrelh.github.io/lightshift-game/) right now!
 
 ## Basic Overview
 
