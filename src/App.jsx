@@ -9,6 +9,7 @@ import ThemeToggle from "./components/elements/ThemeToggle";
 import BackToTop from "./components/elements/BackToTop";
 import "./app.scss";
 import DarkModeToggle from "./components/articles/DarkModeToggle";
+import LightshiftGame from "./components/articles/LightshiftGame";
 
 
 export default class App extends React.Component {
@@ -19,6 +20,7 @@ export default class App extends React.Component {
         <ThemeToggle/>
         <BackToTop/>
         <Route path="/" component={Home} exact />
+        <Route path="/blog/2020/lightshift-game" component={LightshiftGame}/>
         <Route path="/blog/2020/dark-mode-react-toggle" component={DarkModeToggle}/>
         <Route path="/blog/2019/grails-frontend-asset-migration" component={GrailsAssetMigration}/>
         <Route path="/blog/2018/battlesnake-2018" component={Battlesnake2018}/>

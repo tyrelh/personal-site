@@ -5,11 +5,21 @@ import mechkey1 from "../assets/img/mechkey.jpg";
 import battlesnake2018 from "./articles/Battlesnake2018-1.jpg";
 import grailsLogo from "./articles/GrailsAssetMigration.svg"
 import darkModeToggleImage from "../assets/img/darkModeToggle/darkModeToggle.svg";
+import lightshiftGameImage from "./articles/lightshift-game-2.png";
 import { Redirect } from "react-router-dom";
 
 const getArticles = () => {
   const blogPerma = "/blog";
   const list = [];
+
+  list.push({
+    title: "Lightshift Game",
+    description: "I sharted this project in 2018 to help teach myself better object-oriented programming structure, game update/draw loops, and JavaScript in general. Implemented using the P5.js framework for the draw loop and canvas drawing functionality with nothing else but vanilla JavaScript.",
+    image: lightshiftGameImage,
+    alt: "screenshot of lightshift arcade game",
+    href: blogPerma + "/2020/lightshift-game",
+    date: "Feb 1st, 2020"
+  });
 
   list.push({
     title: "Dark Mode React Toggle",
