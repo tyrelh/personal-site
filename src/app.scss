@@ -18,6 +18,7 @@ body {
   background-color: darken($color-main-bg, 1.5%);
   color: $color-main-text;
   font-family: $font-futura;
+  letter-spacing: -0.08em;
 }
 
 .app {
