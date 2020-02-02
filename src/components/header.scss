@@ -4,19 +4,20 @@
 header {
   top: 0;
   padding: 1em 0 1.5em 0;
+  z-index: 5;
 
   h1 {
     //font-family: $font-signika;
     font-family: $font-canela;
     font-weight: 800;
-    font-size: 12em;
+    font-size: 11em;
     line-height: 1em;
     // letter-spacing: 0.1em;
     //margin: 0 0 0 10px;
     //padding: 5px;
     margin: 0 0 0.1em 0;
     color: $color-main-text;
-    text-shadow: 0 0 10px rgba(black, 0.2);
+    text-shadow: 0 0 6px rgba(black, 0.1);
   }
   @media (max-width: 1200px) {
     h1 {
@@ -50,7 +51,7 @@ header {
 .light-mode header {
   h1 {
     color: $color-main-text-light-theme;
-    text-shadow: 0 0 10px rgba(white, 0.2);
+    text-shadow: 0 0 4px rgba(black, 0.1);
 
   }
 }
@@ -58,14 +59,40 @@ header {
 .homeTitleContainer {
   width: 30%;
   margin-right: auto;
+  h1 {
+    font-size: 14em;
+  }
 }
 @media (min-width : 375px) 
   and (max-width : 812px) {
     .homeTitleContainer {
       width: 80%;
+      h1 {
+        font-size: 7.5em;
       }
+    }
   }
 
 .nameContainer {
   margin: 0 0 1em 0;
+}
+
+h1 {
+  .underline {
+    background-image: linear-gradient(120deg, rgba($cerulean, 0.8) 0%, rgba($purple, 0.8) 100%);
+    background-repeat: no-repeat;
+    //background-size: 100% 0.19em;
+    background-size: 98% 0.3em;
+    background-position: 100% 86%;
+    padding-right: 1%;
+    //transition: background-size 200ms ease-in;
+  }
+}
+
+.light-mode {
+  h1 {
+    .underline {
+      background-image: linear-gradient(120deg, rgba($cerulean, 0.9) 0%, rgba($purple, 0.9) 100%);
+    }
+  }
 }
