@@ -4,7 +4,7 @@
   width: 60px;
   height: 60px;
   font-size: 40px;
-  line-height: 62px;
+  line-height: 60px;
   top: 16px;
   right: 21px;
   position: fixed;
@@ -14,7 +14,7 @@
   text-align: center;
 
   @media (min-width: 375px) and (max-width: 812px) {
-    line-height: 64px;
+    line-height: 62px;
   }
 
   .toggle-icon {
