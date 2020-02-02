@@ -102,7 +102,6 @@ export default class ArticlesOverview extends React.Component {
             extra={
               <img
                 className="article-overview-image"
-                width={230}
                 alt={item.alt}
                 src={item.image}
               />
