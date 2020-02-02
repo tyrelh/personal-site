@@ -58,6 +58,7 @@ div.ant-list-item:hover {
 }
 
 .article-overview-date {
+  letter-spacing: -0.04em;
   color: darken($color-main-text, 40%);
   font-size: 12px;
   margin-top: 12px;
@@ -74,6 +75,7 @@ div.ant-list-item:hover {
 }
 
 .article-overview-description {
+  letter-spacing: -0.05em;
   margin-top: 20px;
   color: darken($color-main-text, 20%);
   font-size: 17px;
