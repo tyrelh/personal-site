@@ -14,7 +14,7 @@ const getArticles = () => {
 
   list.push({
     title: "Lightshift Game",
-    description: "I sharted this project in 2018 to help teach myself better object-oriented programming structure, game update/draw loops, and JavaScript in general. Implemented using the P5.js framework for the draw loop and canvas drawing functionality with nothing else but vanilla JavaScript.",
+    description: "I started this project in 2018 to help teach myself better object-oriented programming structure, game update/draw loops, and JavaScript in general. Implemented using the P5.js framework for the draw loop and canvas drawing functionality with nothing else but vanilla JavaScript.",
     image: lightshiftGameImage,
     alt: "screenshot of lightshift arcade game",
     href: blogPerma + "/2020/lightshift-game",
