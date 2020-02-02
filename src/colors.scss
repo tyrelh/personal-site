@@ -17,6 +17,6 @@ $color-main-bg-light-theme: #f3f3f4;
 $color-main-text: #dbdbdb;
 $color-main-text-light-theme: #242425;
 $color-accent-first: $cerulean;
-$color-accent-second: $amethyst;
-$color-main-text-disabled: darken($color-main-text, 65%);
+$color-accent-second: $purple;
+$color-main-text-disabled: rgba($color-main-text, 0.07);
 $color-main-text-disabled-light-theme: lighten($color-main-text-light-theme, 75%);

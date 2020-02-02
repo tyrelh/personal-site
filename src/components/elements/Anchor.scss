@@ -2,20 +2,20 @@
 
 .anchor {
   a {
-    color: $cerulean;
+    color: $color-accent-first;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
     path {
-      fill: $cerulean;
+      fill: $color-accent-first;
       -moz-transition: all .2s ease-in;
       -o-transition: all .2s ease-in;
       -webkit-transition: all .2s ease-in;
       transition: all .2s ease-in;
     }
     circle {
-      fill: $cerulean;
+      fill: $color-accent-first;
       -moz-transition: all .2s ease-in;
       -o-transition: all .2s ease-in;
       -webkit-transition: all .2s ease-in;
@@ -23,12 +23,12 @@
     }
   }
   a:hover {
-    color: lighten($cerulean, 20%);
+    color: lighten($color-accent-first, 20%);
     path {
-      fill: lighten($cerulean, 20%);
+      fill: lighten($color-accent-first, 20%);
     }
     circle {
-      fill: lighten($cerulean, 20%);
+      fill: lighten($color-accent-first, 20%);
     }
   }
 }
