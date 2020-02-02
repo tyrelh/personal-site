@@ -10,6 +10,7 @@ import BackToTop from "./components/elements/BackToTop";
 import "./app.scss";
 import DarkModeToggle from "./components/articles/DarkModeToggle";
 import LightshiftGame from "./components/articles/LightshiftGame";
+import BackHome from "./components/elements/BackHome";
 
 
 export default class App extends React.Component {
@@ -18,6 +19,7 @@ export default class App extends React.Component {
     return (
       <div className="app">
         <ThemeToggle/>
+        {/*<BackHome/>*/}
         <BackToTop/>
         <Route path="/" component={Home} exact />
         <Route path="/blog/2020/lightshift-game" component={LightshiftGame}/>
