@@ -10,6 +10,7 @@ import BackToTop from "./components/elements/BackToTop";
 import "./app.scss";
 import DarkModeToggle from "./components/articles/DarkModeToggle";
 import LightshiftGame from "./components/articles/LightshiftGame";
+import DenoAndGithubActions from "./components/articles/DenoAndGithubActions";
 import BackHome from "./components/elements/BackHome";
 
 
@@ -22,6 +23,7 @@ export default class App extends React.Component {
         {/*<BackHome/>*/}
         <BackToTop/>
         <Route path="/" component={Home} exact />
+        <Route path="/blog/2020/deno-tests-and-github-actions" component={DenoAndGithubActions}/>
         <Route path="/blog/2020/lightshift-game" component={LightshiftGame}/>
         <Route path="/blog/2020/dark-mode-react-toggle" component={DarkModeToggle}/>
         <Route path="/blog/2019/grails-frontend-asset-migration" component={GrailsAssetMigration}/>

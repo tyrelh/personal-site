@@ -6,11 +6,21 @@ import battlesnake2018 from "./articles/Battlesnake2018-1.jpg";
 import grailsLogo from "./articles/GrailsAssetMigration.svg"
 import darkModeToggleImage from "../assets/img/darkModeToggle/darkModeToggle.svg";
 import lightshiftGameImage from "./articles/lightshift-game-2.png";
+import denoTestsAndGithubActionsImage from "./articles/DenoTestsAndGithubActionsCI.png";
 import { Redirect } from "react-router-dom";
 
 const getArticles = () => {
   const blogPerma = "/blog";
   const list = [];
+
+  list.push({
+    title: "Deno Tests and Github Actions CI",
+    description: "As part of translating my JavaScript & Node Battlesnake project to TypeScript & Deno I wanted to setup continuous integration. It was so much easier than I imagined using Github Actions.",
+    image: denoTestsAndGithubActionsImage,
+    alt: "screenshot of deno and github logos",
+    href: blogPerma + "/2020/deno-tests-and-github-actions",
+    date: "May 23rd, 2020"
+  });
 
   list.push({
     title: "Lightshift Game",
@@ -90,7 +100,7 @@ export default class ArticlesOverview extends React.Component {
         size="large"
         split={false}
         pagination={{
-          pageSize: 5,
+          pageSize: 6,
           total: articleList.length,
           hideOnSinglePage: true
         }}
