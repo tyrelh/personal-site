@@ -18,10 +18,8 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <p>
-          Made with <Icon type="thunderbolt" theme="filled"/> by Tyrel Hiebert.<br/>
-          {/*Copyright © 2020. <a href="https://www.github.com/tyrelh/personal-site/">View Source</a>.<br/>*/}
-          License <Anchor href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License</Anchor>.<br/>
-          <Anchor href="https://www.github.com/tyrelh/personal-site/"><Icon type="github" theme="filled"/> View Source</Anchor>.&nbsp;&nbsp;&nbsp;<Anchor href="https://tyrelh.github.io/rss.xml"><Icon component={this.rssIcon}/> Subscribe</Anchor>.
+          Made with <Icon type="thunderbolt" theme="filled"/> by Tyrel Hiebert<br/>
+          <Anchor href="https://www.github.com/tyrelh/personal-site/"><Icon type="github" theme="filled"/> View Source</Anchor>
         </p>
       </footer>
     )
