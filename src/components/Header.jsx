@@ -12,15 +12,13 @@ export default class Header extends React.Component {
         <div className="nameContainer fadeIn">
             <NavLink exact to="/">
               <h1 datatext={this.props.headerTitle} className={this.classN}>
-                <span className="underline">
-                  {this.props.headerTitle}
-                  {
-                    (this.props.children) ?
-                      this.props.children
-                      :
-                      null
-                  }
-                </span>
+                {this.props.headerTitle}
+                {
+                  (this.props.children) ?
+                    this.props.children
+                    :
+                    null
+                }
               </h1>
             </NavLink>
         </div>
