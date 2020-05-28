@@ -21,7 +21,7 @@
       margin-left: 10px;
 
       svg {
-        fill: $color-main-text-disabled;
+        fill: rgba($color-main-text-disabled, 0);
       }
     }
   }
