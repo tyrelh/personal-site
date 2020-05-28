@@ -1,6 +1,8 @@
 # Deno Tests and Github Actions CI
 During a recent project to convert my JavaScript & Node [Battlesnake](https://play.battlesnake.com/) over to TypeScript & [Deno](https://deno.land/), I decided I would also create a more robust suite of tests for it.
 
+![Deno and Github logos with an addition symbol between them](./DenoTestsAndGithubActionsCI.png)
+
 If you are unfamiliar with [Battlesnake](https://play.battlesnake.com/), it is an online and in-person programming competition where you build a AI in the form of a REST API that can play a multiplayer version of the classic game [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre). You can check out details on their [website](https://play.battlesnake.com/) to learn more, and even watch some past events on their [Twitch channel](https://www.twitch.tv/BattlesnakeOfficial).
 
 ## Tl;dr
