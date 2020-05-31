@@ -33,7 +33,8 @@ export default class Home extends React.Component {
             Get in touch
           </SectionHeader>
           <p>
-            Feel free to contact me via <Anchor href="mailto:tyrel.hiebert@gmail.com">email</Anchor>. If you are interested, you can view my <Anchor href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf">CV</Anchor> for more details about my background and experience.
+            Feel free to contact me via <Anchor href="mailto:tyrel.hiebert@gmail.com">email</Anchor>.
+            {/*If you are interested, you can view my <Anchor href="https://tyrelh.github.io/docs/Tyrel-Hiebert-resume-online.pdf">CV</Anchor> for more details about my background and experience.*/}
           </p>
       </div>
     )
