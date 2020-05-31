@@ -7,11 +7,21 @@ import grailsLogo from "./articles/GrailsAssetMigration.svg"
 import darkModeToggleImage from "../assets/img/darkModeToggle/darkModeToggle.svg";
 import lightshiftGameImage from "./articles/lightshift-game-2.png";
 import denoTestsAndGithubActionsImage from "./articles/DenoTestsAndGithubActionsCI.png";
+import nodeCICDPipeline from "./articles/node-cicd-pipeline-hero.png"
 import { Redirect } from "react-router-dom";
 
 const getArticles = () => {
   const blogPerma = "/blog";
   const list = [];
+
+  list.push({
+    title: "Node CI/CD Pipeline using Github Actions and AWS Elastic Beanstalk",
+    description: "Here is my journey into creating an automated continuous integration and continuous deployment workflow for a project using Github Actions.",
+    image: nodeCICDPipeline,
+    alt: "Github Actions logo with colourful background and text that says GitHub Actions now with built-in CI/CD",
+    href: blogPerma + "/2020/node-cicd-pipeline-using-github-actions-and-aws-elastic-beanstalk",
+    date: "May 30th, 2020"
+  });
 
   list.push({
     title: "Deno Tests and Github Actions CI",
