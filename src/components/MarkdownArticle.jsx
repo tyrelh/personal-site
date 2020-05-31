@@ -54,12 +54,12 @@ export default class MarkdownArticle extends React.Component {
   render() {
     return (
       <div className="article-container">
-        {/*<h4>*/}
-        {/*  Tyrel Hiebert*/}
-        {/*</h4>*/}
         <Markdown className="article fadeIn" options={this.options}>
           {this.state.article}
         </Markdown>
+        <div className="contribute">
+          Want to suggest a change to this article? <a href={`https://github.com/tyrelh/personal-site/blob/master/src/components/articles/${this.props.name}.md`} target="_blank" rel={"noopener noreferrer"}>Find it on Github</a>.
+        </div>
       </div>
     )
   }

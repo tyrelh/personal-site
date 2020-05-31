@@ -45,6 +45,15 @@
       }
     }
   }
+}
+
+.contribute {
+  margin: 30px 20px 0 20px;
+  font-size: 1em;
+  @media (min-width: 375px) and (max-width: 812px) {
+    margin: 30px 15px 0 15px;
+  }
+}
 //}
 
 .light-mode {
