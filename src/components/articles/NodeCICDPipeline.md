@@ -1,5 +1,6 @@
 # Node CI/CD Pipeline using Github Actions and AWS Elastic Beanstalk
-Here is my journey into creating an automated continuous integration and continuous deployment workflow for a project using Github Actions.
+#### May 30, 2020
+Here is my journey into creating an automated workflow to test, build, and deploy a project I have been working on using Github Actions and Elastic Beanstalk.
 
 ![Github Actions logo with colourful background and text that says GitHub Actions now with built-in CI/CD](./node-cicd-pipeline-hero.png)
 
