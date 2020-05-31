@@ -1,0 +1,20 @@
+@import "../../colors.scss";
+
+.dateHeader {
+  h4 {
+    color: rgba($color-main-text, 0.5);
+    font-size: 0.8em;
+    margin-bottom: 40px;
+    i {
+      margin-right: 5px;
+    }
+  }
+}
+
+.light-mode {
+  .dateHeader {
+    h4 {
+      color: rgba($color-main-text-light-theme, 0.5);
+    }
+  }
+}

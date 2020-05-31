@@ -4,6 +4,7 @@ import SectionHeader from "./elements/SectionHeader";
 import Markdown from 'markdown-to-jsx';
 import "./MarkdownArticle.scss";
 import Anchor from "./elements/Anchor";
+import DateHeader from "./elements/DateHeader";
 
 class MarkdownImage extends React.Component {
   state = {
@@ -47,6 +48,7 @@ export default class MarkdownArticle extends React.Component {
       img: MarkdownImage,
       h1: Header,
       h2: SectionHeader,
+      h4: DateHeader,
       a: Anchor
     },
   };
