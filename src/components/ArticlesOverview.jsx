@@ -10,6 +10,8 @@ import denoTestsAndGithubActionsImage from "./articles/DenoTestsAndGithubActions
 import nodeCICDPipeline from "./articles/node-cicd-pipeline-hero.png"
 import { Redirect } from "react-router-dom";
 
+const NUM_HOMEPAGE_ARTICLES = 10;
+
 const getArticles = () => {
   const blogPerma = "/blog";
   const list = [];
@@ -110,7 +112,7 @@ export default class ArticlesOverview extends React.Component {
         size="large"
         split={false}
         pagination={{
-          pageSize: 6,
+          pageSize: NUM_HOMEPAGE_ARTICLES,
           total: articleList.length,
           hideOnSinglePage: true
         }}
