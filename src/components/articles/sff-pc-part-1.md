@@ -4,6 +4,11 @@ This article I originally [posted to the SSFPC subreddit](https://www.reddit.com
 
 ![Night picture of PC with lights shining on desk. Lights look brighter in picture than they really do.](./sff-pc-part-1-1.jpg)
 
+## Tl;dr
+This is my first small form factor gaming PC. It uses a AMD Ryzen 7 5800X processor and EVGA RTX 3080 graphics card, all inside a small Metalfish S5 case purchased from Aliexpress.
+
+This is partially a temporary setup so that I could get it running soon enough to play Cyberpunk 2077 when it releases. In the near-future I would like to add full custom water-cooling for the GPU and CPU.
+
 I am calling this part 1 of my build. I wanted to get most of the major parts and get it running in time to play Cyberpunk 2077. Part 2 will be full custom water cooling for both the GPU and CPU.
 
 ![Wide picture showing my desk. Can see how large the 43" TV looks beside the small PC.](./sff-pc-part-1-2.jpg)
