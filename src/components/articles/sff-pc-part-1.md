@@ -9,6 +9,7 @@ This is my first small form factor gaming PC. It uses a AMD Ryzen 7 5800X proces
 
 This is partially a temporary setup so that I could get it running soon enough to play Cyberpunk 2077 when it releases. In the near-future I would like to add full custom water-cooling for the GPU and CPU.
 
+## Intro
 I am calling this part 1 of my build. I wanted to get most of the major parts and get it running in time to play Cyberpunk 2077. Part 2 will be full custom water cooling for both the GPU and CPU.
 
 ![Wide picture showing my desk. Can see how large the 43" TV looks beside the small PC.](./sff-pc-part-1-2.jpg)
@@ -33,6 +34,7 @@ This is my first AMD PC and my first small form factor build. I downsized from a
 * • Nuphy low-profile mechanical keyboard with Kailh choc white switches
 * • Logitech MX Master 3 mouse
 
+## CPU & Cooler
 ![Side of the PC with the glass panel off showing the components lit up.](./sff-pc-part-1-5.jpg)
 
 This first part of the build went together pretty simply. I tried to do some basic cable management. The front I/O I actually ran under the motherboard before screwing it down. There is essentially no cable management space in this case, that is it's biggest negative. The power cables that come with the SF750 are quite nice and reasonably short, so they tuck away to the side.
@@ -43,18 +45,22 @@ The slim Cooler Master cpu cooler I used was really just a temporary choice unti
 
 I do not recommend this cooler for the 5800X, it's obviouslly not enough. The system idles around 55c and very quickly spikes to >90c and throttles when doing anything processor intensive. I put those 2 exhaust fans near it to try to get the hot air out of there as much as possible. I even added stand-off spacers to the glass side panel to add a gap to allow more air intake. This was a good enough solution for me to play games but running close to 90c isn't great for the longevity of the processor. This is only meant to be a temporary solution.
 
+## Graphics Card
 ![Angle of from the bottom of the computer. Shows that GPU fans can pull air through the bottom of the case.](./sff-pc-part-1-8.jpg)
 
 The RTX 3080 actually runs quite well in this case with the stock EVGA XC3 cooler. It levels out under 75c while gaming but the fans run pretty fast (80-100%). It is just pulling air through the bottom of the case with its own fans.
 
+## Customization
 ![The bottom of the case showing the feet.](./sff-pc-part-1-10.jpg)
 
 I also changed the feet on the case. These ones I took from my Logitech subwoofer. They raise the case a bit higher to allow a bit more airflow from the bottom. The feet it came with were quite shallow. I also prefer the matte black over the chrome of the standard feet.
 
+## Performance
 ![The back of the case. Can see the large Gigabyte wifi antenna magneted to the back.](./sff-pc-part-1-11.jpg)
 
 Here are some basic performance numbers, this obviously isn't a thorough review of the components. I have been running Cyberpunk 2077 at 4k with Ultra settings, DLSS at the Quality preset, and ray-tracing reflections only. It runs around 45-50 fps. Turning off ray-traced reflections it will sit close to a steady 60 fps. Microsoft Flight Simulator gets around 50fps with 4k Ultra settings. Other games I am playing are a bit older and run higher than 60fps which is perfect for my 60Hz monitor. These include World of Warcraft, Elite Dangerous, Cities Skylines, Project Cars 2, and Forza Horizon 4.
 
+## In The Future
 ![The right side of the case. Simply flat aluminium with some small ventilation along the bottom.](./sff-pc-part-1-12.jpg)
 
 The end goal for this PC is a full custom water-cooling loop. I have on order the Barrow CPU block/pump/resivoir combo unit from Aliexpress along with Barrow fittings. I have an EK waterblock & backplate for the RTX 3080, an EK SE240 radiator that will live at the bottom of the case, and EK soft black tubing. I will run 2x Noctua NF-A12x15 slim fans on the radiator as intake.
