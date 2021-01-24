@@ -17,21 +17,21 @@ This is my first AMD PC and my first small form factor build. I downsized from a
 
 ![Side of the PC with the glass panel on showing the components lit up.](./sff-pc-part-1-4.jpg)
 
-Current components:
-* Metalfish S5 case from Aliexpress
-* EVGA RTX 3080 XC3 Ultra
-* Ryzen 7 5800X
-* Cooler Master G200P cooler
-* 2x Noctua NF-A9x14 fans (1 on CPU cooler, 1 exhaust on back panel)
-* Cooler Master slim RGB fan (came with the CPU cooler, on top panel as exhaust)
-* Gigabyte B550i Aorus Pro AX motherboard
-* 16GB TridentZ 3200MHz CL14 memory
-* 1TB XPG SX8200 Pro M.2 SSD
-* 250GB Samsung 850 Evo 2.5" SSD
-* Corsair SF750 power supply
-* Sharp 43" 4k 60Hz TV as my monitor
-* Nuphy low-profile mechanical keyboard with Kailh choc white switches
-* Logitech MX Master 3 mouse
+## Components
+* • Metalfish S5 case from Aliexpress
+* • EVGA RTX 3080 XC3 Ultra
+* • Ryzen 7 5800X
+* • Cooler Master G200P cooler
+* • 2x Noctua NF-A9x14 fans (1 on CPU cooler, 1 exhaust on back panel)
+* • Cooler Master slim RGB fan (came with the CPU cooler, on top panel as exhaust)
+* • Gigabyte B550i Aorus Pro AX motherboard
+* • 16GB TridentZ 3200MHz CL14 memory
+* • 1TB XPG SX8200 Pro M.2 SSD
+* • 250GB Samsung 850 Evo 2.5" SSD
+* • Corsair SF750 power supply
+* • Sharp 43" 4k 60Hz TV as my monitor
+* • Nuphy low-profile mechanical keyboard with Kailh choc white switches
+* • Logitech MX Master 3 mouse
 
 ![Side of the PC with the glass panel off showing the components lit up.](./sff-pc-part-1-5.jpg)
 
