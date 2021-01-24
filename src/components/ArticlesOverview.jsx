@@ -18,6 +18,15 @@ const getArticles = () => {
   const list = [];
 
   list.push({
+    title: "SFF PC Build Part 2 - Watercooling",
+    description: "My first small form factor gaming PC. This first part describes the basic build and major components.",
+    image: sffPcPart1,
+    alt: "Side of computer with no side panel showing components lit up with red and blue LED lights",
+    href: blogPerma + "/2021/sff-pc-part-2-watercooling",
+    date: "Jan 2nd, 2021"
+  });
+
+  list.push({
     title: "SFF PC Build Part 1",
     description: "My first small form factor gaming PC. This first part describes the basic build and major components.",
     image: sffPcPart1,
