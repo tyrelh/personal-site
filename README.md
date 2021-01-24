@@ -25,6 +25,7 @@ npm run deploy
 ```
 
 ## Todo
+* Fix ULs in articles that you actually want the bullets to appear (should be done with styles not characters in the md)
 * Limit text size of header so long single words don't overflow.
 * Permalinks on section headers
 * Article overview image size on mobile increase
