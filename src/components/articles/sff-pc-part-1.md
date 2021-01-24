@@ -1,4 +1,4 @@
-# SFF PC Build Part 1
+# Small Form Factor PC Build Part 1
 #### Jan 2, 2021
 This article I originally [posted to the SSFPC subreddit](https://www.reddit.com/r/sffpc/comments/kpc0ul/part_1_of_my_first_sff_build_metalfish_s5_case/).
 
