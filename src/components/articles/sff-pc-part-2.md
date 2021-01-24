@@ -120,7 +120,7 @@ I needed to use all 4 of my 90° fittings to get the radiator inlet/outlet to av
 I left a fair amount of slack in the tubing run between the radiator and GPU. This was partially to avoid any strain on the connections, but also having more tubing means more water volume. More water volume means greater absorption of spikes in heat and a longer time before the system becomes heat-soaked. This build does not include a reservoir (apart from the very tiny space in the Barrow pump/block) so having longer tubing and greater coolant volume felt like a good idea.
 
 ## Fans & Airflow
-I have 2x 120mm intake fans on the radiator on the bottom, and 3x 92mm exhaust fans on the back and top of the case. I am very satisfied with Noctua's chromax black slim fans. Decently quiet and good airflow.
+I have 2x [120mm intake fans](https://noctua.at/en/nf-a12x15-pwm-chromax-black-swap) on the radiator on the bottom, and 3x [92mm exhaust fans](https://noctua.at/en/nf-a9x14-pwm-chromax-black-swap) on the back and top of the case. I am very satisfied with Noctua's chromax black slim fans. Decently quiet and good airflow.
 
 Controversially I am not concerned about dust so I actually run with negative pressure and no dust filters. I don't mind cleaning my computer now and then. I've found that negative pressure is much more performant at cooling than positive pressure.
 
@@ -130,7 +130,7 @@ If you want to have a glass side panel you may want to consider a negative press
 
 I originally had the Corsair Commander Pro fan/LED controller installed and controlling the fan curves. I got this because it has temperature probe inputs and I want to eventually add a liquid temperature sensor to base the fan curves off of. This controller and its iCue software just did not work for me. I had so many issues getting the controller to work with my motherboard and I could not get the included temperature probes to even work at all. I ended up returning it.
 
-The Gigabyte B550i Aorus Pro AX has 3 fan headers. 1 is used for the Barrow pump. I am using fan splitters to run the 2 120mm radiator fans to 1 header, and the 3 92mm case fans to the last header.
+The [Gigabyte B550i Aorus Pro AX](https://www.gigabyte.com/ca/Motherboard/B550I-AORUS-PRO-AX-rev-10#kf) has 3 fan headers. 1 is used for the Barrow pump. I am using fan splitters to run the 2 120mm radiator fans to 1 header, and the 3 92mm case fans to the last header.
 
 ## Coolant & Filling
 I used [EKWB Mystic Fog cooling concentrate](https://www.ekwb.com/shop/ek-cryofuel-mystic-fog-conc-250ml) and distilled water. You can't really see the coolant just by looking through the side panel. I chose Mystic Fog as I wanted to be able to have only neutral colours in the system and control all the colours with the LEDs. Mystic Fog is essentially milky white in colour and has something in it to help diffuse light. This setup holds around 350-400mL of coolant.
