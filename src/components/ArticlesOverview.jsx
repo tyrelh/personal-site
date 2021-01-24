@@ -23,7 +23,7 @@ const getArticles = () => {
     image: sffPcPart1,
     alt: "Side of computer with no side panel showing components lit up with red and blue LED lights",
     href: blogPerma + "/2021/sff-pc-part-2-watercooling",
-    date: "Jan 2nd, 2021"
+    date: "Jan 24, 2021"
   });
 
   list.push({
