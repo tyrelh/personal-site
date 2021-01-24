@@ -29,28 +29,28 @@ Also I talk a bit about my experience mining crypto. This is foremost a gaming a
 I outlined in a [previous post](https://tyrelh.github.io/#/blog/2021/sff-pc-part-1) the initial build and components. This post is my experience upgrading to a full custom water cooling loop for both the CPU and GPU. If you are unaware, "custom" water cooling means that I aquired and assembled all the water cooling components myself and decided on the configuration. That is in contrast to all-in-one (AIO) water coolers available for CPUs and GPUs. These come assembled with a pump, radiator, tubing, and coolant all assembled and sealed, and installation is simple.
 
 ## PC Components
-* [Metalfish S5 case from AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124122625&origin=y&SearchText=metalfish+s5)
-* [EVGA RTX 3080 XC3 Ultra](https://www.evga.com/products/product.aspx?pn=10G-P5-3885-KR)
-* [Ryzen 7 5800X](https://www.amd.com/en/products/cpu/amd-ryzen-7-5800x)
-* 2x [Noctua NF-A9x14 92mm fans](https://noctua.at/en/nf-a9x14-pwm-chromax-black-swap)
-* [Cooler Master slim RGB 92mm fan](https://www.coolermaster.com/catalog/coolers/cpu-air-coolers/masterair-g200p/)
-* 2x [Noctua NF-A12x15 120mm fans](https://noctua.at/en/nf-a12x15-pwm-chromax-black-swap)
-* [Gigabyte B550i Aorus Pro AX motherboard](https://www.gigabyte.com/ca/Motherboard/B550I-AORUS-PRO-AX-rev-10#kf)
-* [16GB (2x8GB) GSkill TridentZ 3200MHz CL14 memory](https://www.gskill.com/product/165/326/1562838482/F4-3200C14D-16GTZNTrident-Z-NeoDDR4-3200MHz-CL14-14-14-34-1.35V16GB-(2x8GB))
-* [1TB XPG SX8200 Pro M.2 SSD](https://www.xpg.com/en/feature/583/)
-* [250GB Samsung 850 Evo 2.5" SSD](https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo/)
-* [Corsair SF750 power supply](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA)
-* 2x [3-way 4-pin fan splitters](https://www.amazon.ca/gp/product/B07MXNT6V4/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
+* • [Metalfish S5 case from AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124122625&origin=y&SearchText=metalfish+s5)
+* • [EVGA RTX 3080 XC3 Ultra](https://www.evga.com/products/product.aspx?pn=10G-P5-3885-KR)
+* • [Ryzen 7 5800X](https://www.amd.com/en/products/cpu/amd-ryzen-7-5800x)
+* • 2x [Noctua NF-A9x14 92mm fans](https://noctua.at/en/nf-a9x14-pwm-chromax-black-swap)
+* • [Cooler Master slim RGB 92mm fan](https://www.coolermaster.com/catalog/coolers/cpu-air-coolers/masterair-g200p/)
+* • 2x [Noctua NF-A12x15 120mm fans](https://noctua.at/en/nf-a12x15-pwm-chromax-black-swap)
+* • [Gigabyte B550i Aorus Pro AX motherboard](https://www.gigabyte.com/ca/Motherboard/B550I-AORUS-PRO-AX-rev-10#kf)
+* • [16GB (2x8GB) GSkill TridentZ 3200MHz CL14 memory](https://www.gskill.com/product/165/326/1562838482/F4-3200C14D-16GTZNTrident-Z-NeoDDR4-3200MHz-CL14-14-14-34-1.35V16GB-(2x8GB))
+* • [1TB XPG SX8200 Pro M.2 SSD](https://www.xpg.com/en/feature/583/)
+* • [250GB Samsung 850 Evo 2.5" SSD](https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo/)
+* • [Corsair SF750 power supply](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA)
+* • 2x [3-way 4-pin fan splitters](https://www.amazon.ca/gp/product/B07MXNT6V4/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)
 
 ## Water Cooling Components
-* [EKWB Quantum Vector XC3 acrylic GPU water block](https://www.ekwb.com/shop/ek-quantum-vector-xc3-rtx-3080-3090-d-rgb-nickel-plexi)
-* [EKWB Quantem Vector XC3 black aluminium GPU backplate](https://www.ekwb.com/shop/ek-quantum-vector-xc3-rtx-3080-3090-backplate-black)
-* [Barrow CPU pump/block/reservoir combo acrylic](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124123800&SearchText=barrow+cpu+pump+block)
-* [EKWB CoolStream SE 240 radiator](https://www.ekwb.com/shop/ek-coolstream-se-240-slim-dual-5001)
-* [Barrow fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124123825&SearchText=barrow+g1%2F4)
-* [EKWB matte black rubber tubing (15.9mm/9.5mm)](https://www.ekwb.com/shop/ek-tube-zmt-matte-black-15-9-9-5mm)
-* [EKWB black acetal GPU terminal](https://www.ekwb.com/shop/ek-fc-terminal-acetal)
-* [EKWB CryoFuel Mystic Fog coolant concentrate](https://www.ekwb.com/shop/ek-cryofuel-mystic-fog-conc-250ml)
+* • [EKWB Quantum Vector XC3 acrylic GPU water block](https://www.ekwb.com/shop/ek-quantum-vector-xc3-rtx-3080-3090-d-rgb-nickel-plexi)
+* • [EKWB Quantem Vector XC3 black aluminium GPU backplate](https://www.ekwb.com/shop/ek-quantum-vector-xc3-rtx-3080-3090-backplate-black)
+* • [Barrow CPU pump/block/reservoir combo acrylic](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124123800&SearchText=barrow+cpu+pump+block)
+* • [EKWB CoolStream SE 240 radiator](https://www.ekwb.com/shop/ek-coolstream-se-240-slim-dual-5001)
+* • [Barrow fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124123825&SearchText=barrow+g1%2F4)
+* • [EKWB matte black rubber tubing (15.9mm/9.5mm)](https://www.ekwb.com/shop/ek-tube-zmt-matte-black-15-9-9-5mm)
+* • [EKWB black acetal GPU terminal](https://www.ekwb.com/shop/ek-fc-terminal-acetal)
+* • [EKWB CryoFuel Mystic Fog coolant concentrate](https://www.ekwb.com/shop/ek-cryofuel-mystic-fog-conc-250ml)
 
 ## Installing CPU Water Block
 The [Barrow pump/block](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124123800&SearchText=barrow+cpu+pump+block) I used did not come with any instructions, but it was pretty simple to figure out. I ordered the AMD version and it came with the installation plate pre-installed on the block. Included was 4 screws and 8 springs of 2 different lengths. They expect you to use the backplate included with your motherboard so make sure you have that on hand.
@@ -105,11 +105,11 @@ I tried to order all the fittings I would need from AliExpress when I ordered th
 I used Barrow 3/8"(10mm) inner 5/8"(16mm) outer and EKWB 3/8"(9.5mm) inner 5/8"(15.9mm) outer parts. Barrow and EK use slightly different metric measurements but they work perfectly together.
 
 In total I ended up using:
-* 8x [Barrow standard compression fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100012&origin=y&SearchText=Barrow+10x16+soft+tube+fittings)
-* 4x [Barrow 90° rotary fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100120&origin=y&SearchText=barrow+90+degree+rotary)
-* 1x [Barrow 4-way adaptor](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100239&SearchText=barrow+4-way)
-* 5x [Barrow plug](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100335&SearchText=barrow+water+cooling+plug)
-* ~60cm (2') [EKWB ZMT matte black tubing](https://www.ekwb.com/shop/ek-tube-zmt-matte-black-15-9-9-5mm)
+* • 8x [Barrow standard compression fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100012&origin=y&SearchText=Barrow+10x16+soft+tube+fittings)
+* • 4x [Barrow 90° rotary fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100120&origin=y&SearchText=barrow+90+degree+rotary)
+* • 1x [Barrow 4-way adaptor](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100239&SearchText=barrow+4-way)
+* • 5x [Barrow plug](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100335&SearchText=barrow+water+cooling+plug)
+* • ~60cm (2') [EKWB ZMT matte black tubing](https://www.ekwb.com/shop/ek-tube-zmt-matte-black-15-9-9-5mm)
 
 The Barrow compression fittings can be a little hard to screw together once the tubing is on. I used a tiny dab of mineral oil to lubricate the rubber so I could more easily screw down the fitting. I have no idea if this is ok or ill advised but it seemed to work great for me and I've had no issues. Just go light on the oil. You can also just use water if you like.
 
@@ -183,9 +183,10 @@ This project was a lot of work. A lot of it because of my choice in case. The Me
 I love how the interior looks with a mostly black utilitarian look with the black tubing but still with accents of light on the memory and GPU block.
 
 Some things I may try to do in the future are:
-* Try to incorporate additional cooling into the loop. Either with AlphaCool's 92mm radiator or something more custom with their skinny server radiators on the top of the case
-* Paint a small black border around the inside of the glass side panel
-* Get the LEDs on the CPU block working
-* Get PWM control of the pump working and get rid of the manual dial
+
+* • Try to incorporate additional cooling into the loop. Either with AlphaCool's 92mm radiator or something more custom with their skinny server radiators on the top of the case
+* • Paint a small black border around the inside of the glass side panel
+* • Get the LEDs on the CPU block working
+* • Get PWM control of the pump working and get rid of the manual dial
 
 I am very happy with how it turned out overall. If you have any questions about the build feel free to comment on the corresponding reddit post I made. Also thanks if you made it this far! Sorry this turned into 5000+ words!
