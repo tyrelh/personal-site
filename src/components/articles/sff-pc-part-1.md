@@ -13,7 +13,7 @@ I am calling this part 1 of my build. I wanted to get most of the major parts an
 
 ![Wide picture showing my desk. Can see how large the 43" TV looks beside the small PC.](./sff-pc-part-1-2.jpg)
 
-This is my first AMD PC and my first SFF build. I downsized from a giant NZXT S340 case which my previous GTX 1080 / i5 6600k build from 2016 lived in.
+This is my first AMD PC and my first small form factor build. I downsized from a giant NZXT S340 case which my previous GTX 1080 / i5 6600k build from 2016 lived in.
 
 ![Side of the PC with the glass panel on showing the components lit up.](./sff-pc-part-1-4.jpg)
 
