@@ -55,6 +55,8 @@ The RTX 3080 actually runs quite well in this case with the stock EVGA XC3 coole
 
 I also changed the feet on the case. These ones I took from my Logitech subwoofer. They raise the case a bit higher to allow a bit more airflow from the bottom. The feet it came with were quite shallow. I also prefer the matte black over the chrome of the standard feet.
 
+I am not 100% sure about this LED colour scheme I found. I was sorta going for the HUD blue/red from Cyberpunk 2077 but it still needs a little tweaking.
+
 ## Performance
 ![The back of the case. Can see the large Gigabyte wifi antenna magneted to the back.](./sff-pc-part-1-11.jpg)
 
@@ -69,10 +71,7 @@ The end goal for this PC is a full custom water-cooling loop. I have on order th
 
 This will hopefully get my CPU temperature under control and allow for some overclocking headroom.
 
-
 I may end up doing some more upgrades to the loop eventually if I find the 240mm radiator isn't sufficient to cool both the CPU and GPU.
-
-I am not 100% sure about this LED colour scheme I found. I was sorta going for the HUD blue/red from Cyberpunk 2077 but it still needs a little tweaking.
 
 ![Front left angle of the whole computer case with the glass side panel attached and the unpowered components visible.](./sff-pc-part-1-14.jpg)
 
