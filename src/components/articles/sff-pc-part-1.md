@@ -1,5 +1,5 @@
 # SFF PC Build Part 1
-
+#### Jan 2, 2021
 This article I originally [posted to the SSFPC subreddit](https://www.reddit.com/r/sffpc/comments/kpc0ul/part_1_of_my_first_sff_build_metalfish_s5_case/).
 
 ![Night picture of PC with lights shining on desk. Lights look brighter in picture than they really do.](./sff-pc-part-1-1.jpg)
