@@ -8,6 +8,7 @@ import darkModeToggleImage from "../assets/img/darkModeToggle/darkModeToggle.svg
 import lightshiftGameImage from "./articles/lightshift-game-2.png";
 import denoTestsAndGithubActionsImage from "./articles/DenoTestsAndGithubActionsCI.png";
 import nodeCICDPipeline from "./articles/node-cicd-pipeline-hero.png"
+import sffPcPart1 from "./articles/sff-pc-part-1-5.jpg"
 import { Redirect } from "react-router-dom";
 
 const NUM_HOMEPAGE_ARTICLES = 10;
@@ -16,6 +17,15 @@ const getArticles = () => {
   const blogPerma = "/blog";
   const list = [];
 
+  list.push({
+    title: "SFF PC Build Part 1",
+    description: "My first small form factor gaming PC. This first part describes the basic build and major components.",
+    image: sffPcPart1,
+    alt: "Side of computer with no side panel showing components lit up with red and blue LED lights",
+    href: blogPerma + "/2021/sff-pc-part-1",
+    date: "Jan 2nd, 2021"
+  });
+  
   list.push({
     title: "Node CI/CD Pipeline using Github Actions and AWS Elastic Beanstalk",
     description: "Here is my journey into creating an automated continuous integration and continuous deployment workflow for a project using Github Actions.",
