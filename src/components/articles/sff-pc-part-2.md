@@ -39,7 +39,7 @@ I outlined in a [previous post](https://tyrelh.github.io/#/blog/2021/sff-pc-part
 * • [Cooler Master slim RGB 92mm fan](https://www.coolermaster.com/catalog/coolers/cpu-air-coolers/masterair-g200p/)
 * • 2x [Noctua NF-A12x15 120mm fans](https://noctua.at/en/nf-a12x15-pwm-chromax-black-swap)
 * • [Gigabyte B550i Aorus Pro AX motherboard](https://www.gigabyte.com/ca/Motherboard/B550I-AORUS-PRO-AX-rev-10#kf)
-* • [16GB (2x8GB) GSkill TridentZ 3200MHz CL14 memory](https://www.gskill.com/product/165/326/1562838482/F4-3200C14D-16GTZNTrident-Z-NeoDDR4-3200MHz-CL14-14-14-34-1.35V16GB-(2x8GB))
+* • [16GB (2x8GB) GSkill TridentZ 3200MHz CL14 memory](https://www.gskill.com/product/165/326/1562838482/F4-3200C14D-16GTZNTrident-Z-NeoDDR4-3200MHz-CL14-14-14-34-1.35V16GB-(2x8GB\))
 * • [1TB XPG SX8200 Pro M.2 SSD](https://www.xpg.com/en/feature/583/)
 * • [250GB Samsung 850 Evo 2.5" SSD](https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo/)
 * • [Corsair SF750 power supply](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA)
