@@ -177,7 +177,7 @@ I was using crypto mining with NiceHash as my temperature benchmark. With stock 
 When gaming (Cyberpunk 2077 was my main gaming benchmark) temps looked okay. CPU was running around 80-85°c and GPU was running around 65-70°c. This is at 4k Ultra settings, no ray-tracing, and DLSS Quality, running around 55-60fps. These are ok temperatures but I was hoping for some more headroom for overclocking.
 
 ## Fan Tuning & Kryonaut
-Dialing the fans in helped with temps a bit. I like having a silent mode when the system is idle and this works really well. I can easily stop all the fans and just run the pump at idle or when doing basic tasks for virtually silent running. Using the CPU temp as the controller I ramp up fan speed around 50-60°c and have them hit 100% speed at 80°c. Could use a bit more tuning but it has been working well, and the high fan speed under heavy load doesn't bother me too much. Since I mine crypto currency when not gaming the system is rarely at idle so the silent mode really never gets used/
+Dialing the fans in helped with temps a bit. I like having a silent mode when the system is idle and this works really well. I can easily stop all the fans and just run the pump at idle or when doing basic tasks for virtually silent running. Using the CPU temp as the controller I ramp up fan speed around 50-60°c and have them hit 100% speed at 80°c. Could use a bit more tuning but it has been working well, and the high fan speed under heavy load doesn't bother me too much. Since I mine crypto currency when not gaming the system is rarely at idle so the silent mode really never gets used!
 
 Since I saw the CPU  temperature still acting quite spikey, I thought that the issue I was having wasn't that the water was getting too hot, just that the CPU wasn't transferring it's heat to the water fast enough. I decided to try some [Thermal Grizzly Kryonaut paste](https://www.thermal-grizzly.com/en/products/16-kryonaut-en) as [several YouTubers claim](https://www.youtube.com/watch?v=Z8LNlD5KQbo) this has the best performance before using something like liquid metal. I was using Noctua NT-H1 paste before on both the CPU and GPU
 
@@ -238,7 +238,6 @@ This project was a lot of work. A lot of it because of my choice in case. The Me
 I love how the interior looks with a mostly black utilitarian look with the black tubing but still with accents of light on the memory and GPU block.
 
 Some things I may try to do in the future are:
-
 * • Try to incorporate additional cooling into the loop. Either with AlphaCool's 92mm radiator or something more custom with their skinny server radiators on the top of the case
 * • Paint a small black border around the inside of the glass side panel
 * • Get the LEDs on the CPU block working
