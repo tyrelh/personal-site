@@ -1,7 +1,7 @@
 # Small Form Factor PC Part 2 - Water Cooling
 #### Jan 24, 2021
 This is a continuation of my small form factor PC build. Part 1 was getting the major components installed and the computer running, and part 2 is adding water cooling for the CPU and GPU.
-![Night picture of PC with lights shining on desk. Lights look brighter in picture than they really do.](./sff-pc-part-1-1.jpg)
+![Wide picture of entire desk showing my monitor, pc, keyboard, mouse, and speakers. There is a window behind the monitor and plants on either side.](./sff-pc-part-2-3.jpeg)
 
 ## Tl;dr
 
@@ -22,6 +22,8 @@ This is a continuation of my small form factor PC build. Part 1 was getting the 
 
 ## Introduction
 Like many others in 2020, with Cyberpunk 2077 releasing soon and new graphics cards from both Nvidia and AMD announced, I decided to upgrade my gaming PC. I wanted to do something a little different than I had done before, and after discovering the [Optimum Tech YouTube channel](https://www.youtube.com/channel/UCRYOj4DmyxhBVrdvbsUwmAA) I fell in love with small form factor (SFF) PCs and the idea of custom water cooling one.
+
+![PC in it's normal spot on the right side of my desk with the lights visible inside through the glass side panel](./sff-pc-part-2-4.jpeg)
 
 A sorta disclaimer: the combination of SFF and custom water cooling is tricky to build and requires a lot of planning and some iteration. There just isn't the space to buy whatever components look nice and stick them in the case. Each component needs to work together and especially needs to fit in the case. For me, building the PC is almost more fun than having a completed PC. I decided to do this because the act of building the PC appeals to me. Only attempt something like this if you also feel the same.
 
@@ -56,13 +58,19 @@ I outlined in a [previous post](https://tyrelh.github.io/#/blog/2021/sff-pc-part
 ## Installing CPU Water Block
 The [Barrow pump/block](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124123800&SearchText=barrow+cpu+pump+block) I used did not come with any instructions, but it was pretty simple to figure out. I ordered the AMD version and it came with the installation plate pre-installed on the block. Included was 4 screws and 8 springs of 2 different lengths. They expect you to use the backplate included with your motherboard so make sure you have that on hand.
 
+![Close up picture of the pump block in the running computer. Blue and purple lights glowing around it.](./sff-pc-part-2-16.jpeg)
+
 Essentially you put the springs on the screws before screwing the block onto the motherboard. The springs add tension and hold the block in place. I used the longer springs as I wanted to ensure there was plenty of tension. I found that the screws and the springs don't work very well together (the screw tends to splay open the spring) and eventually I found some nylon washers to add in between them which helped. It is difficult to get the tension equal between all 4 screws so I just tried my best and aired on the side of more tension is better.
 
 The block model I got had 4 wired connections (well 5 really) coming from it: 2-pin pump header, molex pump power, a physical potentiometer to manually control pump speed, 3-pin led header, and if you use the included led controller it needs a molex power as well. I don't know if this is the configuration I intended to buy or what other configurations there are, but I don't like these connections.
 
+![Close up picture of the wired dial that controls the pump speed.](./sff-pc-part-2-10.jpeg)
+
 I plugged the pump header into the CPU fan connection on the motherboard, and ran the speed dial out the back of the case so it could be easily accessed. Using the dial to control the pump speed feels very janky. I've done a bit of reading about it and it seems there is a way to use PWM control from the motherboard and potentially remove the dial completely, but I haven't tried that yet.
 
 The LEDs in the acrylic block I haven't got to work at all, I may have broken them. At first I tried to rewire the header to use it on my (temporary) Corsair Commander Pro fan/LED controller. I thought this might work since they both use 5v data/+/ground LEDs, but I couldn't get this to work. I then reverted it back to the way it was and tried to use the included LED controller and that wouldn't work as well. So I don't know, it's just dark for now.
+
+![Close up picture of the pump block in the running computer. Blue and purple lights glowing around it.](./sff-pc-part-2-15.jpeg)
 
 I desperately wish this block just included a standard 4-pin pump header and a standard LED header. It feels crazy to have to use molex connections in a PC in 2021.
 
@@ -71,26 +79,38 @@ Other than those wiring quirks, installation onto the motherboard was pretty sim
 ## Installing GPU Water Block
 Changing a GPU cooler is a little more complicated. I've had experience previously deshrouding my Zotac GTX 1080 so I understood what goes into  disassembling a GPU. It requires some tiny screwdrivers, a steady hand, and some patience. The EVGA XC3 was fairly straightforward, a bunch of screws on the back and the backplate comes off. The cooler is disconnected as well (no hidden screws) but you need to gently wiggle it side to side to break the bond that the thermal paste/pads are making. Be slow and gentle as you don't want to damage any components.
 
+![The graphics card with no cooler on. The components are all visible and there is still grey thermal paste coating some of the components. The desk is in disarray around the card.](./sff-pc-part-2-1.jpeg)
+
 Once the cooler comes off you need to clean the stock paste off. Even the pads EVGA use are almost a paste consistency and you want to clean as much of that off as possible. Use alcohol and be gentle.
 
 Installing the EK [block](https://www.ekwb.com/shop/ek-quantum-vector-xc3-rtx-3080-3090-d-rgb-nickel-plexi) and [backplate](https://www.ekwb.com/shop/ek-quantum-vector-xc3-rtx-3080-3090-backplate-black) wasn't too hard. EK gives you a bunch of thermal pads of differing thicknesses that you need to cut to size. Just follow their instructions. One tip I have is that the thermal pads closest to the ports you want to keep it as skinny as possible and as close to the GPU chip as possible. Same as the opposite side, you want to keep it as close to the GPU as possible. These strips sit right on the very edge of the metal block and if they stick out at all they can be visible through the front acrylic of the EK cooler.
 
 EK provides PDF instructions for all their products on the product pages. The instructions don't make it super clear what screws to use if you are using both the EK block and backplate. The block instructions assume you aren't using a backplate at all. I used the screws from the Backplate to attach everything.
 
+![Graphics card with clear acrylic side visible showing the shiney nickel water block interior. Laying on top of the messy partially assembled computer.](./sff-pc-part-2-2.jpeg)
+
 One thing I don't like about the EK water block is that the LED header wire is hardwired in. As with everything in this build, there is a dance between all the components as to the order of installation. Having to run this wire when installing the GPU adds to this complication. Not a huge issue though.
+
+![Close up picture of the black terminal block connected to the graphics card water block.](./sff-pc-part-2-13.jpeg)
 
 I replaced the clear acrylic terminal with a [black acetal one from EK](https://www.ekwb.com/shop/ek-fc-terminal-acetal). Mainly this is just because I preferred the matte black part. I also used 2 black Barrow caps on the 2 unused water ports instead of the included polished nickel ones. I actually ordered the [EKWB 90 Rotary Terminal](https://www.ekwb.com/shop/ek-fc-terminal-rotary-90-black) as well as my first choice, but that is a few mm taller and would not fit in my case.
 
 ## Case & Cable Management
 The case I chose was the [Metalfish S5 bought from AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124122625&origin=y&SearchText=metalfish+s5). It's a 13.5L case with MATX motherboard support, support for 3+ slot graphics cards up to 310mm long, 240mm radiator support, and optional support for 2 2.5" SSDs. It offers 4 PCIe slots on the rear meaning you can take full advantage of a MATX board if you like. I instead opted for an ITX motherboard and a radiator on the bottom. The case can support 2x 120mm fans on the bottom, 1x 92mm fan on the rear, and 2x 92mm fans on the top using the optional bracket. The motherboard is snug up against the top of the case so there is no way to fit 120mm fans at the top unfortunately. It's made of aluminium and comes with a nice, slightly tinted, tempered glass side panel attached with thumb screws.
 
+![Picture of the front of the case. Flat aluminum with usb ports and power button in the bottom right corner.](./sff-pc-part-1-13.jpg)
+
 Like a lot of SFF cases it has the power supply mounted internally with a cable connecting it to the back of the case. It's kinda designed for the PSU to draw air from inside the case and vent it out the top.
+
+![Picture of the right side of the case. Flat aluminium with ventilation holes along the bottom edge.](./sff-pc-part-1-12.jpg)
 
 Cable management was by far the hardest part of this build. The Metalfish S5 is very basic (which is part of what drew me to it). It is just an aluminium box with no frills. The motherboard standoffs are attached directly to the back panel. Every other case I have worked with had a removable back panel with a gap between the motherboard tray and the side for cable management. This case does not have that luxury, instead opting for minimal size.
 
 There is a bit of space between the motherboard and the back panel (that the standoffs create) that I routed some small cables through prior to installing the motherboard. The front panel USB, power button cable, and SATA cable I ran along the bottom of the case, up under the motherboard from the bottom, and out through the right side so they can neatly plug in on that side. This helped a bit with the cables but is a bit finicky to do.
 
 The front power LED is a very bright blue and I actually have left it disconnected as I didn't really like the look of it. There are enough LEDs inside the case to indicate it is on.
+
+![Close up picture of the power supply mounted on the back panel of the case in the upper right corner, seen behind the black water tubing.](./sff-pc-part-2-8.jpeg)
 
 The case comes with a small bracket to hang the power supply on the front and back side of the case. [This is how I had it installed in part 1 of the build](https://tyrelh.github.io/#/blog/2021/sff-pc-part-1). I instead wanted to install it flat on the back panel beside the motherboard to leave more room for the water tubing in front. I used 4 pieces of strong double sided tape to adhere it in place and that seems to work extremely well. I used less than 3 square cm of tape (in 4 pieces) as I wanted to be able to remove it without damaging the aluminium. The back of the PSU is facing up to exhaust heat, the fan is facing forward, and the connections are pointing down.
 
@@ -102,6 +122,8 @@ The GPU power cables are still a bit long for the current configuration and I ma
 
 ## Plumbing
 I tried to order all the fittings I would need from AliExpress when I ordered the Barrow pump/block. It was tricky to anticipate all the fittings I would need before trying to build it. I did an ok job but I would recommend getting more 90° adaptors than you think you need, they are very helpful and I wish I got more.
+
+![Side of the PC with all the components visible through the open side. Blue and purple lights colour the interior.](./sff-pc-part-2-17.jpeg)
 
 I used Barrow 3/8"(10mm) inner 5/8"(16mm) outer and EKWB 3/8"(9.5mm) inner 5/8"(15.9mm) outer parts. Barrow and EK use slightly different metric measurements but they work perfectly together.
 
@@ -115,6 +137,8 @@ In total I ended up using:
 The Barrow compression fittings can be a little hard to screw together once the tubing is on. I used a tiny dab of mineral oil to lubricate the rubber so I could more easily screw down the fitting. I have no idea if this is ok or ill advised but it seemed to work great for me and I've had no issues. Just go light on the oil. You can also just use water if you like.
 
 I decided to go radiator → GPU → CPU (includes pump) → back to the radiator as the loop flow direction. I thought at first that the GPU would be the hottest thing requiring the most cooling. I'm not sure if this is the case, I may actually try swapping the order of the GPU and CPU in the loop at some point to see how temperatures are affected. The Ryzen 7 5800X puts out a lot of heat!
+
+![Close up picture of the 90 degree fittings routing around the long graphics card.](./sff-pc-part-2-12.jpeg)
 
 I needed to use all 4 of my 90° fittings to get the radiator inlet/outlet to avoid the GPU. This is one of the longer GPU blocks available (since the EVGA XC3 3080 has quite a long PCB after removing the stock cooler). I would have liked to use at least 1 90° fitting on the GPU as well (between the radiator and GPU) but I didn't have this on hand so I just used the straight compression fittings everywhere else.
 
@@ -136,12 +160,16 @@ The [Gigabyte B550i Aorus Pro AX](https://www.gigabyte.com/ca/Motherboard/B550I-
 ## Coolant & Filling
 I used [EKWB Mystic Fog cooling concentrate](https://www.ekwb.com/shop/ek-cryofuel-mystic-fog-conc-250ml) and distilled water. You can't really see the coolant just by looking through the side panel. I chose Mystic Fog as I wanted to be able to have only neutral colours in the system and control all the colours with the LEDs. Mystic Fog is essentially milky white in colour and has something in it to help diffuse light. This setup holds around 350-400mL of coolant.
 
+![Picture of the extra piece of hose hanging off to the left side with the 4-way connector on the end.](./sff-pc-part-2-11.jpeg)
+
 Filling this system was a bit tricky. I wanted to fill directly into the fill port on the CPU block, but because there is no easy access from the top this was impossible. I also need to be able to move the case around a bit while filling to get the air out. What I ended up doing was attaching a small piece of tubing (~15cm/6") to the fill port and the [4 way splitter](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100239&SearchText=barrow+4-way) to the other end. This gave me a more convenient way to fill with a small funnel and still allow me to wiggle the case around to get the air out. When the system was full I capped off the splitter with plugs and tucked it towards the back. You can see it in the pictures at the top rear of the case. When not being used to fill or drain the system it sits in there as the highest point in the loop holding any air bubbles that percolate up.
 
 Draining the system is a little harder than filling it. This has been my only experience with custom water cooling so far but it is even more stressful draining the system than filling it. It's very difficult to get all the water out of each component. Just be very careful and do it methodically.
 
 ## Initial Temperatures
 I didn't actually know what to expect with this setup: Ryzen 7 5800X, RTX 3080, and a single 240mm slim radiator. I kinda understood that this might not be enough cooling and at first this looked to be the case.
+
+![Side of the computer with the components visible through the open side. Blue and purple lights illuminating the interior.](./sff-pc-part-2-6.jpeg)
 
 I was using crypto mining with NiceHash as my temperature benchmark. With stock overclocking settings (no overclock or underclock) I was seeing quite high temperatures. Just CPU mining (no GPU) I was seeing CPU temperatures above 85°c. CPU and GPU mining together and the CPU was hitting 90°c and affecting the boost frequency. While mining on both, the GPU was hitting around 80°c. The GPU temperature felt ok but the CPU was running way too hot. I decided not to CPU mine for now until I could figure out how to get that temperature down.
 
@@ -178,6 +206,8 @@ If a few variables line up for you (reasonably cheap electricity, cold climate, 
 
 ## Conclusion
 This project was a lot of work. A lot of it because of my choice in case. The Metalfish S5 looks nice and is made of decent materials, but it offers none of the conveniences of more expensive cases. Cable management was a pain and you cannot hide everything. I really like the clean look of it while still having the glass side panel.
+
+![Wide picture of entire desk showing my monitor, pc, keyboard, mouse, and speakers. There is a window behind the monitor and plants on either side.](./sff-pc-part-2-3.jpeg)
 
 I love how the interior looks with a mostly black utilitarian look with the black tubing but still with accents of light on the memory and GPU block.
 
