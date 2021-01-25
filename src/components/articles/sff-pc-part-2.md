@@ -30,7 +30,7 @@ A sorta disclaimer: the combination of SFF and custom water cooling is tricky to
 
 Also I talk a bit about my experience mining crypto. This is foremost a gaming and productivity machine and I enjoy mining on the side when my system is idle. Please no judgement or hate from gamers hating on miners. There is no harm (to component prices) in mining on the side with your gaming PC.
 
-I outlined in a [previous post](https://tyrelh.github.io/#/blog/2021/sff-pc-part-1) the initial build and components. This post is my experience upgrading to a full custom water cooling loop for both the CPU and GPU. If you are unaware, "custom" water cooling means that I aquired and assembled all the water cooling components myself and decided on the configuration. That is in contrast to all-in-one (AIO) water coolers available for CPUs and GPUs. These come assembled with a pump, radiator, tubing, and coolant all assembled and sealed, and installation is simple.
+I outlined in a [previous post](https://tyrelh.github.io/#/blog/2021/sff-pc-part-1) the initial build and components. This post is my experience upgrading to a full custom water cooling loop for both the CPU and GPU. If you are unaware, "custom" water cooling means that I acquired and assembled all the water cooling components myself and decided on the configuration. That is in contrast to all-in-one (AIO) water coolers available for CPUs and GPUs. These come assembled with a pump, radiator, tubing, and coolant all assembled and sealed, and installation is simple.
 
 ## PC Components
 * • [Metalfish S5 case from AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124122625&origin=y&SearchText=metalfish+s5)
