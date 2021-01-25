@@ -19,8 +19,8 @@ const getArticles = () => {
 
   list.push({
     title: "SFF PC Build Part 2 - Watercooling",
-    description: "My first small form factor gaming PC. This first part describes the basic build and major components.",
     image: sffPcPart1,
+    description: "This second part of my small form factor gaming PC build covers my upgrade to a full custom water cooling system. Both the CPU and GPU are cooled by a 240mm radiator with parts from EKWB and Barrow. I cover all of the components and all the pros and cons I encountered when assembling it.",
     alt: "Side of computer with no side panel showing components lit up with red and blue LED lights",
     href: blogPerma + "/2021/sff-pc-part-2-watercooling",
     date: "Jan 24, 2021"
@@ -28,7 +28,7 @@ const getArticles = () => {
 
   list.push({
     title: "SFF PC Build Part 1",
-    description: "My first small form factor gaming PC. This first part describes the basic build and major components.",
+    description: "My first small form factor gaming PC and my second proper gaming PC. This machine uses a Ryzen 7 5800X processor and a EVGA RTX 3080 XC3 Ultra graphics card, all in the 13.5L Metalfish S5 case from AliExpress.",
     image: sffPcPart1,
     alt: "Side of computer with no side panel showing components lit up with red and blue LED lights",
     href: blogPerma + "/2021/sff-pc-part-1",
