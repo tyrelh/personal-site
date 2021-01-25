@@ -1,24 +1,24 @@
 # Small Form Factor PC Part 2 - Water Cooling
-#### Jan 24, 2021
+#### Jan 25, 2021
 This is a continuation of my small form factor PC build. Part 1 was getting the major components installed and the computer running, and part 2 is adding water cooling for the CPU and GPU.
 ![Wide picture of entire desk showing my monitor, pc, keyboard, mouse, and speakers. There is a window behind the monitor and plants on either side.](./sff-pc-part-2-3.jpeg)
 
 ## Tl;dr
 
-* [Introduction](#introduction): Early on when deciding to build a SFF PC I wanted to add custom water cooling.
-* [PC Components](#pc-components): Ryzen 7 5800X & RTX 3080 amongst other things.
-* [Water Cooling Components](#water-cooling-components): Mostly EKWB and Barrow components.
-* [Installing CPU Water Block](#installing-cpu-water-block): No instructions included with the Barrow CPU pump/block but the mounting mechanism is quite basic.
+* [Introduction](#introduction): I put together the major components of this gaming PC in December 2020 so that I could play Cyberpunk 2077 when it was released. In this article I describe my custom water cooling upgrade and some of the gotchas I found along the way.
+* [PC Components](#pc-components): Ryzen 7 5800X, RTX 3080, ITX motherboard, and a Metalfish S5 case from AliExpress, amongst other things.
+* [Water Cooling Components](#water-cooling-components): The water cooling system is built using EKWB and Barrow components.
+* [Installing CPU Water Block](#installing-cpu-water-block): No instructions were included with the Barrow CPU pump/block but the mounting mechanism is quite basic.
 * [Installing GPU Water Block](#installing-gpu-water-block): GPU cooler installation is a little more complicated but patience and a steady hand can get it done.
-* [Case & Cable Management](#case-&-cable-management): The Metalfish S5 case offers little to no cable management space. The number 1 frustration of this build.
-* [Plumbing](#plumbing): EK black tubing & Barrow fittings connecting everything together.
-* [Fans & Airflow](#fans-&-airflow): All Noctua slim fans apart from 1 Cooler Master slim RGB fan I had on hand.
-* [Coolant & Filling](#coolant-&-filling): EK Mystic Fog coolant concentrate, although you can't really see it at all. It was tricky to fill the loop without a discreet reservoir.
-* [Initial Temperatures](#initial-temperatures): I was a little disapointed when I first started it up. It was running hotter than I had hoped.
-* [Fan Tuning & Kryonaut](#fan-tuning-&-kryonaut): Kryonaut paste makes a surprising difference, and dialing in the fan curves keeps it cool and quiet.
-* [Overclocking](#overclocking): I am able to eek a little more power from the GPU for gaming now that my temps are looking good.
-* [Crypto Mining, Underclocking & Undervolting](#crypto-mining-underclocking-&-undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some results of this setup.
-* [Conclusion](#conclusion): This was challenging, expensive, but a lot of fun to build.
+* [Case & Cable Management](#case-&-cable-management): The Metalfish S5 case is only 13.5L in volume and I like it's minimal exterior, but it offers little to no cable management space.
+* [Plumbing](#plumbing): EKWB black rubber tubing and Barrow fittings connect the CPU, GPU, pump, and radiator together.
+* [Fans & Airflow](#fans-&-airflow): All Noctua slim fans apart from 1 Cooler Master slim RGB fan I had on hand. I use a negative pressure configuration for airflow in this build.
+* [Coolant & Filling](#coolant-&-filling): EKWB Mystic Fog coolant concentrate, although you can't really see it at all. It was tricky to fill the loop without a discreet reservoir.
+* [Initial Temperatures](#initial-temperatures): The system was running hotter than I had hoped when I first started it up, before any optimizations.
+* [Fan Tuning & Kryonaut](#fan-tuning-&-kryonaut): Kryonaut thermal paste makes a surprising difference, and dialing in the fan curves keeps it cool and quiet.
+* [Overclocking](#overclocking): I am able to eek a little more power from the GPU for gaming now that my temps are looking better.
+* [Crypto Mining, Underclocking & Undervolting](#crypto-mining-underclocking-&-undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some of my mining results and settings I use with this hardware.
+* [Conclusion](#conclusion): This PC build was challenging and expensive, but I had a lot of fun building it and the performance has been phenomenal.
 
 ## Introduction
 Like many others in 2020, with Cyberpunk 2077 releasing soon and new graphics cards from both Nvidia and AMD announced, I decided to upgrade my gaming PC. I wanted to do something a little different than I had done before, and after discovering the [Optimum Tech YouTube channel](https://www.youtube.com/channel/UCRYOj4DmyxhBVrdvbsUwmAA) I fell in love with small form factor (SFF) PCs and the idea of custom water cooling one.
