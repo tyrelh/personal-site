@@ -9,6 +9,7 @@ import lightshiftGameImage from "./articles/lightshift-game-2.png";
 import denoTestsAndGithubActionsImage from "./articles/DenoTestsAndGithubActionsCI.png";
 import nodeCICDPipeline from "./articles/node-cicd-pipeline-hero.png"
 import sffPcPart1 from "./articles/sff-pc-part-1-5.jpg"
+import sffPcPart2 from "./articles/sff-pc-part-2-17.jpeg"
 import { Redirect } from "react-router-dom";
 
 const NUM_HOMEPAGE_ARTICLES = 10;
@@ -19,8 +20,8 @@ const getArticles = () => {
 
   list.push({
     title: "SFF PC Build Part 2 - Watercooling",
-    image: sffPcPart1,
     description: "This second part of my small form factor gaming PC build covers my upgrade to a full custom water cooling system. Both the CPU and GPU are cooled by a 240mm radiator with parts from EKWB and Barrow. I cover all of the components and all the pros and cons I encountered when assembling it.",
+    image: sffPcPart2,
     alt: "Side of computer with no side panel showing components lit up with red and blue LED lights",
     href: blogPerma + "/2021/sff-pc-part-2-watercooling",
     date: "Jan 24, 2021"
