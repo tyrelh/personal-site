@@ -1,6 +1,7 @@
 # Small Form Factor PC Part 2 - Water Cooling
 #### Jan 25, 2021
 This is a continuation of my small form factor PC build. Part 1 was getting the major components installed and the computer running, and part 2 is adding water cooling for the CPU and GPU.
+
 ![Wide picture of entire desk showing my monitor, pc, keyboard, mouse, and speakers. There is a window behind the monitor and plants on either side.](./sff-pc-part-2-3.jpeg)
 
 ## Tl;dr
