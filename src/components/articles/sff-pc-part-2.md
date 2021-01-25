@@ -242,5 +242,6 @@ Some things I may try to do in the future are:
 * • Paint a small black border around the inside of the glass side panel
 * • Get the LEDs on the CPU block working
 * • Get PWM control of the pump working and get rid of the manual dial
+* • Get a fluid temperature sensor and a fan controller with temperature sensor input so that I can control the fans based on the fluid temperature rather than the CPU temperature
 
 I am very happy with how it turned out overall. If you have any questions about the build feel free to comment on the corresponding reddit post I made. Also thanks if you made it this far! Sorry this turned into 5000+ words!
