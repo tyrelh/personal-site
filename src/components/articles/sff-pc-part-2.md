@@ -222,6 +222,10 @@ Next I dialed in the GPU. I started with [NiceHash's recommended settings](https
 
 For those than don't know, NiceHash is a marketplace where you can sell your hash power to the highest bidder. They mine the coins they want and pay in BTC, so all your payouts are in BTC. This may be less profitable than mining alt-coins directly and converting to BTC but it is trivial to set up and manage. And now NiceHash lets you withdraw far smaller minimum amounts (0.001 BTC) than before so there is less worry about having your coins in their wallets. I have been withdrawing weekly.
 
+![My NiceHash mining stats for the last week. A spikey chart showing average ](./nicehash-2.png)
+
+The above screenshot is the last week of NiceHash data for both my new and old gaming computers mining. The dips you see (green line) are when I am actually playing games and stop mining.
+
 Since getting my RTX 3080 near the end of November 2020, and at current prices (Jan 24 2021), I've mined around $500 CAD in 2 months using the 3080. Currently I also have my previous gaming PC with a GTX 1080 still mining as well as my Ryzen 7 5800X, all together in the last 2 months I have mined around $600 CAD. And, being in Canada, there are at least 2 rooms in my house that I never have to heat this winter so the electricity cost is negligible.
 
 If a few variables line up for you (reasonably cheap electricity, cold climate, electric heating in your house) and you have a gaming computer, I highly recommend mining when you are not actively using it. You may not turn a big profit but you will at least pay for your components over time. I've been mining constantly for over 3 years on my GTX 1080. Yes, 1 fan on it died, then the other one died, but you can get replacements on Amazon very cheaply. Just look at the model number on the fan to get the exact same one, or just zip-tie some generic case fans to the GPU heatsink (I've tried this and found it cools better than my stock fans, look up "deshrouding"). I have my old gaming PC with my GTX 1080 living in our sunroom right now without a monitor under a bench just keeping it warm in there for our plants.
