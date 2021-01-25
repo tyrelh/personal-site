@@ -17,6 +17,7 @@ This is a continuation of my small form factor PC build. Part 1 was getting the 
 * [Initial Temperatures](#initial-temperatures): The system was running hotter than I had hoped when I first started it up, before any optimizations.
 * [Fan Tuning & Kryonaut](#fan-tuning-&-kryonaut): Kryonaut thermal paste makes a surprising difference, and dialing in the fan curves keeps it cool and quiet.
 * [Overclocking](#overclocking): I am able to eek a little more power from the GPU for gaming now that my temps are looking better.
+* [Basic Gaming Performance](#basic-gaming-performance): I outline some of the graphics settings and performance numbers from some of the games I've been playing recently including Cyberpunk 2077 and Red Dead Redemption 2.
 * [Crypto Mining, Underclocking & Undervolting](#crypto-mining-underclocking-&-undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some of my mining results and settings I use with this hardware.
 * [Conclusion](#conclusion): This PC build was challenging and expensive, but I had a lot of fun building it and the performance has been phenomenal.
 
@@ -190,6 +191,27 @@ I highly recommend Kryonaut thermal paste, especially if you are water cooling (
 I use MSI Afterburner to control GPU settings and AMD Ryzen Master to control CPU settings.
 
 For gaming I was getting good temperatures now for the CPU and GPU. CPU temps can still get above 80°c so there isn't much room for overclocking, but at least it is now able to boost up to 4800-4900Mhz with the stock settings. GPU temps were in the 50-60°c range while gaming. I was able to bump the power limit to 107% (max in Afterburner for my 3080) and +90MHz core frequency. The GPU now boosts to 2100MHz under full gaming load and I am quite satisfied with that since the advertised boost clock for this card is only 1755MHz. At this overclock GPU temp sits around 65°c while gaming.
+
+## Basic Gaming Performance
+I'll give a quick rundown about some of the performance numbers I have been seeing in games and the graphics fidelity settings I use. I am using a 4k 60Hz display so my FPS target is a solid 60FPS. I haven't been concerned with framerates beyond that since my display cannot handle it, and at 4k resolution that works out pretty well for this hardware. I mostly don't use anti-aliasing in any game as graphics at 4k look really good without it.
+
+![Screenshot of the game Cyberpunk 2077 showing the main character walking away from the camera with their motorcycle in the foreground and the city in the background.](./cyberpunk-1.png)
+
+Cyberpunk 2077: This is the game I have been playing the most in the last couple months. I know it's been a disaster on consoles, but on PC it has been an amazing experience to play. I finished my first playthrough as a Corpo and now I am going to wait for some DLC content before starting another playthrough. I mostly play at 4k with Ultra settings, no ray-tracing, and the DLSS Quality preset. I usually get 60+FPS but it can dip down to 50-55FPS sometimes in demanding scenes. I likely could optimize it a bit more by bringing down the volumetric fog settings as those seem to have big performance implications. Sometimes I switch on ray-traced reflections as I find it really adds to the graphical fidelity but with a cost of around 10-15FPS (bringing me down to the 35-45 range).
+
+Red Dead Redemption 2: I just recently picked this game up. It runs great at 4k Ultra settings getting 60+FPS. I went into the advanced options and increased a few settings (object and grass detail mainly). With the advanced detail settings I can still get 60FPS mostly with dips to 50-55FPS In demanding areas. I'm kinda glad I waited to play this game as it looks amazing running on the RTX 3080. My 1080 would not have done it justice at 4k if I played it when it came out 2 years ago.
+
+Microsoft Flight Simulator: I haven't been to some of the most graphically demanding areas in the world but where I have flown I've seen framerates hovering between 50-60FPS at 4k Ultra settings.
+
+World of Warcraft: Even though this game is 16 years old, it can still manage to bring a modern gaming PC to it's knees. In the newest areas which are usually quite demanding graphically (Shadowlands expansion 9.0), I can get 60+FPS with 4k Ultra settings and no ray-tracing. Adding ray-traced shadows drops the framerate by 10 and doesn't provide much fidelity, so I don't use it. Where this game really hurts is in cities or large raids with multiple dozens of players. I still regularly see framerate drops down to 30-40FPS in these situations. 
+
+Project Cars 2 & Forza Horizon 4: I enjoy racing games from time to time. Both of these titles are running quite well at 4k Ultra settings, both getting a pretty solid 60+FPS.
+
+Star Wars Battlefront 2: I just got this recently for free from the Epic Games Store, mainly just to play the short single player campaign before buying the newer Star Wars Jedi: Fallen Order. It runs great at 4k Ultra settings above 60FPS.
+
+Elite Dangerous: Way above 60FPS at 4k Ultra settings.
+
+Cities Skylines: This game is also a bit older now, runs great at 4k Ultra settings above 60FPS.
 
 ## Crypto Mining, Underclocking & Undervolting
 For mining I was still seeing quite high temps, especially on the CPU while CPU mining.
