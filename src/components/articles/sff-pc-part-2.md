@@ -17,7 +17,7 @@ This is a continuation of my small form factor PC build. Part 1 was getting the 
 * [Initial Temperatures](#initial-temperatures): I was a little disapointed when I first started it up. It was running hotter than I had hoped.
 * [Fan Tuning & Kryonaut](#fan-tuning-&-kryonaut): Kryonaut paste makes a surprising difference, and dialing in the fan curves keeps it cool and quiet.
 * [Overclocking](#overclocking): I am able to eek a little more power from the GPU for gaming now that my temps are looking good.
-* [Crypto Mining](#crypto-mining-underclocking-&-undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some results of this setup.
+* [Crypto Mining, Underclocking & Undervolting](#crypto-mining-underclocking-&-undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some results of this setup.
 * [Conclusion](#conclusion): This was challenging, expensive, but a lot of fun to build.
 
 ## Introduction
@@ -163,7 +163,7 @@ I use MSI Afterburner to control GPU settings and AMD Ryzen Master to control CP
 
 For gaming I was getting good temperatures now for the CPU and GPU. CPU temps can still get above 80°c so there isn't much room for overclocking, but at least it is now able to boost up to 4800-4900Mhz with the stock settings. GPU temps were in the 50-60°c range while gaming. I was able to bump the power limit to 107% (max in Afterburner for my 3080) and +90MHz core frequency. The GPU now boosts to 2100MHz under full gaming load and I am quite satisfied with that since the advertised boost clock for this card is only 1755MHz. At this overclock GPU temp sits around 65°c while gaming.
 
-## Crypto Mining, Underclocking, & Undervolting
+## Crypto Mining, Underclocking & Undervolting
 For mining I was still seeing quite high temps, especially on the CPU while CPU mining.
 
 First I dialed in the CPU. Using Ryzen Master I set an all-core underclock of 3500MHz and brought the peak core voltage down to 1.075v. This made a huge difference to temperatures with little to no negative effect on hash rate. The CPU is hovering around 68°c while mining at 4.3kH/s with XMRig/RandomXmonero in NiceHash getting around 0.00000830 BTC/day (Jan 24 2021). Obviously this isn't very profitable but I don't mind running it given the temperature and other factors I will outline.
