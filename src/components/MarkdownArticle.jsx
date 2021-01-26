@@ -5,6 +5,7 @@ import Markdown from 'markdown-to-jsx';
 import "./MarkdownArticle.scss";
 import Anchor from "./elements/Anchor";
 import DateHeader from "./elements/DateHeader";
+import StickyHeader from "./elements/StickyHeader";
 
 class MarkdownImage extends React.Component {
   state = {
@@ -55,14 +56,17 @@ export default class MarkdownArticle extends React.Component {
 
   render() {
     return (
-      <div className="article-container">
-        <Markdown className="article fadeIn" options={this.options}>
-          {this.state.article}
-        </Markdown>
-        <div className="contribute">
-          Want to suggest a change to this article? <a href={`https://github.com/tyrelh/personal-site/blob/master/src/components/articles/${this.props.name}.md`} target="_blank" rel={"noopener noreferrer"}>Find it on Github</a>.
+      <React.Fragment>
+        <StickyHeader text="Tyrel" link="/"/>
+        <div className="article-container">
+          <Markdown className="article fadeIn" options={this.options}>
+            {this.state.article}
+          </Markdown>
+          <div className="contribute">
+            Want to suggest a change to this article? <a href={`https://github.com/tyrelh/personal-site/blob/master/src/components/articles/${this.props.name}.md`} target="_blank" rel={"noopener noreferrer"}>Find it on Github</a>.
+          </div>
         </div>
-      </div>
+      </React.Fragment>
     )
   }
 }
