@@ -130,6 +130,7 @@ I tried to order all the fittings I would need from AliExpress when I ordered th
 I used Barrow 3/8"(10mm) inner 5/8"(16mm) outer and EKWB 3/8"(9.5mm) inner 5/8"(15.9mm) outer parts. Barrow and EK use slightly different metric measurements but they work perfectly together.
 
 In total I ended up using:
+
 * • 8x [Barrow standard compression fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100012&origin=y&SearchText=Barrow+10x16+soft+tube+fittings)
 * • 4x [Barrow 90° rotary fittings](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100120&origin=y&SearchText=barrow+90+degree+rotary)
 * • 1x [Barrow 4-way adaptor](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210124100239&SearchText=barrow+4-way)
@@ -239,6 +240,7 @@ This project was a lot of work. A lot of it because of my choice in case. The Me
 I love how the interior looks with a mostly black utilitarian look with the black tubing but still with accents of light on the memory and GPU block.
 
 Some things I may try to do in the future are:
+
 * • Try to incorporate additional cooling into the loop. Either with AlphaCool's 92mm radiator or something more custom with their skinny server radiators on the top of the case
 * • Paint a small black border around the inside of the glass side panel
 * • Get the LEDs on the CPU block working
