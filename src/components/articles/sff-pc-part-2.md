@@ -11,15 +11,15 @@ This is a continuation of my small form factor PC build. Part 1 was getting the 
 * [Water Cooling Components](#water-cooling-components): The water cooling system is built using EKWB and Barrow components.
 * [Installing CPU Water Block](#installing-cpu-water-block): No instructions were included with the Barrow CPU pump/block but the mounting mechanism is quite basic.
 * [Installing GPU Water Block](#installing-gpu-water-block): GPU cooler installation is a little more complicated but patience and a steady hand can get it done.
-* [Case & Cable Management](#case-&-cable-management): The Metalfish S5 case is only 13.5L in volume and I like it's minimal exterior, but it offers little to no cable management space.
+* [Case & Cable Management](#case--cable-management): The Metalfish S5 case is only 13.5L in volume and I like it's minimal exterior, but it offers little to no cable management space.
 * [Plumbing](#plumbing): EKWB black rubber tubing and Barrow fittings connect the CPU, GPU, pump, and radiator together.
-* [Fans & Airflow](#fans-&-airflow): All Noctua slim fans apart from 1 Cooler Master slim RGB fan I had on hand. I use a negative pressure configuration for airflow in this build.
-* [Coolant & Filling](#coolant-&-filling): EKWB Mystic Fog coolant concentrate, although you can't really see it at all. It was tricky to fill the loop without a discreet reservoir.
+* [Fans & Airflow](#fans--airflow): All Noctua slim fans apart from 1 Cooler Master slim RGB fan I had on hand. I use a negative pressure configuration for airflow in this build.
+* [Coolant & Filling](#coolant--filling): EKWB Mystic Fog coolant concentrate, although you can't really see it at all. It was tricky to fill the loop without a discreet reservoir.
 * [Initial Temperatures](#initial-temperatures): The system was running hotter than I had hoped when I first started it up, before any optimizations.
-* [Fan Tuning & Kryonaut](#fan-tuning-&-kryonaut): Kryonaut thermal paste makes a surprising difference, and dialing in the fan curves keeps it cool and quiet.
+* [Fan Tuning & Kryonaut](#fan-tuning--kryonaut): Kryonaut thermal paste makes a surprising difference, and dialing in the fan curves keeps it cool and quiet.
 * [Overclocking](#overclocking): I am able to eek a little more power from the GPU for gaming now that my temps are looking better.
 * [Basic Gaming Performance](#basic-gaming-performance): I outline some of the graphics settings and performance numbers from some of the games I've been playing recently including Cyberpunk 2077 and Red Dead Redemption 2.
-* [Crypto Mining, Underclocking & Undervolting](#crypto-mining-underclocking-&-undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some of my mining results and settings I use with this hardware.
+* [Crypto Mining, Underclocking & Undervolting](#crypto-mining-underclocking--undervolting): I've been mining with my gaming PC when not actively using it for several years now. Here are some of my mining results and settings I use with this hardware.
 * [Conclusion](#conclusion): This PC build was challenging and expensive, but I had a lot of fun building it and the performance has been phenomenal.
 
 ## Introduction
