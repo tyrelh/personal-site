@@ -21,7 +21,7 @@ const getArticles = () => {
 
   list.push({
     title: "My Introduction to Game Development",
-    description: "In 2020 I began learning game development as a hobby. Now in the beginning of 2021 it is taking up most of my free time. This is a little intro into how I got started and the tool I learned.",
+    description: "In 2020 I began learning game development as a hobby. Now in the beginning of 2021 it is taking up most of my free time. This is a little intro into how I got started and the tools I learned.",
     image: gameDevJourneyImage,
     alt: "The Godot editor showing a sample scene in the middle and all the menus and options around the perimeter",
     href: blogPerma + "/2021/game-dev-journey",
