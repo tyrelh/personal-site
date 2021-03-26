@@ -10,6 +10,7 @@ import denoTestsAndGithubActionsImage from "./articles/DenoTestsAndGithubActions
 import nodeCICDPipeline from "./articles/node-cicd-pipeline-hero.png"
 import sffPcPart1 from "./articles/sff-pc-part-1-5.jpg"
 import sffPcPart2 from "./articles/sff-pc-part-2-17.jpeg"
+import gameDevJourneyImage from "./articles/game-dev-godot.jpg"
 import { Redirect } from "react-router-dom";
 
 const NUM_HOMEPAGE_ARTICLES = 10;
@@ -17,6 +18,15 @@ const NUM_HOMEPAGE_ARTICLES = 10;
 const getArticles = () => {
   const blogPerma = "/blog";
   const list = [];
+
+  list.push({
+    title: "My Introduction to Game Development",
+    description: "In 2020 I began learning game development as a hobby. Now in the beginning of 2021 it is taking up most of my free time. This is a little intro into how I got started and the tool I learned.",
+    image: gameDevJourneyImage,
+    alt: "The Godot editor showing a sample scene in the middle and all the menus and options around the perimeter",
+    href: blogPerma + "/2021/game-dev-journey",
+    date: "Mar 25, 2021"
+  })
 
   list.push({
     title: "SFF PC Build Part 2 - Watercooling",
