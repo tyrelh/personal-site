@@ -16,6 +16,7 @@ import NodeCICDPipeline from "./components/articles/NodeCICDPipeline";
 import SFFPCPart1 from "./components/articles/ssf-pc-part-1";
 import SFFPCPart2 from "./components/articles/sff-pc-part-2";
 import GameDevJourney from "./components/articles/game-dev-journey";
+import AwsDynamicDns from "./components/articles/AwsDynamicDns";
 
 const blogPerma = "/blog";
 
@@ -27,6 +28,7 @@ export default class App extends React.Component {
         {/*<BackHome/>*/}
         <BackToTop/>
         <Route path="/" component={Home} exact />
+        <Route path={`${blogPerma}/2022/aws-dynamic-dns`} component={AwsDynamicDns} />
         <Route path={`${blogPerma}/2021/game-dev-journey`} component={GameDevJourney}/>
         <Route path={`${blogPerma}/2021/sff-pc-part-2-watercooling`} component={SFFPCPart2}/>
         <Route path={`${blogPerma}/2021/sff-pc-part-1`} component={SFFPCPart1}/>
