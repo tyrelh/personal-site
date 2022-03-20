@@ -14,7 +14,7 @@ import gameDevJourneyImage from "./articles/game-dev-godot.jpg";
 import awsDdns from "./articles/aws-ddns.jpg"
 import { Redirect } from "react-router-dom";
 
-const NUM_HOMEPAGE_ARTICLES = 10;
+const NUM_HOMEPAGE_ARTICLES = 11;
 
 const getArticles = () => {
   const BLOG_PERMALINK = "/blog";
