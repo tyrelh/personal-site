@@ -12,6 +12,7 @@ import sffPcPart1 from "./articles/sff-pc-part-1-5.jpg";
 import sffPcPart2 from "./articles/sff-pc-part-2-17.jpeg";
 import gameDevJourneyImage from "./articles/game-dev-godot.jpg";
 import awsDdns from "./articles/aws-ddns.jpg"
+import whatImLearningIn2022Collage from "./articles/what-im-learning-in-2022.jpg"
 import { Redirect } from "react-router-dom";
 
 const NUM_HOMEPAGE_ARTICLES = 11;
@@ -19,6 +20,15 @@ const NUM_HOMEPAGE_ARTICLES = 11;
 const getArticles = () => {
   const BLOG_PERMALINK = "/blog";
   const list = [];
+
+  list.push({
+    title: "What I'm Learning in 2022",
+    description: "Here is a rundown of what I'm learning in 2022, what I'd like to learn in 2022, and some things I know I just won't get around to in 2022.",
+    image: whatImLearningIn2022Collage,
+    alt: null,
+    href: BLOG_PERMALINK + "/2022/what-im-learning-in-2022",
+    date: "Mar 23, 2022"
+  });
 
   list.push({
     title: "AWS Dynamic DNS",
