@@ -19,11 +19,22 @@
       position: absolute;
       bottom: 0.1em;
       margin-left: 10px;
+      
 
       svg {
-        fill: rgba($color-main-text-disabled, 0);
+        fill: rgba($color-main-text-disabled, 0.1);
+        -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
     }
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: $color-main-text;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
   @media (min-width: 375px) and (max-width: 812px) {
@@ -64,6 +75,10 @@
           fill: rgba($color-accent-first, 0.85);
         }
       }
+    }
+
+    h3 {
+      color: $color-main-text-light-theme;
     }
   }
 }
