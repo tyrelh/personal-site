@@ -18,7 +18,7 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <p>
-          Made with <Icon type="thunderbolt" theme="filled"/> by Tyrel Hiebert<br/>
+          Made with <Icon type="thunderbolt" theme="filled"/> by Tyrel Hiebert <Icon type="twitter" theme="filled"/> <Icon type="github" theme="filled"/><br/>
           This site uses <Anchor href="https://plausible.io/">Plausible</Anchor> to collect privacy mindful visitor stats<br/>
           <Anchor href="https://www.github.com/tyrelh/personal-site/"><Icon type="github" theme="filled"/> View Source</Anchor>
         </p>
