@@ -11,7 +11,6 @@ import "./app.scss";
 import DarkModeToggle from "./components/articles/DarkModeToggle";
 import LightshiftGame from "./components/articles/LightshiftGame";
 import DenoAndGithubActions from "./components/articles/DenoAndGithubActions";
-// import BackHome from "./components/elements/BackHome";
 import NodeCICDPipeline from "./components/articles/NodeCICDPipeline";
 import SFFPCPart1 from "./components/articles/ssf-pc-part-1";
 import SFFPCPart2 from "./components/articles/sff-pc-part-2";
@@ -26,7 +25,6 @@ export default class App extends React.Component {
     return (
       <div className="app">
         <ThemeToggle/>
-        {/*<BackHome/>*/}
         <BackToTop/>
         <Route path="/" component={Home} exact />
         <Route path={`${blogPerma}/2022/what-im-learning-in-2022`} component={WhatImLearningIn2022} />

@@ -1,6 +1,7 @@
 import React from "react";
 import "./ArticlesOverview.scss"
-import { Icon, List } from "antd";
+import { List } from "antd";
+import { CalendarFilled } from "@ant-design/icons"
 import mechkey1 from "../assets/img/mechkey.jpg";
 import battlesnake2018 from "./articles/Battlesnake2018-1.jpg";
 import grailsLogo from "./articles/GrailsAssetMigration.svg"
@@ -15,7 +16,7 @@ import awsDdns from "./articles/aws-ddns.jpg"
 import whatImLearningIn2022Collage from "./articles/what-im-learning-in-2022.jpg"
 import { Redirect } from "react-router-dom";
 
-const NUM_HOMEPAGE_ARTICLES = 11;
+let NUM_HOMEPAGE_ARTICLES = 12;
 
 const getArticles = () => {
   const BLOG_PERMALINK = "/blog";
@@ -185,7 +186,7 @@ export default class ArticlesOverview extends React.Component {
             {
               item.date &&
                 <h4 className="article-overview-date">
-                  <Icon type="calendar" theme="filled"/>{item.date}
+                  <CalendarFilled /> {item.date}
                 </h4>
             }
             <p className="article-overview-description">

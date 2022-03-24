@@ -1,6 +1,7 @@
 import React from "react";
 import "./StickyHeader.scss";
-import {Icon, Tooltip} from "antd";
+import { Tooltip } from "antd";
+import { HomeFilled } from "@ant-design/icons";
 import { Redirect } from "react-router-dom";
 
 export default class StickyHeader extends React.Component {
@@ -36,7 +37,7 @@ export default class StickyHeader extends React.Component {
           arrowPointAtCenter
           mouseEnterDelay={0.2}
         >
-          <Icon type="home" theme="filled"/>
+          <HomeFilled />
         </Tooltip>
       </div>
     )

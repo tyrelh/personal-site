@@ -6,7 +6,7 @@
 .ant-list-items .ant-list-item {
   //position: relative;
   border-radius: 15px;
-  padding: 3% 3% 1% 3% !important;
+  padding: 2% !important;
   background-color: lighten($color-main-bg, 0.5%);
   margin-bottom: 35px;
   //width: 100%;
@@ -49,12 +49,10 @@
 
 .article-overview-title {
   font-family: $font-body;
-  font-size: 1.9em;
+  font-size: 1.9em !important;
   color: $color-main-text;
   margin-top: 0;
   margin-bottom: 0.1em;
-  font-weight: 900;
-  line-height: 1em;
   @media (min-width: 375px) and (max-width: 812px) {
     letter-spacing: -0.08em;
   }
@@ -69,7 +67,7 @@
 .article-overview-date {
   letter-spacing: -0.04em;
   color: darken($color-main-text, 40%);
-  font-size: 12px;
+  font-size: 1em !important;
   margin-top: 12px;
   i {
     margin-right: 10px;

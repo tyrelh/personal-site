@@ -14,7 +14,7 @@
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 
-    i {
+    .anticon {
       font-size: 0.6em;
       position: absolute;
       bottom: 0.1em;
@@ -41,14 +41,14 @@
     h2 {
       font-size: 2em;
       line-height: 0.9em;
-      i {
+      .anticon {
         display: none;
       }
     }
   }
 
   h2:hover {
-    i {
+    .anticon {
       svg {
         fill: rgba($color-accent-first, 0.8);
       }
@@ -62,7 +62,7 @@
       color: $color-main-text-light-theme;
       //text-shadow: 3px 3px 0 rgba($color-main-bg-light-theme, 1);
       //text-shadow: 0 1px 4px rgba(white, 0.2%);
-      i {
+      .anticon {
         svg {
           fill: $color-main-text-disabled-light-theme;
         }
@@ -70,7 +70,7 @@
     }
 
     h2:hover {
-      i {
+      .anticon {
         svg {
           fill: rgba($color-accent-first, 0.85);
         }

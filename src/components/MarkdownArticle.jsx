@@ -63,7 +63,7 @@ export default class MarkdownArticle extends React.Component {
             {this.state.article}
           </Markdown>
           <div className="contribute">
-            Want to suggest a change to this article? <a href={`https://github.com/tyrelh/personal-site/blob/master/src/components/articles/${this.props.name}.md`} target="_blank" rel="noopener noreferrer">Find it on Github</a>.
+            Want to suggest a change to this article? <Anchor href={`https://github.com/tyrelh/personal-site/blob/master/src/components/articles/${this.props.name}.md`}>Find it on Github</Anchor>.
           </div>
         </div>
       </React.Fragment>

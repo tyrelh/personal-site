@@ -1,5 +1,6 @@
 import React from "react";
-import {BackTop, Icon} from "antd";
+import {BackTop} from "antd";
+import Icon from "@ant-design/icons";
 import "./BackToTop.scss";
 
 export default class BackToTop extends React.Component {

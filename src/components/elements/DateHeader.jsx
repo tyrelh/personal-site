@@ -1,5 +1,5 @@
 import React from "react";
-import {Icon} from "antd";
+import { CalendarFilled } from "@ant-design/icons";
 import "./DateHeader.scss";
 
 export default class DateHeader extends React.Component {
@@ -7,7 +7,7 @@ export default class DateHeader extends React.Component {
     return (
       <div className="dateHeader">
         <h4>
-          <Icon type="calendar" theme="filled"/> {this.props.children}
+        <CalendarFilled />  {this.props.children}
         </h4>
       </div>
     )

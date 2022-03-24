@@ -1,7 +1,7 @@
 import React from "react";
 import "./SectionHeader.scss";
-import {Icon} from "antd";
-import {HashLink as Link} from "react-router-hash-link";
+import { LinkOutlined } from "@ant-design/icons";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default class SectionHeader extends React.Component {
   render() {
@@ -12,7 +12,7 @@ export default class SectionHeader extends React.Component {
           {this.props.children}
         </span>
         <Link to={href}>
-          <Icon className="heading-link-icon" type="link" />
+          <LinkOutlined />
         </Link>
       </h2>
     )

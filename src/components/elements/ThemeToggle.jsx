@@ -1,6 +1,7 @@
 import React from "react";
 import "./themeToggle.scss";
-import { Tooltip, Icon } from "antd";
+import { Tooltip } from "antd";
+import Icon from "@ant-design/icons";
 
 export default class ThemeToggle extends React.Component {
 

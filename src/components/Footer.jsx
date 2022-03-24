@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import {Icon} from "antd";
+import { ThunderboltFilled, TwitterOutlined, GithubFilled } from "@ant-design/icons";
 import Anchor from "./elements/Anchor";
 
 export default class Footer extends React.Component {
@@ -18,9 +18,9 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <p>
-          Made with <Icon type="thunderbolt" theme="filled"/> by Tyrel Hiebert <Icon type="twitter" theme="filled"/> <Icon type="github" theme="filled"/><br/>
+          Made with <ThunderboltFilled /> by Tyrel Hiebert   <Anchor href="https://twitter.com/tyrelhiebert"><TwitterOutlined /></Anchor>  <Anchor href="https://github.com/tyrelh"><GithubFilled /></Anchor><br/>
           This site uses <Anchor href="https://plausible.io/">Plausible</Anchor> to collect privacy mindful visitor stats<br/>
-          <Anchor href="https://www.github.com/tyrelh/personal-site/"><Icon type="github" theme="filled"/> View Source</Anchor>
+          <Anchor href="https://www.github.com/tyrelh/personal-site/"><GithubFilled /> View Source</Anchor>
         </p>
       </footer>
     )
